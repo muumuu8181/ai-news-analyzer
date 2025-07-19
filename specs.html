@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News Analyzer - 仕様書</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; }
+        h3 { color: #7f8c8d; }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+        pre {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #3498db;
+        }
+        .important {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .important strong {
+            color: #d35400;
+        }
+        ul li {
+            margin: 8px 0;
+        }
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 AI News Analyzer - 仕様書</h1>
+        
+        <div class="section">
+            <h2>概要</h2>
+            <p>AIを活用してグローバルニュースを分析・重要度評価するWebアプリケーション。<br>
+            100以上の国際ソースから収集した記事をGemini CLIで分析し、重要度順に表示します。</p>
+            
+            <p><strong>公開URL:</strong> <a href="https://muumuu8181.github.io/ai-news-analyzer/" target="_blank">https://muumuu8181.github.io/ai-news-analyzer/</a></p>
+        </div>
+
+        <div class="section">
+            <h2>主要機能</h2>
+            
+            <h3>1. ダッシュボード</h3>
+            <ul>
+                <li>システム状況の表示</li>
+                <li>クイックスタートガイド</li>
+                <li>システムログのリアルタイム表示</li>
+            </ul>
+
+            <h3>2. 全記事概要</h3>
+            <ul>
+                <li>収集したニュース記事の一覧表示</li>
+                <li><strong>ページネーション機能</strong>
+                    <ul>
+                        <li>100件ずつ表示</li>
+                        <li>ページ切り替えナビゲーション</li>
+                    </ul>
+                </li>
+                <li>記事情報：番号、タイトル、ソース、言語、リンク</li>
+            </ul>
+
+            <h3>3. 自動分析・結果</h3>
+            <div class="important">
+                <p><strong>重要：LLMは必ず使用すること</strong></p>
+                <ul>
+                    <li>現在はシミュレーションだが、実際のLLM統合が必須</li>
+                    <li>全記事を実際にGemini CLIに読み込ませる</li>
+                </ul>
+            </div>
+            
+            <p>5つの観点で評価：</p>
+            <ul>
+                <li>技術性（Technology）: 技術的革新度</li>
+                <li>影響度（Impact）: 社会・産業への影響</li>
+                <li>緊急性（Urgency）: 対応の緊急度</li>
+                <li>関連性（Relevance）: 現在のトレンドとの関連</li>
+                <li>信頼性（Reliability）: 情報源の信頼度</li>
+            </ul>
+
+            <h3>4. 日本語翻訳・自動コピー機能</h3>
+            <div class="important">
+                <p><strong>重要：水増しは絶対に禁止</strong></p>
+                <ul>
+                    <li>正しく翻訳した結果が1行なら1行で良い</li>
+                    <li>無意味な定型文の追加は禁止</li>
+                    <li>内容と無関係な文章の追加は禁止</li>
+                </ul>
+            </div>
+            
+            <div class="important">
+                <p><strong>重要：LLMは必ず使用すること</strong></p>
+                <ul>
+                    <li>翻訳時は各記事を実際にLLMに読み込ませる</li>
+                    <li>現在の実装：シミュレーション（実際のLLMは未使用）❌</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>技術仕様</h2>
+            
+            <h3>ファイル構成</h3>
+            <pre><code>├── index.html           # メインアプリケーション
+├── global_news_2025-07-19.json  # ニュースデータ
+├── SPECIFICATIONS.md    # 本仕様書
+├── README.md           # プロジェクト説明
+└── .github/
+    └── workflows/
+        └── deploy.yml  # GitHub Pages自動デプロイ</code></pre>
+
+            <h3>データ構造</h3>
+            <pre><code>{
+  "articles": [
+    {
+      "title": "記事タイトル",
+      "source": "ニュースソース",
+      "language": "言語コード",
+      "link": "記事URL"
+    }
+  ]
+}</code></pre>
+        </div>
+
+        <div class="section" style="background: #fee; border: 2px solid #f99;">
+            <h2>⚠️ 現在の問題点</h2>
+            <ol>
+                <li><strong>LLM未使用</strong> - 仕様書で必須と明記しているのに使用していない</li>
+                <li><strong>日付固定</strong> - 2025-07-19のデータのみ（本日のデータを取得すべき）</li>
+                <li><strong>翻訳機能が偽物</strong> - 単語置換のみで実際の翻訳ではない</li>
+                <li><strong>分析がシミュレーション</strong> - ランダム選択で実際のAI分析ではない</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>更新履歴</h2>
+            <ul>
+                <li>2025-07-19: 初回リリース</li>
+                <li>2025-07-19: GitHub Pages公開</li>
+                <li>2025-07-19: 仕様書作成</li>
+                <li>2025-07-20: <span style="color: red;">問題点の発覚</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
