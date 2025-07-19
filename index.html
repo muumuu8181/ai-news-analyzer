@@ -282,7 +282,7 @@
                         <h4>🌍 日本語翻訳・自動コピー</h4>
                         <p>翻訳完了と同時にクリップボードに自動保存されます</p>
                         <button class="translate-button" onclick="translateAllResults()">
-                            🌍 日本語翻訳実行（600文字要約+URL）
+                            🌍 日本語翻訳実行
                         </button>
                     </div>
                     
@@ -892,34 +892,24 @@
                 translated = translated.replace(new RegExp(en, 'gi'), jp);
             });
             
-            // タイトルから内容を推測して詳細説明を追加
+            // タイトルから簡潔な説明を追加（必要な場合のみ）
             let context = '';
             if (title.toLowerCase().includes('ai') || title.toLowerCase().includes('openai') || title.toLowerCase().includes('chatgpt')) {
-                context = '人工知能技術の最新動向について報告。この分野は急速に発展しており、ビジネスや社会に大きな影響を与えています。特に生成AI技術は多くの産業で活用が進んでおり、効率化や新サービス創出に寄与しています。';
+                context = 'AI関連のニュース';
             } else if (title.toLowerCase().includes('tesla') || title.toLowerCase().includes('ev') || title.toLowerCase().includes('electric')) {
-                context = '電気自動車や持続可能なエネルギー技術に関する発表。環境対応への取り組みが加速する中、自動車産業の電動化は重要なトレンドとなっています。バッテリー技術の進歩や充電インフラの整備が課題となっています。';
-            } else if (title.toLowerCase().includes('quantum') || title.toLowerCase().includes('computing')) {
-                context = '量子コンピューティング技術の進展について。従来のコンピュータでは解決困難な問題を高速処理できる可能性があり、暗号化、薬物開発、金融モデリングなど多方面での応用が期待されています。';
-            } else if (title.toLowerCase().includes('space') || title.toLowerCase().includes('satellite')) {
-                context = '宇宙技術・衛星関連の開発について。民間宇宙産業の成長により、通信、観測、探査分野での新たなサービスや発見が期待されています。コスト削減と技術革新が進んでいます。';
-            } else if (title.toLowerCase().includes('biotech') || title.toLowerCase().includes('medical') || title.toLowerCase().includes('health')) {
-                context = '医療・バイオテクノロジー分野の革新について。新薬開発、医療機器、診断技術などの進歩により、治療の精度向上や患者負担の軽減が図られています。個別化医療の実現も進んでいます。';
-            } else if (title.toLowerCase().includes('security') || title.toLowerCase().includes('cyber')) {
-                context = 'サイバーセキュリティに関する重要な動向。デジタル化の進展に伴い、セキュリティ脅威も高度化しており、企業や個人の情報保護がますます重要になっています。新たな対策技術の開発が急務です。';
-            } else if (title.toLowerCase().includes('funding') || title.toLowerCase().includes('investment') || title.toLowerCase().includes('ipo')) {
-                context = '投資・資金調達に関するニュース。スタートアップ企業の成長や新技術の商業化において、適切な資金調達は重要な要素です。市場の注目度や将来性を反映した動きとなっています。';
-            } else {
-                context = 'テクノロジー業界の最新動向について。この分野は常に変化しており、新技術の登場や既存サービスの改善により、私たちの生活や働き方に継続的な影響を与えています。競争環境も激しく変化しています。';
+                context = '電気自動車関連';
+            } else if (title.toLowerCase().includes('quantum')) {
+                context = '量子技術関連';
+            } else if (title.toLowerCase().includes('funding') || title.toLowerCase().includes('investment')) {
+                context = '投資・資金調達';
             }
             
-            // 最終的な要約文を作成（約600文字目標）
-            let finalTranslation = `${translated}。${context}`;
+            // 翻訳結果を返す（水増しなし）
+            let finalTranslation = translated;
             
-            // 600文字程度に調整
-            if (finalTranslation.length > 650) {
-                finalTranslation = finalTranslation.substring(0, 600) + '...';
-            } else if (finalTranslation.length < 400) {
-                finalTranslation += ' 今後の展開に注目が集まっており、関連企業の株価や市場動向への影響も予想されます。技術革新のペースが加速する中、この動きは業界全体の方向性を示す重要な指標となっています。';
+            // contextがある場合のみ追加
+            if (context && translated !== title) {
+                finalTranslation = `${translated}。${context}`;
             }
             
             return finalTranslation;
