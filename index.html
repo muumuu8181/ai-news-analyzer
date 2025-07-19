@@ -332,7 +332,7 @@
         // 概要データ読み込み
         async function loadOverviewData() {
             try {
-                const response = await fetch('/global_news_2025-07-19.json');
+                const response = await fetch('./global_news_2025-07-19.json');
                 const data = await response.json();
                 newsData = data.articles;
                 

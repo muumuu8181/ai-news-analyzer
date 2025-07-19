@@ -1,0 +1,4177 @@
+{
+  "metadata": {
+    "date": "2025-07-19T08:47:24.285Z",
+    "totalArticles": 461,
+    "languages": {
+      "japanese": 88,
+      "korean": 0,
+      "german": 14,
+      "english": 109,
+      "russian": 62,
+      "nordic": 39,
+      "southeast_asian": 22,
+      "specialized": 56,
+      "english_research": 8,
+      "chinese": 28,
+      "french": 7,
+      "others": 24,
+      "indian": 1,
+      "brazilian": 3
+    },
+    "categories": {
+      "論文": 10
+    },
+    "sources": 100
+  },
+  "articles": [
+    {
+      "title": "東北北部で梅雨明け 3連休含め1週間程度猛暑日か 熱中症対策を",
+      "link": "http://www3.nhk.or.jp/news/html/20250719/k10014868141000.html",
+      "description": "19日は北日本から西日本の広い範囲で高気圧に覆われて晴れ、東北北部の梅雨明けが発表されました。午前中から気温が35度以上の猛暑日となっているところがあり、引き続き熱中症への対策を徹底してください。",
+      "date": "2025-07-19T03:16:29.000Z",
+      "source": "NHKニュース",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "中国 裁判所 “スパイ活動”で判決  “情報提供し報酬”と認定",
+      "link": "http://www3.nhk.or.jp/news/html/20250719/k10014868231000.html",
+      "description": "中国で、大手製薬会社の60代の日本人男性社員が「スパイ活動を行った」として懲役3年6か月の判決を受けた裁判で、裁判所は、男性が情報機関の依頼を受けて、中国の政治や経済などに関する情報を提供し、報酬を得ていたとして、こうした行為がスパイ活動にあたると認定していたことが明らかになりました。日本政府は、引き続き、男性の早期釈放を中国側に求めていく方針です。",
+      "date": "2025-07-19T05:00:21.000Z",
+      "source": "NHKニュース",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "破傷風のワクチン 出荷停止 “けがの際 入念に洗浄を” 学会",
+      "link": "http://www3.nhk.or.jp/news/html/20250719/k10014868271000.html",
+      "description": "傷口から感染する感染症「破傷風」のワクチンを製造する会社は、製造工程の再検証が必要になったとして、当面、出荷を停止すると発表しました。日本救急医学会などは、破傷風の予防に影響が出る可能性があるとして、けがをしたときは入念に傷口を洗浄するなど、注意を呼びかけています。",
+      "date": "2025-07-19T07:57:45.000Z",
+      "source": "NHKニュース",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "北海道 駆除のヒグマ “12日と4年前に死亡の2人襲った”と断定",
+      "link": "http://www3.nhk.or.jp/news/html/20250719/k10014868201000.html",
+      "description": "男性がヒグマに襲われて死亡した北海道福島町で、18日に駆除されたクマについて道がDNA鑑定を行ったところ、男性の衣類に付着していたクマの体毛と一致しました。4年前に町内で女性を死亡させたクマのDNAとも一致し、道はこのヒグマが2人を襲ったと断定しました。",
+      "date": "2025-07-18T20:50:39.000Z",
+      "source": "NHKニュース",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "参議院選挙 選挙戦最終日 各党党首ら重視する選挙区へ",
+      "link": "http://www3.nhk.or.jp/news/html/20250719/k10014867931000.html",
+      "description": "参議院選挙は、20日に投票日を迎えます。選挙戦最終日の19日、各党の党首らは重視する選挙区に入り、ぎりぎりまで支持を呼びかけることにしています。",
+      "date": "2025-07-19T02:16:18.000Z",
+      "source": "NHKニュース",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "除染で取り除かれた土 首相官邸の敷地内に 全国初の再生利用",
+      "link": "http://www3.nhk.or.jp/news/html/20250719/k10014868211000.html",
+      "description": "東京電力福島第一原子力発電所の事故後に除染で取り除かれた土の「再生利用」について、19日午前、総理大臣官邸の敷地内に福島県内の中間貯蔵施設で保管されていた土が運び込まれ、全国で初めての再生利用が始まりました。",
+      "date": "2025-07-19T03:36:58.000Z",
+      "source": "NHKニュース",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "トランプ氏 “富豪に手紙はフェイク” 有力紙親会社など提訴",
+      "link": "http://www3.nhk.or.jp/news/html/20250719/k10014868241000.html",
+      "description": "アメリカのトランプ大統領は、少女への性的虐待などの罪で起訴され、勾留中に自殺したとされる富豪にトランプ氏が手紙を送ったと報じた有力紙の記事を「フェイクニュースだ」として、親会社などに対し訴えを起こしました。",
+      "date": "2025-07-19T08:43:35.747Z",
+      "source": "NHKニュース",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "t3n.de - News",
+      "link": "https://t3n.de",
+      "description": "weiterlesen auf t3n.de ]]>",
+      "date": "2025-07-19T07:30:00.000Z",
+      "source": "t3n",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Глава Valve: те, кто не умеет кодить, могут стать лучшими разработчиками — благодаря ИИ",
+      "link": "https://3dnews.ru/1126218",
+      "description": "",
+      "date": "2025-07-19T08:28:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Microsoft начнёт закачивать под землю фекалии, чтобы компенсировать выбросы CO₂ от ИИ",
+      "link": "https://3dnews.ru/1126217",
+      "description": "",
+      "date": "2025-07-19T07:38:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Человек против нейросети — суд впервые вернул работу уволенной сотруднице",
+      "link": "https://3dnews.ru/1126215",
+      "description": "",
+      "date": "2025-07-19T05:16:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Падение спроса заставило Tesla предложить американским клиентам широчайший набор бонусов при покупке электромобиля",
+      "link": "https://3dnews.ru/1126216",
+      "description": "",
+      "date": "2025-07-19T05:13:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Трамп поддержал криптоиндустрию: подписан закон GENIUS Act о стейблкоинах",
+      "link": "https://3dnews.ru/1126208",
+      "description": "",
+      "date": "2025-07-19T04:17:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Microsoft прекратила продавать фильмы и шоу через свой фирменный магазин",
+      "link": "https://3dnews.ru/1126214",
+      "description": "",
+      "date": "2025-07-19T04:13:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Из консорциума, собирающегося купить TikTok в США, вышел крупный инвестор",
+      "link": "https://3dnews.ru/1126212",
+      "description": "",
+      "date": "2025-07-19T03:39:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Bo Turbo — электросамокат с максимальной скоростью 160 км/ч и запасом хода 240 км",
+      "link": "https://3dnews.ru/1126210",
+      "description": "",
+      "date": "2025-07-19T02:59:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Углеродные выбросы Amazon выросли в 2024 году на 6 % из-за ИИ ЦОД и любителей шопинга",
+      "link": "https://3dnews.ru/1126187",
+      "description": "",
+      "date": "2025-07-18T21:15:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Новая статья: Cast n Chill — вы, сэр, рыба. Рецензия",
+      "link": "https://3dnews.ru/1126062",
+      "description": "",
+      "date": "2025-07-18T21:00:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Кооперативный боевик Contraband от создателей Just Cause всё ещё жив, но оказался игрой-сервисом",
+      "link": "https://3dnews.ru/1126205",
+      "description": "",
+      "date": "2025-07-18T19:01:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Австрийцы упаковали электромобильный аккумулятор в корпус из дерева и стали",
+      "link": "https://3dnews.ru/1126204",
+      "description": "",
+      "date": "2025-07-18T18:19:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "M**a отказалась соблюдать «чрезмерные» правила разработки ИИ, предложенные ЕС",
+      "link": "https://3dnews.ru/1126203",
+      "description": "",
+      "date": "2025-07-18T18:10:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Windows 11 25H2 не потерпит проблемных драйверов: Microsoft ужесточит тесты для сертификации",
+      "link": "https://3dnews.ru/1126202",
+      "description": "",
+      "date": "2025-07-18T17:58:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Microsoft уличили в допуске китайцев к секретным облачными системами Пентагона",
+      "link": "https://3dnews.ru/1126200",
+      "description": "",
+      "date": "2025-07-18T17:47:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Microsoft передумала упрощать системный трей Windows 11 после негативных отзывов пользователей",
+      "link": "https://3dnews.ru/1126199",
+      "description": "",
+      "date": "2025-07-18T17:42:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "В Роттердаме запустят беспилотные рейсовые автобусы между городом и аэропортом",
+      "link": "https://3dnews.ru/1126197",
+      "description": "",
+      "date": "2025-07-18T17:38:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Asus представила материнскую плату ROG Strix X870-H Gaming WiFi7 S с ярким аниме-дизайном",
+      "link": "https://3dnews.ru/1126196",
+      "description": "",
+      "date": "2025-07-18T17:33:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Legacy of the Forge «уже не за горами» — Warhorse раскрыла, когда ждать новостей о втором дополнении к Kingdom Come: Deliverance 2",
+      "link": "https://3dnews.ru/1126201",
+      "description": "",
+      "date": "2025-07-18T17:15:00.000Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Перевод на русский, Denuvo и первые детали геймплея: Persona 4 Revival получила страницу в Steam",
+      "link": "https://3dnews.ru/1126198",
+      "description": "",
+      "date": "2025-07-19T08:43:46.937Z",
+      "source": "3DNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Siste saker fra Digi.no",
+      "link": "https://www.digi.no",
+      "description": "Den norske sosiale medier-plattformen Hudd har passert 127 000 brukere. Selskapet knytter veksten til konkrete personvernhendelser og endringer hos Meta.",
+      "date": "2025-07-18T11:50:06.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Norsk sosiale medier-startup knytter egen vekst til KI-trening i Messenger",
+      "link": "https://www.digi.no/artikler/norsk-sosiale-medier-startup-knytter-egen-vekst-til-ki-trening-i-messenger/560670",
+      "description": "Når skal vi si at nok er nok? Kanskje nå som hjelpetjenester for barn sladrer om hvem som oppsøker dem.",
+      "date": "2025-07-18T10:32:28.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Fjern overvåkningsknappen",
+      "link": "https://www.digi.no/artikler/kommentar-fjern-overvakningsknappen/560673",
+      "description": "Svenske Lovable har gjort braksuksess i løpet av sine to leveår. Gründeren vil gjøre det mulig for hvem som helst å bygge apper: – 99 prosent av verdens beste ideer er fanget i hodene til folk som ikk",
+      "date": "2025-07-18T07:59:08.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Vil gjøre koding overflødig: Verdsatt til over 18 milliarder på kun to år",
+      "link": "https://www.digi.no/artikler/svensk-ki-suksess-verdsatt-til-over-18-milliarder-kroner-br/560680",
+      "description": "Meta-sjef Mark Zuckerberg har inngått forlik i en rettssak som startet onsdag, der Meta-investorer krevde 8 milliarder dollar.",
+      "date": "2025-07-18T06:34:36.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Knyttet til data-skandale: Inngår forlik i gigantsøksmål",
+      "link": "https://www.digi.no/artikler/zuckerberg-inngar-forlik-i-gigantsoksmal/560688",
+      "description": "Håper den nye TV2-avtalen vil få fart på inntektene igjen.",
+      "date": "2025-07-18T06:10:34.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Fall for Telia Norge: Håper TV2-avtale får fart på inntektene",
+      "link": "https://www.digi.no/artikler/telia-norge-tjente-mindre-i-andre-kvartal/560679",
+      "description": "Men fortsetter å miste mobilabonnenter i Norge.",
+      "date": "2025-07-18T03:00:00.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Telenor: Tjente 1,5 milliarder – men fortsetter å miste mobilabonnenter",
+      "link": "https://www.digi.no/artikler/telenor-tjente-5-1-milliarder-i-andre-kvartal-oppjusterer-utsiktene-for-2025/560667",
+      "description": "Under kryptokollapsen i 2022 falt strømforbruket til nesten null hos 39 aktører.",
+      "date": "2025-07-17T13:31:03.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Seks datasenter-eiere oppgir å utvinne krypto – hendelse i 2022 tyder på at det er mange flere",
+      "link": "https://www.digi.no/artikler/kun-seks-datasenter-eiere-oppgir-a-utvinne-krypto-en-hendelse-i-2022-kan-tyde-pa-at-det-er-langt-flere/560612",
+      "description": "Omfattende undersøkelse viser at KI-bruk kan føre til sosial stigmatisering.",
+      "date": "2025-07-17T10:51:51.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Studie: Ansatte som bruker KI blir oppfattet som latere og mindre kompetente",
+      "link": "https://www.digi.no/artikler/studie-ansatte-som-bruker-ki-blir-oppfattet-som-latere-og-mindre-kompetente/560623",
+      "description": "Etter kritikk mot uklare brukervilkår fjerner WeTransfer formuleringen om bruk av kunstig intelligens, og understreker at brukernes filer ikke vil bli brukt til å trene KI.",
+      "date": "2025-07-17T07:42:00.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Fikk kritikk for nye vilkår: WeTransfer avviser KI-trening på brukernes filer",
+      "link": "https://www.digi.no/artikler/fikk-kritikk-for-nye-vilkar-wetransfer-avviser-ki-trening-pa-brukernes-filer/560659",
+      "description": "Den taiwanske databrikkegiganten TSMC økte overskuddet betraktelig i årets andre kvartal. Selskapet har ridd på en KI-bølge det siste året.",
+      "date": "2025-07-17T06:58:16.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Nok et godt resultat for databrikke-gigant",
+      "link": "https://www.digi.no/artikler/nok-et-godt-kvartalsresultat-for-den-taiwanske-databrikkegiganten-tsmc/560656",
+      "description": "Sterk etterspørsel etter drift- og konsulenttjenester gir god lønnsomhet for Atea, viser kvartalsrapporten.",
+      "date": "2025-07-17T06:56:39.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Atea leverer sterke resultater: – Vi har god fart",
+      "link": "https://www.digi.no/artikler/atea-leverer-sterke-resultater-vi-har-god-fart/560633",
+      "description": "Onsdag startet en rettssak der Metas investorer har saksøkt Meta-sjef Mark Zuckerberg og flere andre for personvernsbrudd. Zuckerberg ventes selv å vitne.",
+      "date": "2025-07-17T06:05:57.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Zuckerberg ventes å vitne i gigantsøksmål",
+      "link": "https://www.digi.no/artikler/zuckerberg-ventes-a-vitne-i-gigantsoksmal/560646",
+      "description": "På et toppmøte denne uken lanserte Donald Trump en KI-strategi drevet av fossil energi – og fulgte opp med angrep på fornybar energi.",
+      "date": "2025-07-17T06:04:14.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Trump lanserer storsatsing på KI – med fossil energi som motor",
+      "link": "https://www.digi.no/artikler/trump-lanserer-storsatsing-pa-ki-med-fossil-energi-som-motor/560632",
+      "description": "I 2023 ville verken Telenor eller Viaplay ha selskapet. Nå blir Viaplay eneeier.",
+      "date": "2025-07-16T10:59:41.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Telenor selger seg ut av Allente for 1,1 milliarder",
+      "link": "https://www.digi.no/artikler/telenor-selger-seg-ut-av-allente-for-1-1-milliarder/560642",
+      "description": "Det norske spillstudioet, som har holdt på siden 2002 og står bak en rekke spillsuksesser de siste 20 årene, er konkurs.",
+      "date": "2025-07-16T10:55:21.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Norges mest produktive spillutvikler konkurs: – Vemodig",
+      "link": "https://www.digi.no/artikler/norges-mest-produktive-spillutvikler-konkurs-vemodig/560529",
+      "description": "Steffan Phillip Thorvaldsen er ansatt som daglig leder i programvareselskapet Qbee",
+      "date": "2025-07-16T09:16:59.000Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Han skal få fart på salget i det norske IoT-selskapet",
+      "link": "https://www.digi.no/artikler/han-skal-fa-fart-pa-salget-i-det-norske-iot-selskapet/560621",
+      "description": "Jensen Huang brukte store ord da han talte under åpningen av en kinesisk teknologikonferanse onsdag.",
+      "date": "2025-07-19T08:43:50.459Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Nvidia-sjefen hyller kinesiske KI-modeller: – I verdensklasse",
+      "link": "https://www.digi.no/artikler/nvidia-sjefen-hyller-kinesiske-ki-modeller-i-verdensklasse/560626",
+      "description": "USA melder om at en kinesisk statsfinansiert hacker er arrestert i Italia. Dette er første gang noen er pågrepet for de massive angrepene via Microsoft Exchange, som også rammet Stortinget i 2021.",
+      "date": "2025-07-19T08:43:50.459Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "[Ekstra] Har arrestert det som skal være en av hackerne bak dataangrep på Stortinget",
+      "link": "https://www.digi.no/artikler/har-arrestert-det-som-skal-vaere-en-av-hackerne-bak-dataangrep-pa-stortinget/560571",
+      "description": "",
+      "date": "2025-07-19T08:43:50.459Z",
+      "source": "Digi.no",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "モーターパラグライダーが離陸後に海上に着水、男性1人死亡　三重",
+      "link": "http://www.asahi.com/articles/AST7M2F2MT7MOIPE01DM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "参院選めぐり全国で4人逮捕　ネット上で殺害ほのめかした疑いなど",
+      "link": "http://www.asahi.com/articles/AST7M268LT7MUTIL00HM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "娘を介護する母親に舌打ち　呼吸器外し殺害事件に裁判所が寄せた思い",
+      "link": "http://www.asahi.com/articles/AST7K3DWBT7KTIPE011M.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "【解説人語】地震続く悪石島「いつ終わるのか」　避難、帰島…住民は",
+      "link": "http://www.asahi.com/articles/AST7L3VQFT7LDIFI015M.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "盗撮画像共有事件　名古屋・横浜の教員2人を再逮捕へ　愛知県警",
+      "link": "http://www.asahi.com/articles/AST7M1W71T7MOIPE017M.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "プロペラに接触、疲労で転落　｢乱立｣するダイビング船、注意点は",
+      "link": "http://www.asahi.com/articles/AST7K1S89T7KUTIL01CM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "｢玉石混交｣のダイビング船　誰が何隻運航かも不明　国が対策強化へ",
+      "link": "http://www.asahi.com/articles/AST7K1H77T7KUTIL029M.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "駆除のヒグマ、男性襲撃個体とDNA一致　4年前の女性襲撃とも一致",
+      "link": "http://www.asahi.com/articles/AST7M1RV0T7MIIPE002M.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "夏を彩る花火大会、中止への備えは　「道義的責任」で減給した首長も",
+      "link": "http://www.asahi.com/articles/AST6V4582T6VOXIE05BM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "「21日は本当に嫌な日」明石歩道橋事故24年、遺族が市職員に講話",
+      "link": "http://www.asahi.com/articles/AST7L3D7HT7LPIHB00GM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "鈴木誠也が後半戦初打席で26号3ラン　「しっかり休んで」好調維持",
+      "link": "http://www.asahi.com/articles/AST7L7WFKT7LUTQP01SM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "イチロー氏が両親に感謝したこと　米殿堂入り式典は「とても緊張」",
+      "link": "http://www.asahi.com/articles/AST7L7S83T7LUTQP01QM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "ドジャース黄金期の意外なきっかけ　「悪の帝国」との批判にも球団は",
+      "link": "http://www.asahi.com/articles/AST7J34G5T7JUTQP01ZM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "プロ野球と高校野球が連携して普及・振興活動　背景にある危機感とは",
+      "link": "http://www.asahi.com/articles/AST7L3100T7LUTQP00WM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "【解説人語】藤川・岡田両監督の違いは？首位阪神、後半戦のキーマン",
+      "link": "http://www.asahi.com/articles/AST7L248XT7LDIFI01FM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "動き始めた原発の建て替え計画　震災の「くびき」外した政府の思惑",
+      "link": "http://www.asahi.com/articles/AST7M0J19T7MULFA023M.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "米どころ新潟でも「百姓一揆」　農家を怒らせた「猫の目農政」の正体",
+      "link": "http://www.asahi.com/articles/AST7L2514T7LUOHB00JM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "博士人材の採用で気を吐くSCREEN　後藤社長「次の一手に必要」",
+      "link": "http://www.asahi.com/articles/AST7K0D30T7KPLFA004M.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "日米関税交渉「拙速な取引よりもよい取引」財務長官、合意には時間？",
+      "link": "http://www.asahi.com/articles/AST7L6FTKT7LUHBI01TM.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "金融庁が日本生命に報告徴求命令　三菱UFJ銀の内部情報持ち出しで",
+      "link": "http://www.asahi.com/articles/AST7L5DCCT7LULFA024M.html?ref=rss",
+      "description": "",
+      "date": "2025-07-19T08:43:57.194Z",
+      "source": "朝日新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "「シヴィライゼーションVI」Windows版が無料配布中　Epic Games Storeで　「時間が溶ける」と人気のストラテジーゲーム",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news106.html",
+      "description": "米Epic Gamesが、PCゲーム販売プラットフォーム「Epic Gaems Store」で、ストテラジーゲーム「Sid Meier’s Civilization（シドマイヤーズ シヴィライゼーション） VI」Windows版の無料配布している。",
+      "date": "2025-07-19T03:00:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "スリコからワイヤレスピンマイク、1980円　4400円のスマホ用ジンバルも",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/19/news026.html",
+      "description": "雑貨チェーン「3COINS」を手掛けるパル（大阪市）が、同ブランドの新商品として、スマートフォン向けのワイヤレスピンマイクを発売した。レシーバーとマイク2つのセットで、価格は1980円。",
+      "date": "2025-07-19T02:00:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "ユニクロ、マクセルのカセットテープ「UDII」モチーフのTシャツ発売",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/19/news019.html",
+      "description": "ユニクロは、かつて人気を博したマクセルのカセットテープ「UDII（ユーディーツー）」をモチーフにしたTシャツを7月28日に発売する。90年代のカレッジライフをテーマにしたTシャツシリーズ「ザ・ブランズ UT」のラインアップの一つ。",
+      "date": "2025-07-19T00:30:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "スマホからミラーレス一眼にした人が見落としがちなこと　レンズフードと視度補正の話",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/19/news010.html",
+      "description": "スマホから一気にミラーレス一眼へ行っちゃうと見落としがちな、地味だけど大事な機能や機構ってのがあるなあと最近思うのである。そこで、大事だけどあまり語られない2点をとりあげてみた。",
+      "date": "2025-07-18T23:14:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "Microsoft、WindowsとXboxでの「映画＆テレビ」販売を終了",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/19/news029.html",
+      "description": "Microsoftは、Microsoft Storeでの「映画＆テレビ」コンテンツの販売を終了した。購入済みのコンテンツは、引き続きWindowsやXboxの専用アプリで視聴できる。新しいコンテンツの購入については、他社サービスを利用するよう案内している。",
+      "date": "2025-07-18T21:51:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "ラピダス、2nm半導体の試作に成功　パイロットライン稼働開始から3カ月で",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news117.html",
+      "description": "新興ファウンドリのRapidusは7月18日、北海道千歳市に建設した半導体製造拠点「IIM-1」にて、2nm GAAトランジスタの動作確認に成功したと発表した。",
+      "date": "2025-07-18T15:40:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "庵野秀明さん、プロダクション・アイジーの取締役就任へ",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news116.html",
+      "description": "IGポートは7月18日、傘下のアニメ制作会社プロダクション・アイジー（Production I.G）の取締役として、新たにカラー（スタジオカラー）社長の庵野秀明さんが就任すると発表した。就任は8月21日で、I.Gの定時株主総会を経て正式に決定となる。",
+      "date": "2025-07-18T11:00:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "店頭から消えた三菱電機の冷蔵庫、生産再開　19日から一部店舗で受注へ",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news114.html",
+      "description": "SNSなどで「店頭から消えた」と話題になった三菱電機の冷蔵庫が生産を再開した。19日から、一部の店舗で8月以降納品分の受注を再開する。",
+      "date": "2025-07-18T10:15:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "IIJに行政指導、4月発表の不正アクセス巡り　総務省",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news112.html",
+      "description": "総務省は7月18日、インターネットイニシアティブ（IIJ）が4月に公表した法人向けメールセキュリティサービス「IIJセキュアMXサービス」への不正アクセス事案を巡り、同社を行政指導したと発表した。通信の保護や再発防止の徹底に加え、業界全体のセキュリティ向上に取り組むよう、IIJに求めたという。",
+      "date": "2025-07-18T09:35:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "最高時速60kmのEVへの“走行中給電”に成功　大成建設が発表　道路からの連続無線給電に進展",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news111.html",
+      "description": "大成建設は、最高時速60kmで走る電気自動車に対して、次世代道路による最大出力10kWの連続無線給電に成功したと発表した。",
+      "date": "2025-07-18T08:53:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "夏の宿泊、人気上昇1位は大阪府　万博効果などで4割増　楽天トラベル",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news100.html",
+      "description": "楽天トラベルが発表した、2025年夏の宿泊予約泊数ランキングによると、都道府県別で伸びが最も高かったのは大阪府だった。",
+      "date": "2025-07-18T07:30:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "“痛み”は音で伝搬する──東京理科大　「ストレス音のない医療環境が重要」",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news099.html",
+      "description": "東京理科大学の研究チームは18日、痛みを感じているマウスの近くにいるマウスが、物理的な損傷がないにも関わらず痛みを感じる現象「感情伝達」が、発生音によって引き起こされるとする研究成果を発表した。",
+      "date": "2025-07-18T07:29:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "ソフトバンク、スマホの事務手数料を値上げ　Webでの新規契約＆機種変も“無料→3850円”に改定",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news098.html",
+      "description": "ソフトバンクは、携帯電話サービスの事務手数料などを改訂すると発表した。ソフトバンクとワイモバイルでは、これまで無料だったWeb上での新規契約と機種変更について、3850円の手数料を新たに設ける。",
+      "date": "2025-07-18T07:29:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "またがる扇風機「またせん」サンコーから　風呂上がりなどに",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news082.html",
+      "description": "サンコーは、またがるだけで自動的に下から風を送る扇風機「またがる扇風機『またせん』」を発売した。",
+      "date": "2025-07-18T04:38:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "ホンダの「コライドンバイク」、鈴鹿サーキットを駆ける　レース前のセレモニーで、走る姿を初披露へ",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news080.html",
+      "description": "「ポケットモンスター スカーレット・バイオレット」に登場するポケモン「コライドン」を再現した二輪バイクが、鈴鹿サーキット（三重県鈴鹿市）を実際に走る──本田技研工業が8月3日にこんな催しを行う。",
+      "date": "2025-07-18T04:24:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "夏休みの「Switch 2」盗難に注意　任天堂、「遠隔で使用停止する方法ない」",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news079.html",
+      "description": "任天堂は7月18日、夏休み中に「Nintendo Switch／Switch 2」を外へ持ち出す際、紛失や盗難に注意するよう呼び掛けた。",
+      "date": "2025-07-18T04:16:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "登山アプリ「ヤマレコ」、SOS送信できる新機能　「au Starlink Direct」で圏外に対応",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news078.html",
+      "description": "ヤマレコは登山地図アプリ「ヤマレコ」に、緊急メッセージを送信できる新機能「緊急SOS」をリリースした。KDDIの衛星通信サービス「au Starlink Direct」に対応し、ユーザーなら圏外でも送信できる。",
+      "date": "2025-07-18T04:08:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "TSMC熊本第2工場は年内着工　4～6月純利益は60.7％増　AI関連好調続く",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news075.html",
+      "description": "半導体受託生産の世界最大手、台湾積体電路製造（TSMC）の魏哲家会長兼最高経営責任者（CEO）は、熊本第2工場（熊本県菊陽町）の着工時期について「現地のインフラの準備に応じて、年内を予定している」と述べた。",
+      "date": "2025-07-18T03:31:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "中国がサプライチェーンをテーマにした展示会　NVIDIA、Tesla……米有力企業も出展",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news074.html",
+      "description": "中国政府系団体が主催するサプライチェーン（供給網）をテーマにした展示会「中国国際供給網促進博覧会」が北京市で開かれている。初参加の米半導体大手NVIDIAのほか、電気自動車（EV）大手Tesla、小売り大手Walmartなど米有力企業が出展。トランプ米政権が対中圧力を増す中、中国側は米企業との協力関係をアピールし対抗姿勢を示した。",
+      "date": "2025-07-18T03:28:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "弁護士ドットコム、偽サイトを確認　「個人情報入力しないで」と注意喚起",
+      "link": "https://www.itmedia.co.jp/news/articles/2507/18/news070.html",
+      "description": "弁護士ドットコムは17日、偽サイトが確認されたとして利用者に注意喚起した。",
+      "date": "2025-07-18T03:05:00.000Z",
+      "source": "ITmedia",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "Golem.de",
+      "link": "https://www.golem.de/",
+      "description": "Golem.de News Feed",
+      "date": "2025-07-19T08:00:02.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "AMD Magnus: Leak zeigt extrem starke APU f�r Next-Gen-Gaming",
+      "link": "https://www.golem.de/news/amd-magnus-leak-zeigt-extrem-starke-apu-fuer-next-gen-gaming-2507-198271.html",
+      "description": "Ein geleakter AMD-Chip heizt Spekulationen um neue Konsolen an. Die Architektur weist in Richtung Playstation 6. (&lt;a href=&quot;https://www.golem.de/specials/amd/&quot;&gt;AMD&lt;/a&gt;, &lt;a href",
+      "date": "2025-07-19T07:00:02.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "(g+) Waydroid vorgestellt: Android-Apps ohne Leistungsverlust auf PCs ausf�hren",
+      "link": "https://www.golem.de/news/waydroid-vorgestellt-android-apps-ohne-leistungsverlust-auf-pcs-ausfuehren-2507-198099.html",
+      "description": "Ob f�r Entwickler oder Mobile-Games: Waydroid bringt Android-Apps auf den PC. Unter Linux ist das ganz einfach, unter Windows dank WSL ebenfalls machbar. Eine Anleitung von Johannes Hiltscher (&lt;a h",
+      "date": "2025-07-19T05:00:01.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Chris Roberts Simulation: Wie Star Citizen unsere Zeit verschwendet",
+      "link": "https://www.golem.de/news/chris-roberts-simulation-wie-star-citizen-unsere-zeit-verschwendet-2507-197782.html",
+      "description": "Zu viel PVP, Bugs und jede Menge Wartezeit: Star Citizen entwickelt sich in die falsche Richtung. Ein IMHO von Oliver Nickel (&lt;a href=&quot;https://www.golem.de/specials/star-citizen/&quot;&gt;Star",
+      "date": "2025-07-18T16:45:01.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Anzeige: Ethical Hacking und Schutzstrategien im E-Learning-Paket",
+      "link": "https://www.golem.de/news/anzeige-ethical-hacking-und-schutzstrategien-im-e-learning-paket-2507-197865.html",
+      "description": "In diesem E-Learning-Paket lernen IT-Fachkr�fte in 33 Stunden, Schwachstellen zu erkennen, Angriffsstrategien nachzuvollziehen und effektive Sicherheitsma�nahmen umzusetzen - praxisnah und umfassend. ",
+      "date": "2025-07-18T16:00:02.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Anzeige: Testsieger-B�rostuhl bei Amazon kurze Zeit billiger",
+      "link": "https://www.golem.de/news/anzeige-testsieger-buerostuhl-bei-amazon-kurze-zeit-billiger-2507-198268.html",
+      "description": "Bei Amazon kann man den ergonomischen B�rostuhl CleverSeat von der deutschen Marke Clouvou kurz g�nstiger kaufen. (&lt;a href=&quot;https://www.golem.de/specials/technik-und-hardware/&quot;&gt;Technik",
+      "date": "2025-07-18T15:52:01.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Anzeige: Entra ID f�r effizientes Identit�tsmanagement in der Cloud",
+      "link": "https://www.golem.de/news/anzeige-entra-id-fuer-effizientes-identitaetsmanagement-in-der-cloud-2507-198260.html",
+      "description": "Entra ID bietet eine L�sung f�r das effiziente Management von Benutzeridentit�ten und Sicherheitsrichtlinien. Wie die Cloudtechnologie sicher und effektiv eingesetzt wird, zeigt dieser Workshop. (&lt;",
+      "date": "2025-07-18T15:26:01.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Gesetzesvorlagen verabschiedet: US-Repr�sentantenhaus legitimiert Kryptobranche",
+      "link": "https://www.golem.de/news/gesetzesvorlagen-verabschiedet-us-repraesentantenhaus-legitimiert-kryptobranche-2507-198270.html",
+      "description": "Eines der Gesetze verbietet Kongressabgeordneten, von Stablecoins zu profitieren. F�r den US-Pr�sidenten gilt diese Regel allerdings nicht. (&lt;a href=&quot;https://www.golem.de/specials/kryptowaehru",
+      "date": "2025-07-18T14:47:01.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Uncharted: Subaru stellt kompakten E-SUV vor",
+      "link": "https://www.golem.de/news/uncharted-subaru-stellt-kompakten-e-suv-vor-2507-198269.html",
+      "description": "Der Subaru Uncharted kommt wahlweise mit Allradantrieb, bis zu 252 kW und 77-kWh-Akku. Ebenfalls neu: der elektrische Outback. (&lt;a href=&quot;https://www.golem.de/specials/subaru/&quot;&gt;Subaru&l",
+      "date": "2025-07-18T14:39:01.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Anzeige: Praktisches 7-in-1-USB-C-Dock zum Tiefstpreis bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-praktisches-7-in-1-usb-c-dock-zum-tiefstpreis-bei-amazon-2507-198267.html",
+      "description": "Bei Amazon gibt es derzeit ein 7-in-1-USB-C-Dock zum Tiefstpreis, um USB, HDMI und mehr bei MacBooks nachzur�sten. (&lt;a href=&quot;https://www.golem.de/specials/usbtypec/&quot;&gt;USB-C&lt;/a&gt;, &",
+      "date": "2025-07-18T14:25:02.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Multiplayer: Nintendo testet geheimnisvolles MMO auch auf der Switch 2",
+      "link": "https://www.golem.de/news/multiplayer-nintendo-testet-geheimnisvolles-mmo-auch-auf-der-switch-2-2507-198265.html",
+      "description": "Nintendo plant einen neuen MMO-Playtest - jetzt auch auf der Switch 2. Wer dabei sein will, muss sich bis zum 23. Juli 2025 bewerben. (&lt;a href=&quot;https://www.golem.de/specials/nintendo/&quot;&gt",
+      "date": "2025-07-18T14:02:02.000Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Anzeige: Nachtsichtger�t mit 4K und Kompass 41 Prozent g�nstiger",
+      "link": "https://www.golem.de/news/anzeige-nachtsichtgeraet-mit-4k-und-kompass-41-prozent-guenstiger-2507-198263.html",
+      "description": "Ein Nachtsichtger�t mit 4K-Aufl�sung, Aufnahmefunktion und Kompass ist bei Amazon drastisch reduziert. Inklusive MicroSD-Karte. (&lt;a href=&quot;https://www.golem.de/specials/technik-und-hardware/&qu",
+      "date": "2025-07-19T08:44:01.990Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Sirius auf Kickstarter: Kleiner Roboterhund ahmt Verhalten echter Haustiere nach",
+      "link": "https://www.golem.de/news/sirius-auf-kickstarter-kleiner-roboterhund-ahmt-verhalten-echter-haustiere-nach-2507-198261.html",
+      "description": "Der Sirius soll verspielt, fr�hlich oder abgelenkt wirken - ganz wie ein Hund oder eine Katze. Alternativ kann der Roboter programmiert werden. (&lt;a href=&quot;https://www.golem.de/specials/kickstar",
+      "date": "2025-07-19T08:44:01.990Z",
+      "source": "Golem",
+      "language": "german",
+      "category": "general"
+    },
+    {
+      "title": "Началась регистрация на Открытый день Международной конференции по квантовым технологиям ICQT-2025",
+      "link": "https://www.nkj.ru/prtnews/54770/",
+      "description": "",
+      "date": "2025-07-18T04:30:00.000Z",
+      "source": "Наука и жизнь",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Макак притягивают чужие ссоры",
+      "link": "https://www.nkj.ru/news/54764/",
+      "description": "",
+      "date": "2025-07-17T04:19:00.000Z",
+      "source": "Наука и жизнь",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Старение без воспаления",
+      "link": "https://www.nkj.ru/news/54763/",
+      "description": "",
+      "date": "2025-07-19T08:44:13.474Z",
+      "source": "Наука и жизнь",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "SpaceNews",
+      "link": "https://spacenews.com/",
+      "description": "",
+      "date": "2025-07-18T18:02:39.000Z",
+      "source": "SpaceNews",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Senate appropriators reject proposal to cancel TraCSS",
+      "link": "https://spacenews.com/senate-appropriators-reject-proposal-to-cancel-tracss/",
+      "description": "",
+      "date": "2025-07-18T13:42:32.000Z",
+      "source": "SpaceNews",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Polish space company SatRev launches Omani ground station amid international expansion",
+      "link": "https://spacenews.com/polish-space-company-satrev-launches-omani-ground-station-amid-international-expansion/",
+      "description": "",
+      "date": "2025-07-18T13:00:00.000Z",
+      "source": "SpaceNews",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "China conducts structural tests for Long March 10 human spaceflight rocket",
+      "link": "https://spacenews.com/china-conducts-structural-tests-for-long-march-10-human-spaceflight-rocket/",
+      "description": "",
+      "date": "2025-07-18T12:03:43.000Z",
+      "source": "SpaceNews",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "York Space parent company to acquire ground systems operator Atlas Space",
+      "link": "https://spacenews.com/york-space-parent-company-to-acquire-ground-systems-operator-atlas-space/",
+      "description": "",
+      "date": "2025-07-18T06:01:17.000Z",
+      "source": "SpaceNews",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "House Democrats accuse NASA of illegal impoundment of funds",
+      "link": "https://spacenews.com/house-democrats-accuse-nasa-of-illegal-impoundment-of-funds/",
+      "description": "",
+      "date": "2025-07-18T01:03:53.000Z",
+      "source": "SpaceNews",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Senate confirms Guetlein to lead Golden Dome",
+      "link": "https://spacenews.com/senate-confirms-guetlein-to-lead-golden-dome/",
+      "description": "",
+      "date": "2025-07-19T08:44:18.996Z",
+      "source": "SpaceNews",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "ESCAPADE to launch on second New Glenn",
+      "link": "https://spacenews.com/escapade-to-launch-on-second-new-glenn/",
+      "description": "",
+      "date": "2025-07-19T08:44:18.996Z",
+      "source": "SpaceNews",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "FDA Pathways Offer Faster Track for Oncology Drug Development",
+      "link": "https://www.fiercebiotech.com/sponsored/fda-pathways-offer-faster-track-oncology-drug-development",
+      "description": "Regulatory expert shares how early planning and FDA engagement can speed oncology approval",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "FDA mulls Elevidys market withdrawal following 3rd death after a Sarepta gene therapy",
+      "link": "https://www.fiercebiotech.com/pharma/fda-mulls-elevidys-market-withdrawal-following-3rd-death-after-sarepta-gene-therapy",
+      "description": "Although Sarepta initially appeared to have avoided the worst possible outcome for Elevidys—market withdrawal—thanks to the gene therapy’s new black box warning, the FDA is signaling stronger misgivin",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Fierce Biotech Layoff Tracker 2025: Sail shrinks crew again; Sarepta lays off 500 staffers",
+      "link": "https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2025",
+      "description": "As always, if you know of layoffs occurring at a biotech, please reach out to the Fierce Biotech editorial team.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Flagship's Sail Biomedicines sends staff packing for 2nd time this year",
+      "link": "https://www.fiercebiotech.com/biotech/flagship-pioneerings-sail-biomedicines-sends-staff-packing-second-time-year",
+      "description": "Sail Biomedicines is shrinking its crew for the second time this year. The Flagship Pioneering-backed biotech is laying off about 36 employees as the company sharpens its focus on immunology, a compan",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Coronary AI diagnostic developer Heartflow files $100M IPO",
+      "link": "https://www.fiercebiotech.com/medtech/coronary-ai-diagnostic-developer-heartflow-files-100m-ipo",
+      "description": "The former Fierce Medtech Fierce 15 winner entered a placeholder goal of up to $100 million, though no pricing terms were disclosed.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "UPDATED: Analysts demand transparency after Sarepta's roundabout disclosure of 3rd patient death",
+      "link": "https://www.fiercebiotech.com/biotech/3rd-patient-dies-following-treatment-sarepta-gene-therapy-reports",
+      "description": "Following a tumultuous week for Sarepta Therapeutics, the biotech has confirmed that a third patient has died after receiving one of the company’s gene therapies. On an investor call Friday, analysts ",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Chutes &amp; Ladders—Sarepta shakes up C-suite amid organization overhaul",
+      "link": "https://www.fiercebiotech.com/biotech/chutes-ladders-sarepta-shakes-c-suite-amid-organization-overhaul",
+      "description": "Reeling from the deaths of two patients who took Duchenne muscular dystrophy gene therapy Elevidys, Sarepta is launching a massive overhaul of its organization. The company’s chief customer officer Da",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "As 'the most infectious virus' roars back to life, the first measles treatment remains a pipe dream",
+      "link": "https://www.fiercebiotech.com/research/you-just-cannot-develop-drug-measles-roars-back-life-first-treatment-remains-pipe-dream",
+      "description": "As measles cases surge to record levels in the U.S., Department of Health and Human Services Secretary Robert F. Kennedy Jr. has downplayed the effectiveness of the long-used vaccine and instead promo",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "As US cuts research funding, UK plans to invest billions in new biosecurity center",
+      "link": "https://www.fiercebiotech.com/biotech/us-divests-research-uk-plans-invest-billions-new-biosecurity-center",
+      "description": "The U.K. is establishing a new biosecurity center designed to improve research into potentially pandemic-causing pathogens and protect against emerging public health threats.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Abbott eyes structural heart gains following Boston Scientific's TAVR exit",
+      "link": "https://www.fiercebiotech.com/medtech/abbott-eyes-structural-heart-gains-following-boston-scientifics-tavr-exit",
+      "description": "CEO Robert Ford said sales of its Navitor TAVR implant have doubled over the past two years, and that the road ahead looks favorable.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "BioNTech’s chief strategy officer Richardson heads for the exit",
+      "link": "https://www.fiercebiotech.com/biotech/biontechs-chief-strategy-officer-richardson-heads-exit",
+      "description": "BioNTech is losing its chief strategy officer, with Ryan Richardson set to leave the company at the end of September to \"pursue new professional opportunities.\"",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Intuitive shows off telesurgery capabilities in transatlantic demonstration",
+      "link": "https://www.fiercebiotech.com/medtech/intuitive-shows-telesurgery-capabilities-transatlantic-demonstration",
+      "description": "The company said two surgeons, 4,000 miles apart, handed off control of a single da Vinci 5 system in real-time during the Society of Robotic Surgery conference in France.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "I-Mab buys Bridge Health for $3M-plus to strengthen pivot to CLDN18.2 bispecific",
+      "link": "https://www.fiercebiotech.com/biotech/i-mab-buys-bridge-health-18m-upfront-strengthen-pivot-cldn182-bispecific",
+      "description": "I-Mab has solidified its pivot to givastomig by buying out the owner of an antibody used in the therapy.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Novartis' B-cell-depleting antibody fails to show promise in phase 2 dermatology study",
+      "link": "https://www.fiercebiotech.com/biotech/novartis-ianalumab-fails-show-promise-phase-2-dermatology-study",
+      "description": "Novartis has ended work on ianalumab in a painful skin condition after the monoclonal antibody failed to meet “predefined efficacy thresholds” in a phase 2 study.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Sarepta pivots to siRNA and lays off 500 staffers as Elevidys gets box warning",
+      "link": "https://www.fiercebiotech.com/biotech/sarepta-pivots-sirna-and-lays-500-staffers-elevidys-gets-box-warning",
+      "description": "Sarepta Therapeutics has laid off 500 staffers, or 36% of its workforce, as part of a strategic restructuring aiming to save $400 million annually.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Otsuka inks $613M deal for Swedish biotech's autoimmune antibodies",
+      "link": "https://www.fiercebiotech.com/biotech/otsuka-inks-613m-deal-swedish-biotechs-autoimmune-antibodies",
+      "description": "Otsuka Pharmaceutical is putting down $33 million cash for a Swedish biotech’s IL1RAP antibodies designed to treat autoimmune and inflammatory diseases.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Okyo sets sights on first approval in neuropathic eye pain after phase 2 win",
+      "link": "https://www.fiercebiotech.com/biotech/okyo-sets-sights-first-approval-neuropathic-eye-pain-after-phase-2-win",
+      "description": "Patients with a mysterious eye pain disease may be one step closer to seeing the first approved treatment for their condition. Okyo Pharma’s urcosimod reduced pain levels by an average of 5.5 on a 10-",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Johnson &amp; Johnson boosts financial projections with growing cardiac device sales",
+      "link": "https://www.fiercebiotech.com/medtech/johnson-johnson-boosts-financial-projections-growing-cardiac-device-sales",
+      "description": "“We are not rolling over,” J&amp;amp;J MedTech’s worldwide chairman, Tim Schmid, said on the company’s quarterly earnings call with investors.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Personalized spine surgery developer Carlsmed plots $100M-plus IPO",
+      "link": "https://www.fiercebiotech.com/medtech/personalized-spine-surgery-developer-carlsmed-plots-100m-ipo",
+      "description": "Carlsmed aims to offer personalized fusion procedures by mapping 3D-printed titanium spinal implants to a particular patient’s anatomy.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Alphabet's SandboxAQ teams up with Florida biotech to develop mRNA cancer vaccine",
+      "link": "https://www.fiercebiotech.com/biotech/alphabets-sandboxaq-teams-swiss-biotech-develop-mrna-cancer-vaccine",
+      "description": "Alphabet spinoff SandboxAQ is teaming up with iOncologi to build a new mRNA vaccine for a common and aggressive brain tumor known as glioblastoma.",
+      "date": null,
+      "source": "Fierce Biotech",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Ruineret af AI-svindel: Thomas mistede hele sin opsparing",
+      "link": "https://www.version2.dk/artikel/ruineret-af-ai-svindel-thomas-mistede-hele-sin-opsparing",
+      "description": "Institut advarer om, at store AI-virksomheder, som arbejder hen imod Artificial General Intelligence (AGI), mangler realistiske planer for at sikre kontrolleret og sikker udvikling.",
+      "date": "2025-07-18T12:00:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Ny rapport: AI-firmaer er »fundamentalt uforberedte« på farerne ved at udvikle menneskelignende systemer",
+      "link": "https://www.version2.dk/artikel/ny-rapport-ai-firmaer-er-fundamentalt-uforberedte-paa-farerne-ved-udvikle-menneskelignende-systemer",
+      "description": "To personer fra den russiske hackergruppe NoName057(16) er blevet arresteret i en stor politiaktion på tværs af landegrænser, hvor også dansk politi spillede en rolle.",
+      "date": "2025-07-18T08:50:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Pro-russisk hackergruppe har tidligere angrebet danske myndigheder: Nu slår politiet tilbage",
+      "link": "https://www.version2.dk/artikel/pro-russisk-hackergruppe-har-tidligere-angrebet-danske-myndigheder-nu-slaar-politiet-tilbage",
+      "description": "Det var NSKs egen efterforskning, der førte til anholdelsen af en mand, som ifølge politiet har solgt personoplysninger, der har ført til drabsforsøg. Københavns Kommune opdagede nemlig ikke selv pers",
+      "date": "2025-07-17T14:00:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "27-årig kunne frit sælge persondata til kriminelle: Kommunen fører ikke kontrol med opslag i CPR-registret",
+      "link": "https://www.version2.dk/artikel/27-aarig-kunne-frit-saelge-persondata-til-kriminelle-kommunen-foerer-ikke-kontrol-med-opslag-i-cpr",
+      "description": "Datatilsynet forstår ikke, hvorfor DR kræver, at brugerne logger ind for at se programmer på DRTV.",
+      "date": "2025-07-17T12:40:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Datatilsynet vil have DR til at lede efter alternativ til kritiseret login-krav",
+      "link": "https://www.version2.dk/artikel/datatilsynet-vil-have-dr-til-lede-efter-alternativ-til-kritiseret-login-krav",
+      "description": "Selve kvantecomputeren skal leveres af Microsoft og virksomheden Atom Computing.",
+      "date": "2025-07-17T09:00:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Skal være verdens kraftigste: Danmark og Novo-fonden poster over en halv mia. kr. i kvantecomputer",
+      "link": "https://www.version2.dk/artikel/skal-vaere-verdens-kraftigste-danmark-og-novo-fonden-poster-over-en-halv-mia-kr-i-kvantecomputer",
+      "description": "I en nyrenoveret lejlighed i Aalborg startede to Siemens-medarbejdere en sidegesjæft, hvor de promoverede pyramidespillet SpaceAI. Den ene er nu gået under jorden. Den anden har Ingeniøren interviewet",
+      "date": "2025-07-17T04:00:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Siemens-ansatte organiserede kæmpescam: »Alle var jo med i det«",
+      "link": "https://www.version2.dk/artikel/siemens-ansatte-organiserede-kaempescam-alle-var-jo-med-i-det",
+      "description": "AI-agenter skal støtte soldater i felten.",
+      "date": "2025-07-16T13:30:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Amerikansk forsvar køber AI for op mod fem milliarder kroner",
+      "link": "https://www.version2.dk/artikel/amerikansk-forsvar-koeber-ai-op-mod-fem-milliarder-kroner",
+      "description": "Efter kritik af uklare brugerbetingelser fjerner WeTransfer formulering om brug af AI og understreger, at brugernes filer ikke vil blive brugt til træning af AI.",
+      "date": "2025-07-16T11:15:32.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Nye vilkår førte til kritik: Nu afviser WeTransfer AI-træning af brugernes filer",
+      "link": "https://www.version2.dk/artikel/nye-vilkaar-foerte-til-kritik-nu-afviser-wetransfer-ai-traening-af-brugernes-filer",
+      "description": "En 27-årig mand er mistænkt for at sælge personoplysninger til kriminelle. Oplysningerne er ifølge politiet blevet brugt til planlægning af drab.",
+      "date": "2025-07-16T08:50:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Tidligere ansat i Københavns Kommune anholdt: Sigtet for at misbruge CPR-oplysninger til planlægning af drab",
+      "link": "https://www.version2.dk/artikel/tidligere-ansat-i-koebenhavns-kommune-anholdt-sigtet-misbruge-cpr-oplysninger-til-planlaegning-af",
+      "description": "Ukendte bagmænd er lykkes med at vride millioner ud af danske borgere i et ældgammelt svindelnummer forklædt som et teknologisk gennembrud. Ingeniøren følger sporet, der ender foran et - nu forladt - ",
+      "date": "2025-07-16T04:00:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Afsløring: Tusindvis af danskere fanget i internationalt pyramidespil",
+      "link": "https://www.version2.dk/artikel/afsloering-tusindvis-af-danskere-fanget-i-internationalt-pyramidespil",
+      "description": "Flere fagfællebedømmere er begyndt at bruge generativ kunstig intelligens for at spare tid. Den tendens udnytter forskere til at få god feedback.",
+      "date": "2025-07-15T14:00:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "»Giv kun en positiv anmeldelse«: Skjulte prompts fundet i flere forskningsartikler",
+      "link": "https://www.version2.dk/artikel/giv-kun-en-positiv-anmeldelse-skjulte-prompts-fundet-i-flere-forskningsartikler",
+      "description": "Meta vil knække nøden om kunstig intelligens med kæmpemæssige ressourceslugere.",
+      "date": "2025-07-15T12:30:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Facebook-selskab bygger gigawatt-datacenter til AI",
+      "link": "https://www.version2.dk/artikel/facebook-selskab-bygger-gigawatt-datacenter-til-ai",
+      "description": "Danmark er blandt de lande, som skal være »frontløbere« i arbejdet med at udvikle en fælleseuropæisk app, der på sigt kan bruges til alderskontrol på sociale medier.",
+      "date": "2025-07-15T10:00:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Ny app og skærpede retningslinjer: Alderskrav til sociale medier kan være på vej til danske børn",
+      "link": "https://www.version2.dk/artikel/ny-app-og-skaerpede-retningslinjer-alderskrav-til-sociale-medier-kan-vaere-paa-vej-til-danske-boern",
+      "description": "Justitsminister Peter Hummelgaard har svaret på en række spørgsmål om et nyt lovforslag, der ifølge kritikere vil føre til bredspektret overvågning af danske borgere. De nye oplysninger bekymrer sikke",
+      "date": "2025-07-15T08:30:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Nye svar fra Hummelgaard om omstridt PET-lov vækker bekymring: »Det her er meget voldsomt«",
+      "link": "https://www.version2.dk/artikel/nye-svar-fra-hummelgaard-om-omstridt-pet-lov-vaekker-bekymring-det-her-er-meget-voldsomt",
+      "description": "Medicinalvirksomheder i hele EU har fået lettere adgang til at forske i europæernes journaler, prøvesvar, medicinforbrug og andre sundhedsdata. Langt de fleste danskere er dog ifølge DR uenige i, at k",
+      "date": "2025-07-14T14:36:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Danskerne siger nej til private virksomheders indsamling af sundhedsdata",
+      "link": "https://www.version2.dk/artikel/danskerne-siger-nej-til-private-virksomheders-indsamling-af-sundhedsdata",
+      "description": "En AI-chatbot brugt i McDonald’s ansøgningssystem kunne tilgås med koden 123456. Det førte til 64 millioner lækkede samtaler.",
+      "date": "2025-07-14T12:30:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Fejl i sikkerheden hos McDonald’s AI-robot afslører millioner af jobansøgeres data",
+      "link": "https://www.version2.dk/artikel/fejl-i-sikkerheden-hos-mcdonalds-ai-robot-afsloerer-millioner-af-jobansoegeres-data",
+      "description": "Den amerikanske techgigant kan stå over for en stor bøderegn, hvis ikke den kommer med nye indrømmelser, lyder det.",
+      "date": "2025-07-14T10:30:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Meta afviser at ændre omstridt model: Kan blive ramt af bøderegn",
+      "link": "https://www.version2.dk/artikel/meta-afviser-aendre-omstridt-model-kan-blive-ramt-af-boederegn",
+      "description": "Der er lang vej endnu, før en tidligere målsætning om at erstatte 10.000 årsværk med digitalisering og kunstig intelligens er nået. Nu har myndighederne smidt yderligere 20.000 årsværk oven i puljen u",
+      "date": "2025-07-14T08:00:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Regeringen har tredoblet sin AI-ambition: Men er ikke i nærheden af at nå tidligere mål",
+      "link": "https://www.version2.dk/artikel/regeringen-har-tredoblet-sin-ai-ambition-men-er-ikke-i-naerheden-af-naa-tidligere-maal",
+      "description": "Sommerhuset skulle males, skuret ryddes op osv, men der er også blevet tid til at nørde lidt: Det er et kontrolpanel til top-end video-produktion, men primært i Nordamerika.",
+      "date": "2025-07-13T10:02:05.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Blogindlæg: Ferieprojekter",
+      "link": "https://www.version2.dk/holdning/ferieprojekter",
+      "description": "En halv million danske routere er blevet angrebet gennemsnitligt to gange om dagen i et halvt år. Her deler cybersikkerhedsekspert Leif Jensen ét simpelt råd til at sikre sig mod hackere.",
+      "date": "2025-07-11T14:30:00.000Z",
+      "source": "Version2",
+      "language": "nordic",
+      "category": "general"
+    },
+    {
+      "title": "Netflixが人気オリジナル作品でコスト削減のために生成AIを使ったことを明かす",
+      "link": "https://gigazine.net/news/20250719&#45;netflix&#45;generative&#45;ai&#45;sf&#45;cut&#45;costs/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-19T01:00:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "Apple社員の家に忍び込んで開発版iPhoneの中身を盗み見ていたとして有名リーカーがAppleに訴えられる、本人は疑惑を否定",
+      "link": "https://gigazine.net/news/20250719&#45;apple&#45;sues&#45;jon&#45;prosser&#45;leak/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T23:00:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "「商品は返却不要」の返品制度がショッピングサイトのブランド力を高めているとの調査結果",
+      "link": "https://gigazine.net/news/20250719&#45;returnless&#45;returns&#45;boost&#45;brands/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T15:00:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "アシモフのアイディア論・「投資の神様」の必読書・宇宙戦艦ヤマトなどAmazonで売上トップ100のGIGAZINE記事ランキング2025年第2四半期版まとめ",
+      "link": "https://gigazine.net/news/20250719&#45;gigazine&#45;kindle&#45;ranking&#45;2025&#45;q2/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T14:00:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "AnthropicがClaude Codeの使用制限をユーザーに通知なしで勝手に厳しくしたと騒ぎに",
+      "link": "https://gigazine.net/news/20250718&#45;anthropic&#45;claude&#45;code&#45;limits/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T13:00:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "バンズからはみ出す一枚肉のチキンパティが食べごたえ十分なバーガーキングの「スモーキーフライドチキンバーガーズ」3種類を食べてきた",
+      "link": "https://gigazine.net/news/20250718&#45;burgerking&#45;smoky&#45;fried&#45;chicken&#45;burgers/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T12:00:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "TikTokやInstagramにアクセスできずネット検索もできない「子ども向けiPhone」が発売される",
+      "link": "https://gigazine.net/news/20250718&#45;internet&#45;safe&#45;sage&#45;iphone&#45;for&#45;children/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T11:00:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "オープンソースの激安4本指ロボットハンド「Amazing Hand」",
+      "link": "https://gigazine.net/news/20250718&#45;amazing&#45;hand/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T10:18:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "2025年7月18日のヘッドラインニュース",
+      "link": "https://gigazine.net/news/20250718&#45;headline/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T10:00:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "頂き女子に捨てられた男性を主人公とする恋愛詐欺撲滅がテーマの中国産ゲーム「情感反诈模拟器」(感情詐欺防止シミュレーター)が女性に虐げられてきた中国人男性の憤りの具現化だと話題に",
+      "link": "https://gigazine.net/news/20250718&#45;game&#45;male&#45;resentment&#45;china/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T06:30:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "エミュレーターゲーム機のプレイレビューを投稿したYouTuberが家宅捜索を受け拘禁刑と罰金に直面",
+      "link": "https://gigazine.net/news/20250718&#45;youtuber&#45;retro&#45;game&#45;emulator&#45;anbernic/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T04:09:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "AMDがVRAM容量32GBのAI処理特化グラボ「Radeon AI PRO R9700」を発売予定、GeForce RTX 5080を超えるAI処理性能",
+      "link": "https://gigazine.net/news/20250718&#45;amd&#45;radeon&#45;ai&#45;pro&#45;r9700/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T03:35:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "Twitter創業者ジャック・ドーシーがオープンプロトコルのNostrでツールを開発するNPO「and Other Stuff」に1000万ドルを投資",
+      "link": "https://gigazine.net/news/20250718&#45;jack&#45;dorsey&#45;invested&#45;and&#45;other&#45;stuff/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T03:30:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "台所のスポンジや歯ブラシなど知らず知らずのうちに細菌の温床になっているもの11選",
+      "link": "https://gigazine.net/news/20250718&#45;everyday&#45;bacterial&#45;hotspots/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T03:25:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "警察庁がランサムウェア「Phobos」「8Base」による暗号化を解除するツールを開発、使い方はこんな感じ",
+      "link": "https://gigazine.net/news/20250718&#45;national&#45;police&#45;agency&#45;phobos/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T03:20:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "Netflixの2025年第2四半期収益は前年同期比16％増の約1兆6500億円、純利益は約45％増の約4600億円",
+      "link": "https://gigazine.net/news/20250718&#45;netflix&#45;earning&#45;2025q2/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T03:10:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "AMDがモンスター級CPU「Ryzen Threadripper PRO 9000 WX」シリーズの詳細を発表、Zen 5採用＆最大96コア・192スレッドでIntel Xeonを打ち負かしAI性能の高さをアピール",
+      "link": "https://gigazine.net/news/20250718&#45;amd&#45;ryzen&#45;threadripper&#45;pro&#45;9000&#45;wx/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T03:06:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "Anthropicが投資家向けの「Claude for Financial Services」をリリース、データプラットフォームや業界プロバイダーと統合し包括的な金融情報にリアルタイムでアクセス可能",
+      "link": "https://gigazine.net/news/20250718&#45;claude&#45;for&#45;financial&#45;services/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T03:05:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "Uberがロボタクシー業界に再度本格参入、EVメーカーと提携して6年間で2万台以上のロボタクシーを配備予定",
+      "link": "https://gigazine.net/news/20250718&#45;uber&#45;robotaxi&#45;partner/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T02:36:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "Mistral AIのLe Chatに「Deep Research」モード・多言語推論・高度な画像編集機能などが追加される",
+      "link": "https://gigazine.net/news/20250718&#45;mistral&#45;ai&#45;le&#45;chat&#45;update/",
+      "description": "続きを読む...]]>",
+      "date": "2025-07-18T02:32:00.000Z",
+      "source": "Gigazine",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "Biz &amp; IT &#8211; Ars Technica",
+      "link": "https://arstechnica.com",
+      "description": "",
+      "date": "2025-07-18T19:07:21.000Z",
+      "source": "Ars Technica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Exhausted man defeats AI model in world coding championship",
+      "link": "https://arstechnica.com/ai/2025/07/exhausted-man-defeats-ai-model-in-world-coding-championship/",
+      "description": "",
+      "date": "2025-07-17T22:16:09.000Z",
+      "source": "Ars Technica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Phishers have found a way to downgrade—not bypass—FIDO MFA",
+      "link": "https://arstechnica.com/security/2025/07/no-phishers-are-not-bypassing-fido-mfa-at-least-not-yet-heres-why/",
+      "description": "",
+      "date": "2025-07-17T20:41:52.000Z",
+      "source": "Ars Technica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "GitHub abused to distribute payloads on behalf of malware-as-a-service",
+      "link": "https://arstechnica.com/security/2025/07/malware-as-a-service-caught-using-github-to-distribute-its-payloads/",
+      "description": "",
+      "date": "2025-07-17T17:12:01.000Z",
+      "source": "Ars Technica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "ChatGPT’s new AI agent can browse the web and create PowerPoint slideshows",
+      "link": "https://arstechnica.com/information-technology/2025/07/chatgpts-new-ai-agent-can-browse-the-web-and-create-powerpoint-slideshows/",
+      "description": "",
+      "date": "2025-07-19T08:44:57.655Z",
+      "source": "Ars Technica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Google hides secret message in name list of 3,295 AI researchers",
+      "link": "https://arstechnica.com/information-technology/2025/07/why-it-takes-3295-people-to-write-one-google-ai-paper/",
+      "description": "",
+      "date": "2025-07-19T08:44:57.655Z",
+      "source": "Ars Technica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "杨植麟摸着DeepSeek过河",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T01:26:10.000Z",
+      "source": "36氪",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "不回微信、拉黑顾客，向佐曾代言的知名品牌突然被曝“失联”！有消费者称“未交货且不退定金”，监管部门：该公司处于停业状态",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T00:46:18.000Z",
+      "source": "36氪",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "9点1氪｜被订书钉损坏的Switch 2拍出179万天价；239亿深圳地王或被三折贱卖；市场监管总局约谈外卖平台要求理性竞争",
+      "link": "",
+      "description": "",
+      "date": "2025-07-18T11:58:04.000Z",
+      "source": "36氪",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "氪星晚报｜英国石油出售美国陆上风电业务；比亚迪在济南成立销售服务新公司；香港航空推出免费机场接送服务",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:45:01.164Z",
+      "source": "36氪",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "The Robot Report",
+      "link": "https://www.therobotreport.com/",
+      "description": "",
+      "date": "2025-07-18T20:26:30.000Z",
+      "source": "Robotics Business Review",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Reaching new heights: How Brightpick&#8217;s Giraffe can lift warehouse efficiency",
+      "link": "https://www.therobotreport.com/reaching-new-heights-how-brightpicks-giraffe-can-lift-warehouse-efficiency/",
+      "description": "",
+      "date": "2025-07-19T08:45:03.660Z",
+      "source": "Robotics Business Review",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Lucid, Nuro, Uber team up on global robotaxi fleet",
+      "link": "https://www.therobotreport.com/lucid-nuro-uber-team-up-on-global-robotaxi-fleet/",
+      "description": "",
+      "date": "2025-07-19T08:45:03.660Z",
+      "source": "Robotics Business Review",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "&quot;Элементы&quot;: новости науки",
+      "link": "https://elementy.ru/",
+      "description": "&lt;p&gt;Показано, что синтез олигонуклеотидов из абиогенных нуклеотидов — наобходимый этап на пути к реплицирующимся молекулам РНК — хорошо идет в умеренно щелочных условиях при периодическом высушив",
+      "date": "2025-07-14T02:23:51.000Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Аминокислоты помогают нуклеотидам соединяться в короткие молекулы РНК",
+      "link": "https://elementy.ru/novosti_nauki/434362/Aminokisloty_pomogayut_nukleotidam_soedinyatsya_v_korotkie_molekuly_RNK",
+      "description": "&lt;p&gt;Описан древнейший из известных случаев остеомиелита у европейского платеозавра (&lt;i&gt;Plateosaurus trossingensis&lt;/i&gt;), жившего в позднем триасовом периоде. Новый образец, прозванный ",
+      "date": "2025-07-09T12:51:48.000Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "У триасового платеозавра диагностировали запущенный остеомиелит",
+      "link": "https://elementy.ru/novosti_nauki/434361/U_triasovogo_plateozavra_diagnostirovali_zapushchennyy_osteomielit",
+      "description": "&lt;p&gt;Череп древнего человека из Харбина, жившего более 146 тысяч лет назад, заметно отличается от черепов других плейстоценовых &lt;i&gt;Homo&lt;/i&gt;. Выделить из него древнюю ДНК не удалось, но",
+      "date": "2025-07-07T09:17:33.000Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Древний человек из Харбина оказался денисовцем",
+      "link": "https://elementy.ru/novosti_nauki/434360/Drevniy_chelovek_iz_Kharbina_okazalsya_denisovtsem",
+      "description": "&lt;p&gt;Ученые из проекта GenomeAsia 100K, занимающегося исследованиями генетических маркеров у народов Азии и Америки, опубликовали новое большое исследование. Его результаты указывают на относитель",
+      "date": "2025-07-05T08:55:00.000Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Генетических корней американских индейцев в Азии найти не удалось",
+      "link": "https://elementy.ru/novosti_nauki/434359/Geneticheskikh_korney_amerikanskikh_indeytsev_v_Azii_nayti_ne_udalos",
+      "description": "&lt;p&gt;Правое полушарие у большинства животных лучше справляется с анализом угроз, что дает преимущество левому полю зрения в реакции на хищника, приближающегося слева. Анализ видеозаписей спящих ко",
+      "date": "2025-07-03T13:44:44.000Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Кошки предпочитают спать на левом боку",
+      "link": "https://elementy.ru/novosti_nauki/434358/Koshki_predpochitayut_spat_na_levom_boku",
+      "description": "&lt;p&gt;Авторы обнаружили в ДНК маршанции изменчивой (&lt;i&gt;Marchantia polymorpha&lt;/i&gt;) N4-метилцитозин — эпигенетическую модификацию, ранее описанную только у прокариот. Они предполагают, чт",
+      "date": "2025-06-30T07:48:56.000Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "У мха обнаружена эпигенетическая модификация, уникальная для бактерий",
+      "link": "https://elementy.ru/novosti_nauki/434357/U_mkha_obnaruzhena_epigeneticheskaya_modifikatsiya_unikalnaya_dlya_bakteriy",
+      "description": "&lt;p&gt;Австралийские палеонтологи обнаружили почти полный скелет молодого дайамантиназавра (&lt;i&gt;Diamantinasaurus matildae&lt;/i&gt;), среди костей которого был найден кололит, богатый остатками",
+      "date": "2025-06-26T12:49:00.000Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Зауроподы проглатывали растительную пищу не разжевывая",
+      "link": "https://elementy.ru/novosti_nauki/434355/Zauropody_proglatyvali_rastitelnuyu_pishchu_ne_razzhevyvaya",
+      "description": "&lt;p&gt;3 июня 2025 года были опубликованы результаты самого точного измерения магнитного момента мюона, полученные в эксперименте Muon g-2 в Фермилабе. С начала 2000-х казалось, что измерения и выпо",
+      "date": "2025-06-24T07:57:00.000Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Новые измерения аномального магнитного момента мюона согласуются со Стандартной моделью",
+      "link": "https://elementy.ru/novosti_nauki/434353/Novye_izmereniya_anomalnogo_magnitnogo_momenta_myuona_soglasuyutsya_so_Standartnoy_modelyu",
+      "description": "&lt;p&gt;Ученые выделили геномы возбудителей эпидемического возвратного тифа — бактерий рода &lt;i&gt;Borrelia&lt;/i&gt; — из захоронений возрастом от 2100 до 600 лет и на их основе компьютерными мето",
+      "date": "2025-06-22T02:29:00.000Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Возникновению эпидемического возвратного тифа способствовало распространение шерстяной одежды",
+      "link": "https://elementy.ru/novosti_nauki/434354/Vozniknoveniyu_epidemicheskogo_vozvratnogo_tifa_sposobstvovalo_rasprostranenie_sherstyanoy_odezhdy",
+      "description": "&lt;p&gt;Австралийские герпетологи обнаружили мушек-галлицы, висящих на паутине, цепляясь за нее передними лапками. При этом мушки не были добычей паука. Такое поведение галлиц эпизодически наблюдали ",
+      "date": "2025-07-19T08:45:06.227Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Австралийские мушки-галлицы любят отдыхать на паутине",
+      "link": "https://elementy.ru/novosti_nauki/434352/Avstraliyskie_mushki_gallitsy_lyubyat_otdykhat_na_pautine",
+      "description": "",
+      "date": "2025-07-19T08:45:06.227Z",
+      "source": "Элементы",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Karpathy都投的AI实时视频生成模型：直播立即转，无限时长零延迟",
+      "link": "https://www.qbitai.com/2025/07/310686.html",
+      "description": "",
+      "date": "2025-07-19T06:09:57.000Z",
+      "source": "量子位",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "宇树王兴兴，A股上市辅导公告了",
+      "link": "https://www.qbitai.com/2025/07/310628.html",
+      "description": "",
+      "date": "2025-07-18T11:17:28.000Z",
+      "source": "量子位",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "2025世界人工智能大会欢迎参与，7月26-7月28日",
+      "link": "https://www.worldaic.com.cn/",
+      "description": "",
+      "date": "2025-07-18T09:00:38.000Z",
+      "source": "量子位",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "DeepSeek终于丢了开源第一王座，但继任者依然来自中国",
+      "link": "https://www.qbitai.com/2025/07/310560.html",
+      "description": "",
+      "date": "2025-07-18T08:59:43.000Z",
+      "source": "量子位",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "8个月晋升独角兽，欧洲版Cursor估值18亿美元",
+      "link": "https://www.qbitai.com/2025/07/310561.html",
+      "description": "",
+      "date": "2025-07-18T08:32:19.000Z",
+      "source": "量子位",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "7B模型“情商”比肩GPT-4o，腾讯突破开放域RL难题，得分直翻5倍",
+      "link": "https://www.qbitai.com/2025/07/310485.html",
+      "description": "",
+      "date": "2025-07-18T08:06:42.000Z",
+      "source": "量子位",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "百度生成式AI和大模型专利中国第一，全栈创新驱动AI应用领先",
+      "link": "https://www.qbitai.com/2025/07/310481.html",
+      "description": "",
+      "date": "2025-07-18T06:59:42.000Z",
+      "source": "量子位",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "Meta全新AI组织架构曝光，这范儿有点字节",
+      "link": "https://www.qbitai.com/2025/07/310433.html",
+      "description": "",
+      "date": "2025-07-18T05:43:07.000Z",
+      "source": "量子位",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "真热AI！米哈游5亿成立新公司",
+      "link": "https://www.qbitai.com/2025/07/310399.html",
+      "description": "",
+      "date": "2025-07-18T03:17:54.000Z",
+      "source": "量子位",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "IDC评测9家座舱大模型产品 斑马获最多项满分推荐",
+      "link": "https://www.qbitai.com/2025/07/310395.html",
+      "description": "",
+      "date": "2025-07-19T08:45:12.972Z",
+      "source": "量子位",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "IEEE Spectrum",
+      "link": "https://spectrum.ieee.org/",
+      "description": "",
+      "date": "2025-07-19T08:45:14.239Z",
+      "source": "IEEE Spectrum",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Video Friday: Robot Metabolism",
+      "link": "https://spectrum.ieee.org/video-friday-robot-metabolism",
+      "description": "",
+      "date": "2025-07-19T08:45:14.239Z",
+      "source": "IEEE Spectrum",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Why Aren’t You a 10x Engineer?",
+      "link": "https://spectrum.ieee.org/becoming-a-10x-engineer",
+      "description": "",
+      "date": "2025-07-19T08:45:14.239Z",
+      "source": "IEEE Spectrum",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "bioRxiv",
+      "link": "https://www.biorxiv.org",
+      "description": "",
+      "date": "2025-07-19T08:45:19.387Z",
+      "source": "bioRxiv",
+      "language": "english",
+      "category": "論文"
+    },
+    {
+      "title": "Proceedings of the National Academy of Sciences",
+      "link": "https://www.pnas.org/loi/pnas?af=R",
+      "description": "Proceedings of the National Academy of Sciences, Volume 122, Issue 28, July 2025. &lt;br/&gt;",
+      "date": "2025-07-19T08:45:21.196Z",
+      "source": "PNAS",
+      "language": "english_research",
+      "category": "論文"
+    },
+    {
+      "title": "In This Issue",
+      "link": "https://www.pnas.org/doi/abs/10.1073/iti2825122?af=R",
+      "description": "Proceedings of the National Academy of Sciences, Volume 122, Issue 28, July 2025. &lt;br/&gt;SignificanceThe net carbon uptake of North American temperate forests offsets ~20% of the continent’s annua",
+      "date": "2025-07-19T08:45:21.196Z",
+      "source": "PNAS",
+      "language": "english_research",
+      "category": "論文"
+    },
+    {
+      "title": "Declining winter snowpack offsets carbon storage enhancement from growing season warming in northern temperate forest ecosystems",
+      "link": "https://www.pnas.org/doi/abs/10.1073/pnas.2412873122?af=R",
+      "description": "Proceedings of the National Academy of Sciences, Volume 122, Issue 28, July 2025. &lt;br/&gt;SignificanceAccurate characterization of glioma is essential for effective clinical decision-making. Most c",
+      "date": "2025-07-19T08:45:21.196Z",
+      "source": "PNAS",
+      "language": "english_research",
+      "category": "論文"
+    },
+    {
+      "title": "OMT and tensor SVD–based deep learning model for segmentation and predicting genetic markers of glioma: A multicenter study",
+      "link": "https://www.pnas.org/doi/abs/10.1073/pnas.2500004122?af=R",
+      "description": "Proceedings of the National Academy of Sciences, Volume 122, Issue 28, July 2025. &lt;br/&gt;",
+      "date": "2025-07-19T08:45:21.196Z",
+      "source": "PNAS",
+      "language": "english_research",
+      "category": "論文"
+    },
+    {
+      "title": "Noncoding RNAs have a key role in butterfly speciation. What about other flora and fauna?",
+      "link": "https://www.pnas.org/doi/abs/10.1073/pnas.2515930122?af=R",
+      "description": "Proceedings of the National Academy of Sciences, Volume 122, Issue 28, July 2025. &lt;br/&gt;SignificanceFrictional force on bodies in relative motion typically increases with the normal load, indicat",
+      "date": "2025-07-19T08:45:21.196Z",
+      "source": "PNAS",
+      "language": "english_research",
+      "category": "論文"
+    },
+    {
+      "title": "Strong strain dependence of friction in graphene kirigami allows engineering a negative coefficient of friction",
+      "link": "https://www.pnas.org/doi/abs/10.1073/pnas.2501728122?af=R",
+      "description": "Proceedings of the National Academy of Sciences, Volume 122, Issue 28, July 2025. &lt;br/&gt;SignificanceIn his proof of Fermat’s Last Theorem, Wiles pioneered a method for relating two disparate coll",
+      "date": "2025-07-19T08:45:21.196Z",
+      "source": "PNAS",
+      "language": "english_research",
+      "category": "論文"
+    },
+    {
+      "title": "The Eisenstein ideal at prime-square level has constant rank",
+      "link": "https://www.pnas.org/doi/abs/10.1073/pnas.2500729122?af=R",
+      "description": "",
+      "date": "2025-07-19T08:45:21.196Z",
+      "source": "PNAS",
+      "language": "english_research",
+      "category": "論文"
+    },
+    {
+      "title": "New Apollo Earthrise view shows Juice’s RIME working well",
+      "link": "",
+      "description": "",
+      "date": "2025-07-18T10:10:00.000Z",
+      "source": "ESA",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Smile passes gruelling set of tests",
+      "link": "",
+      "description": "",
+      "date": "2025-07-15T14:01:00.000Z",
+      "source": "ESA",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Testing, testing, testing – Let’s Smile (episode 3)",
+      "link": "",
+      "description": "",
+      "date": "2025-07-15T14:00:00.000Z",
+      "source": "ESA",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "You can’t judge a star by its protoplanetary disc",
+      "link": "",
+      "description": "",
+      "date": "2025-07-14T09:00:00.000Z",
+      "source": "ESA",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Webb scratches under Cat’s Paw Nebula for third anniversary",
+      "link": "",
+      "description": "",
+      "date": "2025-07-10T14:00:00.000Z",
+      "source": "ESA",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Clingy planets can trigger own doom, suspect Cheops and TESS",
+      "link": "",
+      "description": "",
+      "date": "2025-07-02T15:00:00.000Z",
+      "source": "ESA",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Plato’s eyes meet brain",
+      "link": "",
+      "description": "",
+      "date": "2025-06-30T08:00:00.000Z",
+      "source": "ESA",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Webb spots a starburst shining in infrared",
+      "link": "",
+      "description": "",
+      "date": "2025-06-30T07:59:00.000Z",
+      "source": "ESA",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Earth tones on Mars",
+      "link": "",
+      "description": "",
+      "date": "2025-06-26T09:00:00.000Z",
+      "source": "ESA",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Solar Orbiter gets world-first views of the Sun’s south pole",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:45:24.852Z",
+      "source": "ESA",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "medrxiv",
+      "link": "http://medrxiv.org",
+      "description": "",
+      "date": "2025-07-19T08:45:29.926Z",
+      "source": "medRxiv",
+      "language": "english_research",
+      "category": "論文"
+    },
+    {
+      "title": "iFood dobrou a taxa de serviço? Plataforma faz mistério sobre cobrança",
+      "link": "https://tecnoblog.net/noticias/ifood-dobrou-a-taxa-de-servico-plataforma-faz-misterio-sobre-cobranca/",
+      "description": "",
+      "date": "2025-07-18T20:16:40.000Z",
+      "source": "Tecnoblog",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "O que é NFT? Saiba como funcionam os tokens não fungíveis",
+      "link": "https://tecnoblog.net/responde/o-que-e-nft-non-fungible-tokens/",
+      "description": "",
+      "date": "2025-07-19T08:45:31.784Z",
+      "source": "Tecnoblog",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "The Quantum Insider",
+      "link": "https://thequantuminsider.com/",
+      "description": "",
+      "date": "2025-07-17T14:43:12.000Z",
+      "source": "The Quantum Daily",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "BQP Raises a $5 Million Oversubscribed Seed Round Following Pilot Agreement with Air Force Research Lab for Quantum-Accelerated Digital Twin Platform",
+      "link": "https://thequantuminsider.com/2025/07/17/bqp-raises-a-5-million-oversubscribed-seed-round-following-pilot-agreement-with-air-force-research-lab-for-quantum-accelerated-digital-twin-platform/",
+      "description": "",
+      "date": "2025-07-17T10:30:00.000Z",
+      "source": "The Quantum Daily",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Oxford Ionics And Iceberg Quantum Partner to Accelerate Fault-Tolerant Quantum Computing",
+      "link": "https://thequantuminsider.com/2025/07/17/oxford-ionics-and-iceberg-quantum-partner-to-accelerate-fault-tolerant-quantum-computing/",
+      "description": "",
+      "date": "2025-07-19T08:45:35.112Z",
+      "source": "The Quantum Daily",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "HRL Laboratories Launches Open-Source Solution for Solid-State Spin Qubits",
+      "link": "https://thequantuminsider.com/2025/07/17/hrl-laboratories-launches-open-source-solution-for-solid-state-spin-qubits/",
+      "description": "",
+      "date": "2025-07-19T08:45:35.112Z",
+      "source": "The Quantum Daily",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "庞若鸣交班陈智峰，苹果发布2025基础模型技术报告",
+      "link": "https://www.jiqizhixin.com/articles/2025-07-18-11",
+      "description": "&lt;![CDATA[我们提出了 PresentAgent，一个能够将长篇文档转化为带解说的演示视频、多模态智能体。现有方法大多局限于生成静态幻灯片或文本摘要，而我们的方案突破了这些限制，能够生成高度同步的视觉内容和语音解说，逼真模拟人类风格的演示。]]&gt;",
+      "date": "2025-07-19T08:45:40.615Z",
+      "source": "机器之心",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "演讲生成黑科技，PresentAgent从文本到演讲视频",
+      "link": "https://www.jiqizhixin.com/articles/2025-07-18-10",
+      "description": "",
+      "date": "2025-07-19T08:45:40.615Z",
+      "source": "机器之心",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "本周看什么 | 最近值得一看的 5+ 部作品",
+      "link": "https://sspai.com/post/101149",
+      "description": "☕️TL;DR近期佳作推荐：[动画]光逝去的夏天、[美剧]巴拉徳、[美剧]永恒之爱、[韩剧]清潭国际高中第二季、[美剧]嗜血法医：杀魔复生几则精彩预告：电影《南京照相馆》新预告、《魔法少女小圆〈魔女之 ...&lt;a href=&#34;https://sspai.com/post/101149&#34; target=&#34;_blank&#34;&gt;查看全文&lt;/a&gt;",
+      "date": "2025-07-18T09:57:17.000Z",
+      "source": "少数派",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "去伪存真：聊聊 AI 智能体的定义、工具选择与避坑",
+      "link": "https://sspai.com/post/101085",
+      "description": "要用智能体？没问题，但你需要充分了解它的定义、适合的场景、存在的问题以及不同路径的选择，而不是被别人忽悠、一拥而上。不然就像当初买了某大模型一体机的机构或者个人一样，Demo 看得热血沸腾，真正用起来感受到的，只有对技术泡沫深深的失望。&lt;a href=&#34;https://sspai.com/post/101085&#34; target=&#34;_blank&#34;&gt;查看全文",
+      "date": "2025-07-18T06:44:42.000Z",
+      "source": "少数派",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "蓟县骑行记：无终子国，幽州渔阳",
+      "link": "https://sspai.com/post/101043",
+      "description": "蓟县最适合的玩耍方式就是自驾，周边把盘山和几个山区里的经典景点都逛一逛看一看，住个山间民宿，晚上去山里观景台在好天气下看看星星，多好。&lt;a href=&#34;https://sspai.com/post/101043&#34; target=&#34;_blank&#34;&gt;查看全文&lt;/a&gt;",
+      "date": "2025-07-18T03:00:00.000Z",
+      "source": "少数派",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "派早报：OpenAI 推出 ChatGPT Agent 等",
+      "link": "https://sspai.com/post/101138",
+      "description": "Wacom 发布全新便携式绘图平板 MovinkPad，AMD 推出锐龙 AI 5 330 处理器等。&lt;a href=&#34;https://sspai.com/post/101138&#34; target=&#34;_blank&#34;&gt;查看全文&lt;/a&gt;",
+      "date": "2025-07-18T00:56:56.000Z",
+      "source": "少数派",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "在手机严重同质化的时代，Nothing 希望帮你找回科技的乐趣",
+      "link": "https://sspai.com/post/101101",
+      "description": "前不久，Nothing 在北京召开了一场别开生面的新品发布会，推出了 Phone (3) 和 Headphone (1)。我派小分队不仅参加了这场发布会，还获得了访问 Nothing 全球品牌及营销总监 Ryan Latham 的宝贵机会。&lt;a href=&#34;https://sspai.com/post/101101&#34; target=&#34;_blank&#34;&gt;查看",
+      "date": "2025-07-17T09:00:00.000Z",
+      "source": "少数派",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "异泽 13 合 1 拓展坞体验：或许是适合普通人一步到位的选择",
+      "link": "https://sspai.com/post/101076",
+      "description": "异泽 13 合 1 的接口也能满足轻中度用户的需求，为笔记本或迷你主机拓展出更多接口，而简约白色的设计也适合不同风格的桌面。&lt;a href=&#34;https://sspai.com/post/101076&#34; target=&#34;_blank&#34;&gt;查看全文&lt;/a&gt;",
+      "date": "2025-07-17T08:00:00.000Z",
+      "source": "少数派",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "一日一技｜曲线救国，让 Android 用上 DoH",
+      "link": "https://sspai.com/post/100874",
+      "description": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...&lt;a href=&#34;https://sspai.com/post/100874&#34; target=&#34;_blank&#34;&gt;查看全文&lt;/a&gt;",
+      "date": "2025-07-17T06:20:59.000Z",
+      "source": "少数派",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "我们如何优化少数派办公室的无线网络",
+      "link": "https://sspai.com/prime/story/office-wireless-network-optimization-1",
+      "description": "本文分上下两篇，基于为少数派办公室优化无线网络的实际经历，介绍了如何分析复杂无线环境中出现的问题，企业级路由和普通家用路由的不同之处，以及优化无线网络的各个常用手段。&lt;p&gt;[......]&lt;/p&gt;&lt;a href=&#34;https://sspai.com/prime/story/office-wireless-network-optimization-1&#34; ",
+      "date": "2025-07-17T03:35:17.000Z",
+      "source": "少数派",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "派早报：特斯拉公布 Model Y L、「网络身份证」正式启用等",
+      "link": "https://sspai.com/post/101107",
+      "description": "AirPods Pro 2 耳机助听器等功能将在更多市场推出、火狐浏览器将关闭中国公司等。&lt;a href=&#34;https://sspai.com/post/101107&#34; target=&#34;_blank&#34;&gt;查看全文&lt;/a&gt;",
+      "date": "2025-07-17T00:25:58.000Z",
+      "source": "少数派",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "查缺补漏时间到，十三张去年你可能错过的华语乐坛好专辑",
+      "link": "https://sspai.com/post/101091",
+      "description": "我找出了（至少）十三张或许你还没听过，且在去年的音乐推荐文章中没有收录的，值得一试的专辑，帮你给最近的华语乐坛查缺补漏。&lt;a href=&#34;https://sspai.com/post/101091&#34; target=&#34;_blank&#34;&gt;查看全文&lt;/a&gt;",
+      "date": "2025-07-16T09:30:00.000Z",
+      "source": "少数派",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "«Эталон» зарегистрировала общий журнал работ через собственную цифровую систему",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_etalon_zaregistrirovala",
+      "description": "",
+      "date": "2025-07-18T15:04:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Москва задумала новое парковочное приложение с льготными тарифами и оплатой через карту «Тройка»",
+      "link": "https://www.cnews.ru/news/top/2025-07-18_moskva_zakazala_razrabotku",
+      "description": "Москва ищет подрядчика для модернизации ИС «Единое парковочное пространство». В рамках доработки системы к 2026 г. у пользователей появится возможность через приложение открывать шлагбаумы своих дворо",
+      "date": "2025-07-18T13:51:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Китай смог. Выпущен неубиваемый смартфон с огромным аккумулятором. Он супердешевый и уже в продаже",
+      "link": "https://www.cnews.ru/news/top/2025-07-18_kitaj_smogsozdan_neubivaemyj",
+      "description": "В КНР начались продажи смартфона Honor X70, оцененного приблизительно в 15 тыс. руб., но при этом оснащенного батареей емкостью почти вдвое больше, чем у iPhone 16 Pro Max – 8300 мАч. Толщина смартфон",
+      "date": "2025-07-18T12:57:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Компания «Факт» завершила техническую оптимизацию платформы «Сантим»",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_kompaniya_fakt_zavershila",
+      "description": "",
+      "date": "2025-07-18T12:44:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Acer выпустила большой игровой монитор Nitro XV323QUM3",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_acer_vypustila_bolshoj_igrovoj",
+      "description": "",
+      "date": "2025-07-18T12:34:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Itpod начала поставки решений Sophgo для мощных ИИ-приложений",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_itpod_nachala_postavki_reshenij",
+      "description": "",
+      "date": "2025-07-18T12:07:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "России больше не нужны программисты. Число вакансий для них стремительно пошли на спад впервые за три года",
+      "link": "https://www.cnews.ru/news/top/2025-07-18_rossii_bolshe_ne_nuzhny_programmisty",
+      "description": "В России наметилось резкое сокращение вакансий для ИТ-специалистов – впервые за три года. В первой половине 2025 г. их было на 20% больше, чем годом ранее. Больше других досталось программистам. Без и",
+      "date": "2025-07-18T11:51:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Директором по информационным технологиям Getblogger назначен Павел Дубков",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_direktorom_po_informatsionnym",
+      "description": "",
+      "date": "2025-07-18T11:40:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Т2 запустила международный VoLTE в новых регионах Европы и Азии",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_t2_zapustila_mezhdunarodnyj",
+      "description": "",
+      "date": "2025-07-18T11:38:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Китайские разработчики увеличили рекламные бюджеты в RuStore в 10 раз в 2025 году",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_kitajskie_razrabotchiki_uvelichili",
+      "description": "",
+      "date": "2025-07-18T11:28:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "«Октава ДМ» выводит на рынок модернизированные радиосистемы с возможностью каскадирования",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_oktava_dm_vyvodit_na_rynok",
+      "description": "",
+      "date": "2025-07-18T11:19:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Фишеры имитируют кадровые документы и крадут корпоративные учётные данные",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_fishery_imitiruyut_kadrovye",
+      "description": "",
+      "date": "2025-07-18T11:12:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "GIS-DOUBLE-X: кибербезопасность на высоких скоростях от компании «Газинформсервис»",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_gis-double-x_kiberbezopasnost",
+      "description": "Доля Linux впервые с 1991 г. перевалила за 5%. Это новое достижение, но пока не для всего мира – отличились лишь США и Германия. В глобальном плане доля Linux на уровне 4,1%, и это откат по сравнению ",
+      "date": "2025-07-18T11:09:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Linux бьет исторические рекорды популярности в развитых странах. Развивающиеся страны бегут от Linux как от огня. Опрос",
+      "link": "https://www.cnews.ru/news/top/2025-07-18_linux_bet_rekordy_populyarnosti",
+      "description": "",
+      "date": "2025-07-18T11:09:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Группа «Т-Технологии» выпустила модель с гибридным режимом рассуждений T-Pro 2.0",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_gruppa_t-tehnologii_vypustila",
+      "description": "",
+      "date": "2025-07-18T11:04:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Подтверждена совместимость Granulex и «Ред Адм»",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_podtverzhdena_sovmestimost",
+      "description": "",
+      "date": "2025-07-18T10:48:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Outsorsa представила решение CMDB Viewer на маркетплейсе SimpleOne",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_outsorsa_predstavila_reshenie",
+      "description": "",
+      "date": "2025-07-18T10:43:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Bell Integrator FabricaONE.AI разработала собственное решение для управления API компаний",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_bell_integrator_fabricaoneai_razrabotala",
+      "description": "Аналитики соцсети Blink посчитали, кого больше среди зумеров в России: пользователей iPhone или Android. Оказывается, юзеров в июле 2025 г. обеих ИТ-платформ ровно по 50%. Среди наиболее популярных мо",
+      "date": "2025-07-18T10:27:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "В России у поколения Z впервые сравнялась популярность iPhone и Android",
+      "link": "https://www.cnews.ru/news/top/2025-07-18_populyarnost_ios_i_android_vpervye",
+      "description": "",
+      "date": "2025-07-18T10:25:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "ТОГУ и отечественный разработчик «Ред Софт» договорились о сотрудничестве",
+      "link": "https://www.cnews.ru/news/line/2025-07-18_togu_i_otechestvennyj_razrabotchik",
+      "description": "",
+      "date": "2025-07-18T10:16:00.000Z",
+      "source": "CNews",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com",
+      "description": "Cointelegraph covers fintech, blockchain and Bitcoin bringing you the latest crypto news and analyses on the future of money.",
+      "date": "2025-07-19T07:11:20.000Z",
+      "source": "Cointelegraph",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "CleanTechnica",
+      "link": "https://cleantechnica.com/",
+      "description": "",
+      "date": "2025-07-19T03:58:42.000Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "JOB FAIR for Employers &#038; Talent in the Solar Industry",
+      "link": "https://cleantechnica.com/2025/07/18/job-fair-for-employers-talent-in-the-solar-industry/",
+      "description": "",
+      "date": "2025-07-19T03:57:01.000Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "These 4 Chinese Automakers Have Higher Gross Profit Margin Than Tesla",
+      "link": "https://cleantechnica.com/2025/07/18/these-4-chinese-automakers-have-higher-gross-profit-margin-than-tesla/",
+      "description": "",
+      "date": "2025-07-19T03:56:13.000Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Support for California High-Speed Rail is surging. So is California’s economic capacity to finish the project.",
+      "link": "https://cleantechnica.com/2025/07/18/support-for-california-high-speed-rail-is-surging-so-is-californias-economic-capacity-to-finish-the-project/",
+      "description": "",
+      "date": "2025-07-19T03:55:12.000Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Violeta Sanchez i Nogue’s Journey to Bioprocess Development at NREL",
+      "link": "https://cleantechnica.com/2025/07/18/violeta-sanchez-i-nogues-journey-to-bioprocess-development-at-nrel/",
+      "description": "",
+      "date": "2025-07-19T03:54:46.000Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Tax Credits Drive Carbon Capture Deployment in US EIA Annual Energy Outlook",
+      "link": "https://cleantechnica.com/2025/07/18/tax-credits-drive-carbon-capture-deployment-in-us-eia-annual-energy-outlook/",
+      "description": "",
+      "date": "2025-07-19T03:46:40.000Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "In Trump’s &#8220;Big Beautiful&#8221; Bill, Ugly Contradictions &#038; Giveaways to Oil &#038; Gas Industry",
+      "link": "https://cleantechnica.com/2025/07/18/in-trumps-big-beautiful-bill-ugly-contradictions-giveaways-to-oil-gas-industry/",
+      "description": "",
+      "date": "2025-07-19T02:39:33.000Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Solar &#038; Storage Stability: How America Can Maintain Energy Security Through Severe Weather",
+      "link": "https://cleantechnica.com/2025/07/18/solar-storage-stability-how-america-can-maintain-energy-security-through-severe-weather/",
+      "description": "",
+      "date": "2025-07-19T01:59:35.000Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Tesla Autopilot Crash Trial — Highlights from Opening Days",
+      "link": "https://cleantechnica.com/2025/07/18/tesla-autopilot-crash-trial-highlights-from-opening-days/",
+      "description": "",
+      "date": "2025-07-19T08:45:52.472Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "U.S. Solar Manufacturers File New Trade Petitions to Uphold Trade Laws, Safeguard Domestic Manufacturing Jobs, Investments",
+      "link": "https://cleantechnica.com/2025/07/18/u-s-solar-manufacturers-file-new-trade-petitions-to-uphold-trade-laws-safeguard-domestic-manufacturing-jobs-investments/",
+      "description": "",
+      "date": "2025-07-19T08:45:52.472Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "NYCEDC to Unveil New York City&#8217;s First Freight-Focused Electric Vehicle Charging Facility with the Hunts Point Food Distribution Center in the Bronx",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:45:52.472Z",
+      "source": "CleanTechnica",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Actualités",
+      "link": "https://www.01net.com",
+      "description": "L’intelligence artificielle générative s’impose comme un outil de production courant sur Steam. En 2025, près de 8 000 jeux déclarent l’utiliser, soit une envolée de 681 % en un an.]]>",
+      "date": "2025-07-18T16:00:53.000Z",
+      "source": "01net",
+      "language": "french",
+      "category": "general"
+    },
+    {
+      "title": "L’IA générative se banalise sur Steam&#160;: un jeu sur cinq y a recours",
+      "link": "https://www.01net.com/actualites/ia-generative-steam-un-jeu-sur-cinq-recours.html",
+      "description": "Google vient de lever le voile sur une vaste cyberattaque en cours. L'attaque, reposant sur des boitiers réseau en fin de vie, permet de voler les données sensibles et confidentielles des entreprises ",
+      "date": "2025-07-18T15:00:17.000Z",
+      "source": "01net",
+      "language": "french",
+      "category": "general"
+    },
+    {
+      "title": "Cyberattaque en cours&#160;: Google découvre une vaste campagne de pillage de données",
+      "link": "https://www.01net.com/actualites/cyberattaques-cours-google-decouvre-vaste-campagne-pillage-donnees.html",
+      "description": "L’heure des manifestations a sonné au sein de l’agence spatiale américaine face au projet de coupe budgétaire et aux séries de licenciements. La Maison-Blanche est en train de bouleverser la NASA, et ",
+      "date": "2025-07-18T14:00:13.000Z",
+      "source": "01net",
+      "language": "french",
+      "category": "general"
+    },
+    {
+      "title": "56 ans après Apollo 11, la révolte a sonné à la NASA&#160;: manifestation ce dimanche",
+      "link": "https://www.01net.com/actualites/56-ans-apres-apollo-11-nasa-revolte-manifestation.html",
+      "description": "Des effets spéciaux utilisés dans la série proposée par la plateforme américaine, qu’elle a produite, ont été générés par l’intelligence artificielle. Le programme est disponible à la demande depuis l",
+      "date": "2025-07-18T13:26:44.000Z",
+      "source": "01net",
+      "language": "french",
+      "category": "general"
+    },
+    {
+      "title": "Netflix l’admet, sa série «&#160;L’Eternaute&#160;» est partiellement générée par IA",
+      "link": "https://www.01net.com/actualites/netflix-admet-serie-leternaute-generee-par-intelligence-artificielle.html",
+      "description": "Non, c'est non. Meta, la maison mère de WhatsApp qui a lancé le modèle d'IA générative Llama, annonce qu'elle ne signera pas le code de bonnes pratiques destiné aux développeurs d'IA génératives, publ",
+      "date": "2025-07-18T12:47:04.000Z",
+      "source": "01net",
+      "language": "french",
+      "category": "general"
+    },
+    {
+      "title": "Le code de bonnes pratiques de l&#8217;AI Act&#160;? Meta confirme qu&#8217;il ne le signera pas",
+      "link": "https://www.01net.com/actualites/le-code-de-bonnes-pratiques-de-lai-act-meta-confirme-quil-ne-le-signera-pas.html",
+      "description": "",
+      "date": "2025-07-19T08:45:59.293Z",
+      "source": "01net",
+      "language": "french",
+      "category": "general"
+    },
+    {
+      "title": "Apple porte plainte contre l&#8217;informateur qui a dévoilé iOS 26 avant l&#8217;heure",
+      "link": "https://www.01net.com/actualites/apple-porte-plainte-contre-linformateur-qui-a-devoile-ios-26-avant-lheure.html",
+      "description": "",
+      "date": "2025-07-19T08:45:59.293Z",
+      "source": "01net",
+      "language": "french",
+      "category": "general"
+    },
+    {
+      "title": "البوابة التقنية",
+      "link": "https://aitnews.com/",
+      "description": "رفعت شركة آبل دعوى قضائية على المسرب المعروف جون بروسير، متهمةً إياه بسرقة أسرار تجارية تتعلق بتصميم نظام التشغيل iOS 26 قبل الكشف الرسمي عنه خلال مؤتمر المطورين WWDC 2025. وبحسب ما ورد في ملف الدعوى،",
+      "date": "2025-07-18T20:59:27.000Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "آبل تكشف ملابسات نشر تسريبات نظام iOS 26 قبل إعلانه الرسمي",
+      "link": "https://aitnews.com/2025/07/19/%d8%a2%d8%a8%d9%84-%d8%aa%d9%83%d8%b4%d9%81-%d9%85%d9%84%d8%a7%d8%a8%d8%b3%d8%a7%d8%aa-%d9%86%d8%b4%d8%b1-%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d9%86%d8%b8%d8%a7%d9%85-ios-26-%d9%82%d8%a8%d9%84/",
+      "description": "صعّدت LibreOffice، صاحبة البرامج المكتبية المفتوحة المصدر، هجومها مجددًا على مايكروسوفت، متهمة إياها بـ&#8221;تعمد&#8221; استخدام تنسيقات ملفات معقدة بنحو غير ضروري في مستندات تطبيقات حزمة &#8220;أوفي",
+      "date": "2025-07-18T20:55:15.000Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "LibreOffice تتهم مايكروسوفت بتعمد استخدام تنسيقات معقدة للملفات",
+      "link": "https://aitnews.com/2025/07/19/libreoffice-%d8%aa%d8%aa%d9%87%d9%85-%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa-%d8%a8%d8%aa%d8%b9%d9%85%d8%af-%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%aa%d9%86%d8%b3%d9%8a/",
+      "description": "في ظل تصاعد التوتر بين موسكو وشركات التكنولوجيا الغربية، حذّر مسؤول روسي بارز من أن تطبيق واتساب التابع لشركة ميتا بات على وشك الخروج من السوق الروسية، ضمن توجه رسمي لحظر البرمجيات المرتبطة &#8220;بال",
+      "date": "2025-07-17T23:36:53.000Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "بعد فيسبوك وإنستاجرام.. روسيا تهدد بحظر واتساب",
+      "link": "https://aitnews.com/2025/07/19/%d8%a8%d8%b9%d8%af-%d9%81%d9%8a%d8%b3%d8%a8%d9%88%d9%83-%d8%b1%d9%88%d8%b3%d9%8a%d8%a7-%d8%aa%d9%87%d8%af%d8%af-%d8%a8%d8%ad%d8%b8%d8%b1-%d9%88%d8%a7%d8%aa%d8%b3%d8%a7%d8%a8/",
+      "description": "كشفت شركة Mistral AI الفرنسية المتخصصة في مجال الذكاء الاصطناعي عن تحديث ضخم لروبوت الدردشة الخاص بها Le Chat يتضمن مزايا جديدة تهدف إلى تعزيز قدراته في معالجة الأسئلة المعقدة والتفاعل الطبيعي مع المس",
+      "date": "2025-07-17T23:36:17.000Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "Le Chat يفكر ويتكلم ويرسم.. Mistral تطلق تحديثًا ضخمًا لروبوتها",
+      "link": "https://aitnews.com/2025/07/18/le-chat-%d9%8a%d9%81%d9%83%d8%b1-%d9%88%d9%8a%d8%aa%d9%83%d9%84%d9%85-%d9%88%d9%8a%d8%b1%d8%b3%d9%85-mistral-%d8%aa%d8%b7%d9%84%d9%82-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab%d9%8b%d8%a7-%d8%b6%d8%ae%d9%85/",
+      "description": "تستعد شركة سامسونج لإطلاق أول هاتف ذكي قابل للطي الثلاثي في وقت لاحق من عام 2025، ويُتوقع أن يحمل اسم Galaxy Z Trifold، مع ترجيحات بالكشف عنه خلال شهر أكتوبر، وفقًا لتسريبات جديدة. ولم يظهر الهاتف في ",
+      "date": "2025-07-17T22:55:44.000Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "سامسونج تعتزم إطلاق هاتف ثلاثي الطي نهاية العام الجاري",
+      "link": "https://aitnews.com/2025/07/18/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d8%b9%d8%aa%d8%b2%d9%85-%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%87%d8%a7%d8%aa%d9%81-%d8%ab%d9%84%d8%a7%d8%ab%d9%8a-%d8%a7%d9%84%d8%b7%d9%8a-%d9%86%d9%87/",
+      "description": "أعلنت شركة أدوبي تحديثات جديدة لتطبيقها القائم على الذكاء الاصطناعي Firefly، وهي تركز على تعزيز أدوات تحرير الفيديو، وذلك في إطار سلسلة من التحديثات السريعة التي بدأتها منذ إعادة تصميم التطبيق في أبري",
+      "date": "2025-07-17T22:30:53.000Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "أدوبي تتيح إنشاء مؤثرات صوتية بالذكاء الاصطناعي عبر Firefly",
+      "link": "https://aitnews.com/2025/07/18/%d8%a3%d8%af%d9%88%d8%a8%d9%8a-%d8%aa%d8%aa%d9%8a%d8%ad-%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%85%d8%a4%d8%ab%d8%b1%d8%a7%d8%aa-%d8%b5%d9%88%d8%aa%d9%8a%d8%a9-%d8%a8%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1/",
+      "description": "كشفت شركة OpenAI عن أداة جديدة تحمل اسم ChatGPT Agent، وهي تشكّل نقلة نوعية في عالم وكلاء الذكاء الاصطناعي، إذ تتيح للمستخدمين تنفيذ مهام معقدة ومتعددة الخطوات عبر حاسوب افتراضي بالكامل تديره الأداة ن",
+      "date": "2025-07-17T13:25:51.000Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "ChatGPT Agen.. أداة جديدة تتحكم في الحاسوب وتنجز المهام نيابةً عن المستخدم",
+      "link": "https://aitnews.com/2025/07/18/chatgpt-agen-%d8%a3%d8%af%d8%a7%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%aa%d8%aa%d8%ad%d9%83%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d8%ad%d8%a7%d8%b3%d9%88%d8%a8-%d9%88%d8%aa%d9%86%d8%ac%d8%b2-%d8%a7/",
+      "description": "تواجه مستعمرات النحل، الشريك الأساسي في نظامنا الغذائي العالمي، أزمة وجودية تهدد بقاءها، وبقاء العديد من المحاصيل الزراعية التي نعتمد عليها، وفي مواجهة هذه الأزمة تقدم شركة (Beewise) حلًا جذريًا ومبتك",
+      "date": "2025-07-16T22:51:18.000Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "كيف يساهم الذكاء الاصطناعي في حماية النحل وإنقاذ مستقبلنا الغذائي؟",
+      "link": "https://aitnews.com/2025/07/17/%d9%83%d9%8a%d9%81-%d9%8a%d8%b3%d8%a7%d9%87%d9%85-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d9%81%d9%8a-%d8%ad%d9%85%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84/",
+      "description": "تعتزم شركة OpenAI اقتطاع عمولة من المبيعات التي تتم عبر روبوت ChatGPT، في خطوة تهدف إلى تعزيز قدراتها في مجال التجارة الإلكترونية وتنويع مصادر الإيرادات، وفقًا لما ذكرته صحيفة فايننشال تايمز البريطاني",
+      "date": "2025-07-16T22:47:07.000Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "ChatGPT يدخل عالم التجارة الإلكترونية بميزة الشراء المباشر",
+      "link": "https://aitnews.com/2025/07/17/chatgpt-%d9%8a%d8%af%d8%ae%d9%84-%d8%b9%d8%a7%d9%84%d9%85-%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a%d8%a9-%d8%a8%d9%85%d9%8a%d8%b2%d8%a9/",
+      "description": "بدأت جوجل طرح ميزة جديدة داخل صفحة &#8220;اكتشف Discover&#8221; في تطبيق البحث التابع لها Google Search، تتيح عرض ملخصات إخبارية ينشئها الذكاء الاصطناعي بدلًا من العناوين التقليدية والإشعارات الخاصة ب",
+      "date": "2025-07-19T08:46:08.550Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "جوجل تُطلق ميزة تلخيص الأخبار بالذكاء الاصطناعي",
+      "link": "https://aitnews.com/2025/07/17/%d8%ac%d9%88%d8%ac%d9%84-%d8%aa%d9%8f%d8%b7%d9%84%d9%82-%d9%85%d9%8a%d8%b2%d8%a9-%d8%aa%d9%84%d8%ae%d9%8a%d8%b5-%d8%a7%d9%84%d8%a3%d8%ae%d8%a8%d8%a7%d8%b1-%d8%a8%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1/",
+      "description": "",
+      "date": "2025-07-19T08:46:08.550Z",
+      "source": "AITnews",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "Punto Informatico",
+      "link": "https://www.punto-informatico.it/",
+      "description": "",
+      "date": "2025-07-19T07:34:34.000Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "Altra novità dal digitale terrestre: cosa devi fare con la tua TV?",
+      "link": "https://www.punto-informatico.it/altra-novita-digitale-terrestre-cosa-devi-fare-con-tua-tv/",
+      "description": "",
+      "date": "2025-07-19T07:30:25.000Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "Gli Apple AirPods 4 ANC tornano al prezzo del Prime Day",
+      "link": "https://www.punto-informatico.it/gli-apple-airpods-4-anc-tornano-prezzo-prime-day/",
+      "description": "",
+      "date": "2025-07-19T07:18:39.000Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "Tutti i migliori chatbot in un solo posto su Poe, non solo ChatGPT",
+      "link": "https://www.punto-informatico.it/tutti-i-migliori-chatbot-in-un-solo-posto-su-poe-non-solo-chatgpt/",
+      "description": "",
+      "date": "2025-07-18T17:18:15.000Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "Questa VPN è quasi regalata: Private Internet Access a solo 1,99 euro al mese",
+      "link": "https://www.punto-informatico.it/questa-vpn-e-quasi-regalata-private-internet-access-a-solo-199-euro-al-mese/",
+      "description": "",
+      "date": "2025-07-18T16:40:42.000Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "Backup di foto e video? Dimentica l&#8217;abbonamento con pCloud: fino a 700€ di sconto",
+      "link": "https://www.punto-informatico.it/backup-di-foto-e-video-dimentica-labbonamento-con-pcloud-fino-a-700e-di-sconto/",
+      "description": "",
+      "date": "2025-07-18T15:49:42.000Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "AI Act: Meta non firmerà il codice di condotta",
+      "link": "https://www.punto-informatico.it/ai-act-meta-non-firmera-codice-condotta/",
+      "description": "",
+      "date": "2025-07-18T15:30:41.000Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "GhostContainer: backdoor per Microsoft Exchange",
+      "link": "https://www.punto-informatico.it/ghostcontainer-backdoor-microsoft-exchange/",
+      "description": "",
+      "date": "2025-07-18T15:29:13.000Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "5 Prompt di ChatGPT per trasformare gli hobby in vere passioni",
+      "link": "https://www.punto-informatico.it/5-prompt-chatgpt-trasformare-hobby-vere-passioni/",
+      "description": "",
+      "date": "2025-07-18T15:21:48.000Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "Stop agli aumenti in bolletta: con Engie blocchi i prezzi di luce e gas per un anno intero",
+      "link": "https://www.punto-informatico.it/stop-agli-aumenti-in-bolletta-con-engie-blocchi-i-prezzi-di-luce-e-gas-per-un-anno-intero/",
+      "description": "",
+      "date": "2025-07-19T08:46:29.074Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "Ami il fai-da-te? Questo set non può mancare tra la tua attrezzatura",
+      "link": "https://www.punto-informatico.it/ami-il-fai-da-te-questo-set-non-puo-mancare-tra-la-tua-attrezzatura/",
+      "description": "",
+      "date": "2025-07-19T08:46:29.074Z",
+      "source": "Punto Informatico",
+      "language": "others",
+      "category": "general"
+    },
+    {
+      "title": "Factor This™",
+      "link": "https://www.renewableenergyworld.com/",
+      "description": "",
+      "date": "2025-07-18T15:36:50.000Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Factor This finance and project development roundup: DESRI, Geronimo Power, MN8 Energy, Sol Systems",
+      "link": "https://www.renewableenergyworld.com/energy-business/energy-finance/factor-this-finance-and-project-development-roundup-desri-geronimo-power-mn8-energy-sol-systems/",
+      "description": "",
+      "date": "2025-07-17T21:30:09.000Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Uncertainty killed these clean energy projects – This Week in Cleantech",
+      "link": "https://www.renewableenergyworld.com/podcasts/uncertainty-killed-these-clean-energy-projects-this-week-in-cleantech/",
+      "description": "",
+      "date": "2025-07-17T19:17:36.000Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "&#8216;A game of Tetris&#8217; &#8211; how can utilities spread the load of EV charging?",
+      "link": "https://www.renewableenergyworld.com/electric-vehicle/ev-charging/a-game-of-tetris-how-can-utilities-spread-the-load-of-ev-charging/",
+      "description": "",
+      "date": "2025-07-17T19:07:46.000Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "California farmers identify a hot new cash crop: Solar power",
+      "link": "https://www.renewableenergyworld.com/solar/california-farmers-identify-a-hot-new-cash-crop-solar-power/",
+      "description": "",
+      "date": "2025-07-17T17:44:08.000Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Cuts to wind and solar may undermine GOP’s promise of ‘energy dominance,’ critics say",
+      "link": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/cuts-to-wind-and-solar-may-undermine-gops-promise-of-energy-dominance-critics-say/",
+      "description": "",
+      "date": "2025-07-16T17:33:26.000Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "What&#8217;s keeping Midwest utility regulators up at night?",
+      "link": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/whats-keeping-midwest-utility-regulators-up-at-night/",
+      "description": "",
+      "date": "2025-07-16T16:01:38.000Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Texas co-op seeking half a gigawatt of dispatchable capacity by 2028",
+      "link": "https://www.renewableenergyworld.com/power-grid/distribution/texas-co-op-seeking-half-a-gigawatt-of-dispatchable-capacity-by-2028/",
+      "description": "",
+      "date": "2025-07-16T13:51:55.000Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "New tariffs inbound? US investigating security of imported drones, polysilicon",
+      "link": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/new-tariffs-inbound-us-investigating-security-of-imported-drones-polysilicon/",
+      "description": "",
+      "date": "2025-07-15T22:06:35.000Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Here&#8217;s how utilities are using AI to improve visibility at the grid edge and benefit ratepayers",
+      "link": "https://www.renewableenergyworld.com/power-grid/smart-grids/heres-how-utilities-are-using-ai-to-improve-visibility-at-the-grid-edge-and-benefit-ratepayers/",
+      "description": "",
+      "date": "2025-07-19T08:46:31.084Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "&#8216;AI is not a magic wand&#8217;: DTECH Midwest kicks off with artificial intelligence front of mind",
+      "link": "https://www.renewableenergyworld.com/power-grid/ai-is-not-a-magic-wand-dtech-midwest-kicks-off-with-artificial-intelligence-front-of-mind/",
+      "description": "",
+      "date": "2025-07-19T08:46:31.084Z",
+      "source": "Renewable Energy World",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "The climate change and gender equality connection: How to support underfunded women-owned business",
+      "link": "https://e27.co/the-climate-change-and-gender-equality-connection-how-to-support-underfunded-women-owned-business-20240222/",
+      "description": "",
+      "date": "2025-07-19T04:00:06.000Z",
+      "source": "e27",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Change is hard, so here are the 8 steps to make sure you’ll succeed",
+      "link": "https://e27.co/change-is-hard-heres-the-8-steps-to-make-sure-youll-succeed-20191024/",
+      "description": "",
+      "date": "2025-07-19T08:46:33.534Z",
+      "source": "e27",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "硬派越野配华为智驾，东风猛士 817 预售 32.99 万元起",
+      "link": "https://www.ifanr.com/1631346?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+      "description": "",
+      "date": "2025-07-18T09:52:06.000Z",
+      "source": "爱范儿",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "当 AI 变成生产力工具，我却开始渴望一次真正的对话",
+      "link": "https://www.ifanr.com/1631263?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+      "description": "",
+      "date": "2025-07-19T08:46:36.323Z",
+      "source": "爱范儿",
+      "language": "chinese",
+      "category": "general"
+    },
+    {
+      "title": "Tin nhanh VnExpress - Đọc báo, tin tức online 24h",
+      "link": "https://vnexpress.net/rss/khoa-hoc-cong-nghe.rss",
+      "description": "Các vụ nổ tên lửa Starship của SpaceX có thể trút cơn mưa mảnh vỡ xuống quần đảo Hawaii, đe dọa hệ sinh thái biển với nhiều hậu quả khó lường.]]>",
+      "date": "2025-07-19T07:00:00.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Hawaii có thể hứng cơn mưa mảnh vỡ tên lửa SpaceX",
+      "link": "https://vnexpress.net/hawaii-co-the-hung-con-mua-manh-vo-ten-lua-spacex-4916219.html",
+      "description": "Robot Walker S2 của công ty UBTech Robotics quay trở lại điểm sạc và thay pin khi sắp cạn điện, nhờ đó nó có thể hoạt động liên tục với sự giám sát tối thiểu.]]>",
+      "date": "2025-07-19T05:05:24.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Robot hình người đầu tiên trên thế giới tự thay pin",
+      "link": "https://vnexpress.net/robot-hinh-nguoi-dau-tien-tren-the-gioi-tu-thay-pin-4916227.html",
+      "description": "Dự thảo Luật Giáo dục đại học sửa đổi đề xuất cho phép các trường tự quyết chế độ đãi ngộ, bổ nhiệm, sử dụng nhân tài khoa học trong và ngoài nước.]]>",
+      "date": "2025-07-19T03:09:37.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Đề xuất trao quyền cho đại học tự quyết đãi ngộ nhà khoa học",
+      "link": "https://vnexpress.net/de-xuat-trao-quyen-cho-dai-hoc-tu-quyet-dai-ngo-nha-khoa-hoc-4916042.html",
+      "description": "Các chuyên gia đánh giá mỗi sản phẩm cần \"hộ chiếu số\" chứa thông tin từ gieo trồng đến thu hoạch để truy xuất nguồn gốc, không chỉ dán nhãn.]]>",
+      "date": "2025-07-19T03:00:00.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "'Truy xuất nguồn gốc không chỉ là gắn chip, dán tem'",
+      "link": "https://vnexpress.net/truy-xuat-nguon-goc-khong-chi-la-gan-chip-dan-tem-4916085.html",
+      "description": "Ngành công nghiệp trí tuệ nhân tạo (AI) đang tìm cách để giảm tiêu thụ năng lượng thông qua việc cải thiện hệ thống làm mát, sử dụng chip máy tính hiệu quả hơn và lập trình thông minh hơn.]]>",
+      "date": "2025-07-19T01:00:00.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Nỗ lực giải cơn khát năng lượng của AI",
+      "link": "https://vnexpress.net/no-luc-giai-con-khat-nang-luong-cua-ai-4915278.html",
+      "description": "OpenAI bổ sung tác nhân AI mới trong ChatGPT với khả năng giúp người dùng suy nghĩ và làm nhiệm vụ như sắp xếp lịch hẹn, tạo bài thuyết trình.]]>",
+      "date": "2025-07-18T22:00:00.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Tác nhân ChatGPT hành động thay người dùng",
+      "link": "https://vnexpress.net/tac-nhan-chatgpt-hanh-dong-thay-nguoi-dung-4915858.html",
+      "description": "Công ty Skydweller Aero và Thales hợp tác phát triển drone năng lượng mặt trời có khả năng bay suốt 90 ngày và radar thông minh giúp cách mạng hóa theo dõi dài hạn.]]>",
+      "date": "2025-07-18T17:00:00.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Drone năng lượng mặt trời có thể bay liên tục 90 ngày",
+      "link": "https://vnexpress.net/drone-nang-luong-mat-troi-co-the-bay-lien-tuc-90-ngay-4915273.html",
+      "description": "TCL C8K nổi bật với tấm nền QD-Mini LED cao cấp với hàng nghìn vùng làm mờ cục bộ, thiết kế viền siêu mỏng ZeroBorder và hệ thống loa hàng hiệu Bang &amp; Olufsen.]]>",
+      "date": "2025-07-18T22:58:40.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "TCL C8K - TV Mini LED với loa hàng hiệu",
+      "link": "https://vnexpress.net/tcl-c8k-tv-mini-led-voi-loa-hang-hieu-4915393.html",
+      "description": "Mẫu máy bay vũ trụ mới tái sử dụng hoàn toàn của ESA có thể cất cánh từ đường băng và bay ở tốc độ gấp 5 lần vận tốc âm thanh.]]>",
+      "date": "2025-07-18T12:00:00.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Châu Âu phát triển máy bay vũ trụ siêu thanh Mach 5",
+      "link": "https://vnexpress.net/chau-au-phat-trien-may-bay-vu-tru-sieu-thanh-mach-5-4915740.html",
+      "description": "Meta đưa ra lời xin lỗi về bản dịch tự động tiếng Kannada sang tiếng Anh trên Facebook và Instagram liên quan đến Siddaramaiah, Thủ hiến bang Karnataka, Ấn Độ.]]>",
+      "date": "2025-07-18T06:49:13.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Meta xin lỗi vì mô hình AI dịch nhầm Thủ hiến Ấn Độ 'qua đời'",
+      "link": "https://vnexpress.net/meta-xin-loi-vi-mo-hinh-ai-dich-nham-thu-hien-an-do-qua-doi-4915950.html",
+      "description": "Những dòng sông ngắn nhất thế giới nằm ở nhiều nước khác nhau, từ Indonesia đến Mỹ, với chiều dài từ vài chục tới hơn trăm mét.]]>",
+      "date": "2025-07-18T04:31:03.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Những dòng sông ngắn nhất thế giới",
+      "link": "https://vnexpress.net/nhung-dong-song-ngan-nhat-the-gioi-4914318.html",
+      "description": "Google triển khai tính năng cho phép AI thay mặt người dùng gọi điện cho cửa hàng, doanh nghiệp để cập nhật thông tin.]]>",
+      "date": "2025-07-18T02:07:04.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "AI của Google gọi điện thay mặt người dùng",
+      "link": "https://vnexpress.net/ai-cua-google-goi-dien-thay-mat-nguoi-dung-4915648.html",
+      "description": "Camera của Galaxy Z Fold7 được nâng cấp mạnh với công nghệ ProVisual Engine giúp cải thiện màu sắc, độ chi tiết, cùng khả năng chụp thiếu sáng.]]>",
+      "date": "2025-07-17T23:00:00.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Ảnh chụp thử bằng Galaxy Z Fold7",
+      "link": "https://vnexpress.net/anh-chup-thu-bang-galaxy-z-fold7-4914289.html",
+      "description": "41 robot tại thành phố Thâm Quyến tự động lên tàu điện ngầm và xuống các ga có cửa hàng tiện lợi để giao hàng.]]>",
+      "date": "2025-07-17T22:00:00.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Robot giao hàng Trung Quốc tự động đi tàu điện ngầm",
+      "link": "https://vnexpress.net/robot-giao-hang-trung-quoc-tu-dong-di-tau-dien-ngam-4915534.html",
+      "description": "Thời tiết nắng nóng làm tăng nguy cơ điện thoại quá nhiệt, ảnh hưởng đến pin, hiệu năng và trải nghiệm người dùng nếu không xử lý tốt.]]>",
+      "date": "2025-07-17T17:00:00.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Cách bảo vệ điện thoại khỏi quá nhiệt vào mùa hè",
+      "link": "https://vnexpress.net/cach-bao-ve-dien-thoai-khoi-qua-nhiet-vao-mua-he-4915199.html",
+      "description": "Bộ Khoa học và Công nghệ đề nghị Google hỗ trợ Việt Nam xây dựng các phòng thí nghiệm AI và công nghệ lượng tử, đồng thời tham vấn về chiến lược phát triển AI.]]>",
+      "date": "2025-07-17T12:56:38.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Google hợp tác với Việt Nam về phát triển khoa học công nghệ",
+      "link": "https://vnexpress.net/google-hop-tac-voi-viet-nam-ve-phat-trien-khoa-hoc-cong-nghe-4915655.html",
+      "description": "Cuộc chiến công nghệ màn hình giữa Samsung và BOE có thể khiến một số mẫu iPhone 15 và 16 bị cấm bán ở Mỹ.]]>",
+      "date": "2025-07-17T10:20:02.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Một số iPhone có thể bị cấm bán ở Mỹ",
+      "link": "https://vnexpress.net/mot-so-iphone-co-the-bi-cam-ban-o-my-4915238.html",
+      "description": "Google bắt đầu triển khai việc tóm tắt nội dung bằng AI trong dịch vụ Discover, khiến nhiều website lo lắng sẽ suy giảm lưu lượng truy cập.]]>",
+      "date": "2025-07-17T09:31:14.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Google Discover thêm tính năng tóm tắt AI, đe dọa lưu lượng truy cập",
+      "link": "https://vnexpress.net/google-discover-them-tinh-nang-tom-tat-ai-de-doa-luu-luong-truy-cap-4915231.html",
+      "description": "NWA 16788, thiên thạch Sao Hỏa lớn nhất đã biết, được bán đấu giá 5,3 triệu USD, có thể giúp nghiên cứu, khám phá những bí mật mới về hành tinh đỏ.]]>",
+      "date": "2025-07-17T08:52:15.000Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Thiên thạch sao Hỏa lớn nhất trên Trái Đất giá 5,3 triệu USD",
+      "link": "https://vnexpress.net/thien-thach-sao-hoa-lon-nhat-tren-trai-dat-gia-5-3-trieu-usd-4915272.html",
+      "description": "",
+      "date": "2025-07-19T08:46:40.647Z",
+      "source": "VnExpress Tech",
+      "language": "southeast_asian",
+      "category": "general"
+    },
+    {
+      "title": "Atypon Systems",
+      "link": "http://www.atypon.com",
+      "description": "",
+      "date": "2025-07-19T08:46:41.963Z",
+      "source": "Science Magazine",
+      "language": "english",
+      "category": "論文"
+    },
+    {
+      "title": "Arte rupestre revela traços da origem do Antigo Egito, diz estudo",
+      "link": "https://olhardigital.com.br/2025/07/19/ciencia-e-espaco/arte-rupestre-revela-tracos-da-origem-do-antigo-egito-diz-estudo/",
+      "description": "",
+      "date": "2025-07-19T07:30:00.000Z",
+      "source": "Olhar Digital",
+      "language": "brazilian",
+      "category": "general"
+    },
+    {
+      "title": "Nova reciclagem de baterias alia eficiência e responsabilidade ambiental",
+      "link": "https://olhardigital.com.br/2025/07/19/pro/nova-reciclagem-de-baterias-alia-eficiencia-e-responsabilidade-ambiental/",
+      "description": "",
+      "date": "2025-07-19T07:20:00.000Z",
+      "source": "Olhar Digital",
+      "language": "brazilian",
+      "category": "general"
+    },
+    {
+      "title": "Veja onde assistir à franquia &#8220;Eu Sei o Que Vocês Fizeram no Verão Passado&#8221;",
+      "link": "https://olhardigital.com.br/2025/07/19/cinema-e-streaming/veja-onde-assistir-a-franquia-eu-sei-o-que-voces-fizeram-no-verao-passado/",
+      "description": "",
+      "date": "2025-07-19T08:46:45.164Z",
+      "source": "Olhar Digital",
+      "language": "brazilian",
+      "category": "general"
+    },
+    {
+      "title": "Зачем в железном веке люди сжигали дома: неожиданный ответ ученых",
+      "link": "https://hi-tech.mail.ru/news/130572-zachem-v-zheleznom-veke-lyudi-szhigali-doma-neozhidannyj-otvet-uchenyh/",
+      "description": "",
+      "date": "2025-07-19T07:28:00.000Z",
+      "source": "Hi-Tech Mail.ru",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Созданы клетки, способные омолодить 61 тип тканей",
+      "link": "https://hi-tech.mail.ru/news/130285-sozdanyi-kletki-sposobnyie-omolodit-61-tip-tkanej/",
+      "description": "",
+      "date": "2025-07-19T07:27:26.000Z",
+      "source": "Hi-Tech Mail.ru",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Загадочные объекты намекнули на недавний «взрыв» в центре Галактики",
+      "link": "https://hi-tech.mail.ru/news/130538-zagadochnye-obekty-nameknuli-na-nedavnij-vzryv-v-centre-galaktiki/",
+      "description": "",
+      "date": "2025-07-19T07:18:35.000Z",
+      "source": "Hi-Tech Mail.ru",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Лазерный взрыв создал магнитное поле, подобное нейтронной звезде",
+      "link": "https://hi-tech.mail.ru/news/130529-lazernyj-vzryv-sozdal-magnitnoe-pole-podobnoe-nejtronnoj-zvezde/",
+      "description": "",
+      "date": "2025-07-19T06:27:56.000Z",
+      "source": "Hi-Tech Mail.ru",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Представлен Isambard-AI: суперкомпьютер выполняет 21 квинтиллион операций в секунду",
+      "link": "https://hi-tech.mail.ru/news/130593-isambard-ai-superkompyuter-vypolnyaet-21-kvintillion-operacij-v-sekundu/",
+      "description": "",
+      "date": "2025-07-19T06:22:55.000Z",
+      "source": "Hi-Tech Mail.ru",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Молодежь превратила Minecraft в бизнес: что происходит",
+      "link": "https://hi-tech.mail.ru/news/130592-kto-takoe-pokolenie-minecraft-i-kak-igra-vyrastila-celuyu-pleyadu-biznesmenov/",
+      "description": "",
+      "date": "2025-07-19T06:20:56.000Z",
+      "source": "Hi-Tech Mail.ru",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Датчик гидратации напоминает, что пора пить воду",
+      "link": "https://hi-tech.mail.ru/news/130531-datchik-gidratacii-napominaet-chto-pora-pit-vodu/",
+      "description": "",
+      "date": "2025-07-19T08:46:48.645Z",
+      "source": "Hi-Tech Mail.ru",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "Поврежденную степлером Nintendo Switch 2 продали за 19 млн рублей",
+      "link": "https://hi-tech.mail.ru/news/130591-povrezhdennaya-steplerom-nintendo-switch-2-prodana-na-aukcione-za-250-tys/",
+      "description": "",
+      "date": "2025-07-19T08:46:48.645Z",
+      "source": "Hi-Tech Mail.ru",
+      "language": "russian",
+      "category": "general"
+    },
+    {
+      "title": "AnandTech",
+      "link": "https://www.anandtech.com",
+      "description": "",
+      "date": "2024-08-29T17:00:00.000Z",
+      "source": "AnandTech",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "End of the Road: An AnandTech Farewell",
+      "link": "https://www.anandtech.com/show/21542/end-of-the-road-an-anandtech-farewell",
+      "description": "",
+      "date": "2024-08-29T12:00:00.000Z",
+      "source": "AnandTech",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "The Corsair iCUE LINK TITAN 360 RX RGB AIO Cooler Review: Meticulous, But Pricey",
+      "link": "https://www.anandtech.com/show/21538/the-corsair-icue-link-titan-360-rx-rgb-aio-cooler-review",
+      "description": "",
+      "date": "2025-07-19T08:46:50.547Z",
+      "source": "AnandTech",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "The iBUYPOWER AW4 360 AIO Cooler Review: A Good First Effort",
+      "link": "https://www.anandtech.com/show/21540/the-ibuypower-aw4-aio-cooler-review",
+      "description": "",
+      "date": "2025-07-19T08:46:50.547Z",
+      "source": "AnandTech",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "The Cougar Poseidon Ultra 360 ARGB AIO Cooler Review: Bright Lights, Average Cooling",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:46:50.547Z",
+      "source": "AnandTech",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "AlphaGenome: AI for better understanding the genome",
+      "link": "https://deepmind.google/discover/blog/alphagenome-ai-for-better-understanding-the-genome/",
+      "description": "Introducing a new, unifying DNA sequence model that advances regulatory variant-effect prediction and promises to shed new light on genome function — now available via API.",
+      "date": "2025-06-24T14:00:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Gemini Robotics On-Device brings AI to local robotic devices",
+      "link": "https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
+      "description": "We’re introducing an efficient, on-device robotics model with general-purpose dexterity and fast task adaptation.",
+      "date": "2025-06-17T16:03:39.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Gemini 2.5: Updates to our family of thinking models",
+      "link": "https://deepmind.google/discover/blog/gemini-25-updates-to-our-family-of-thinking-models/",
+      "description": "Explore the latest Gemini 2.5 model updates with enhanced performance and accuracy: Gemini 2.5 Pro now stable, Flash generally available, and the new Flash-Lite in preview.",
+      "date": "2025-06-17T16:01:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "We’re expanding our Gemini 2.5 family of models",
+      "link": "https://deepmind.google/discover/blog/were-expanding-our-gemini-25-family-of-models/",
+      "description": "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.",
+      "date": "2025-06-13T13:30:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Behind “ANCESTRA”: combining Veo with live-action filmmaking",
+      "link": "https://deepmind.google/discover/blog/behind-ancestra-combining-veo-with-live-action-filmmaking/",
+      "description": "We partnered with Darren Aronofsky, Eliza McNitt and a team of more than 200 people to make a film using Veo and live-action filmmaking.",
+      "date": "2025-06-12T15:00:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "How we're supporting better tropical cyclone prediction with AI",
+      "link": "https://deepmind.google/discover/blog/weather-lab-cyclone-predictions-with-ai/",
+      "description": "We’re launching Weather Lab, featuring our experimental cyclone predictions, and we’re partnering with the U.S. National Hurricane Center to support their forecasts and warnings this cyclone season.",
+      "date": "2025-06-03T17:15:47.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Advanced audio dialog and generation with Gemini 2.5",
+      "link": "https://deepmind.google/discover/blog/advanced-audio-dialog-and-generation-with-gemini-25/",
+      "description": "Gemini 2.5 has new capabilities in AI-powered audio dialog and generation.",
+      "date": "2025-05-20T09:45:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Fuel your creativity with new generative media models and tools",
+      "link": "https://deepmind.google/discover/blog/fuel-your-creativity-with-new-generative-media-models-and-tools/",
+      "description": "Introducing Veo 3 and Imagen 4, and a new tool for filmmaking called Flow.",
+      "date": "2025-05-20T09:45:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Our vision for building a universal AI assistant",
+      "link": "https://deepmind.google/discover/blog/our-vision-for-building-a-universal-ai-assistant/",
+      "description": "We’re extending Gemini to become a world model that can make plans and imagine new experiences by simulating aspects of the world.",
+      "date": "2025-05-20T09:45:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Announcing Gemma 3n preview: Powerful, efficient, mobile-first AI",
+      "link": "https://deepmind.google/discover/blog/announcing-gemma-3n-preview-powerful-efficient-mobile-first-ai/",
+      "description": "Gemma 3n is a cutting-edge open model designed for fast, multimodal AI on devices, featuring optimized performance, unique flexibility with a 2-in-1 model, and expanded multimodal understanding with a",
+      "date": "2025-05-20T09:45:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Gemini 2.5: Our most intelligent models are getting even better",
+      "link": "https://deepmind.google/discover/blog/gemini-25-our-world-leading-model-is-getting-even-better/",
+      "description": "Gemini 2.5 Pro continues to be loved by developers as the best model for coding, and 2.5 Flash is getting even better with a new update. We’re bringing new capabilities to our models, including Deep T",
+      "date": "2025-05-20T09:45:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "SynthID Detector — a new portal to help identify AI-generated content",
+      "link": "https://deepmind.google/discover/blog/synthid-detector--a-new-portal-to-help-identify-ai-generated-content/",
+      "description": "Learn about the new SynthID Detector portal we announced at I/O to help people understand how the content they see online was generated.",
+      "date": "2025-05-20T09:45:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Advancing Gemini's security safeguards",
+      "link": "https://deepmind.google/discover/blog/advancing-geminis-security-safeguards/",
+      "description": "We’ve made Gemini 2.5 our most secure model family to date.",
+      "date": "2025-05-14T14:59:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+      "link": "https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "description": "New AI agent evolves algorithms for math and practical applications in computing by combining the creativity of large language models with automated evaluators",
+      "date": "2025-05-06T15:06:55.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Gemini 2.5 Pro Preview: even better coding performance",
+      "link": "https://deepmind.google/discover/blog/gemini-25-pro-preview-even-better-coding-performance/",
+      "description": "We’ve seen developers doing amazing things with Gemini 2.5 Pro, so we decided to release an updated version a couple of weeks early to get into developers hands sooner.",
+      "date": "2025-05-06T15:00:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Build rich, interactive web apps with an updated Gemini 2.5 Pro",
+      "link": "https://deepmind.google/discover/blog/build-rich-interactive-web-apps-with-an-updated-gemini-25-pro/",
+      "description": "Our updated version of Gemini 2.5 Pro Preview has improved capabilities for coding.",
+      "date": "2025-04-24T15:01:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Music AI Sandbox, now with new features and broader access",
+      "link": "https://deepmind.google/discover/blog/music-ai-sandbox-now-with-new-features-and-broader-access/",
+      "description": "Helping music professionals explore the potential of generative AI",
+      "date": "2025-04-17T19:02:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Introducing Gemini 2.5 Flash",
+      "link": "https://deepmind.google/discover/blog/introducing-gemini-2-5-flash/",
+      "description": "Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off.",
+      "date": "2025-04-15T17:00:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Generate videos in Gemini and Whisk with Veo 2",
+      "link": "https://deepmind.google/discover/blog/generate-videos-in-gemini-and-whisk-with-veo-2/",
+      "description": "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips.",
+      "date": "2025-04-14T17:00:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "DolphinGemma: How Google AI is helping decode dolphin communication",
+      "link": "https://deepmind.google/discover/blog/dolphingemma-how-google-ai-is-helping-decode-dolphin-communication/",
+      "description": "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too.",
+      "date": "2025-04-02T13:31:00.000Z",
+      "source": "DeepMind Blog",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Moderna and IBM Demonstrate Quantum-Classical Approach for mRNA Secondary Structure Prediction",
+      "link": "https://quantumcomputingreport.com/moderna-and-ibm-demonstrate-quantum-classical-approach-for-mrna-secondary-structure-prediction/",
+      "description": "",
+      "date": "2025-07-18T20:24:28.000Z",
+      "source": "Quantum Computing Report",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Forescout Research Details PQC Adoption Status and Associated Cybersecurity Risks",
+      "link": "https://quantumcomputingreport.com/forescout-research-details-pqc-adoption-status-and-associated-cybersecurity-risks/",
+      "description": "",
+      "date": "2025-07-18T20:09:10.000Z",
+      "source": "Quantum Computing Report",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "New Hebrew University Technique Extends Atomic Spin Coherence Time by Ninefold",
+      "link": "https://quantumcomputingreport.com/new-hebrew-university-technique-extends-atomic-spin-coherence-time-by-ninefold/",
+      "description": "",
+      "date": "2025-07-18T03:39:23.000Z",
+      "source": "Quantum Computing Report",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Podcast with Matthijs Riljarrsdam, Co-Founder and CEO of QuantWare",
+      "link": "https://quantumcomputingreport.com/podcast-with-matthijs-riljarrsdam-ceo-of-quantware/",
+      "description": "",
+      "date": "2025-07-17T23:58:46.000Z",
+      "source": "Quantum Computing Report",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Oxford Ionics and Iceberg Quantum Partner to Design Fault-Tolerant Quantum Architecture",
+      "link": "https://quantumcomputingreport.com/oxford-ionics-and-iceberg-quantum-partner-to-design-fault-tolerant-quantum-architecture/",
+      "description": "",
+      "date": "2025-07-17T22:08:40.000Z",
+      "source": "Quantum Computing Report",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Commutator Studios Secures €1.5 Million ($1.74M USD) Funding to Advance Their Quantum Error Management Platform",
+      "link": "https://quantumcomputingreport.com/commutator-studios-secures-e1-5-million-1-74m-usd-funding-to-advance-their-quantum-error-management-platform/",
+      "description": "",
+      "date": "2025-07-17T21:58:56.000Z",
+      "source": "Quantum Computing Report",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Denmark&#8217;s QuNorth to Acquire 50-Logical-Qubit Magne Quantum Computer from Atom Computing and Microsoft",
+      "link": "https://quantumcomputingreport.com/denmarks-qunorth-to-acquire-50-logical-qubit-magne-quantum-computer-from-atom-computing-and-microsoft/",
+      "description": "",
+      "date": "2025-07-17T20:47:36.000Z",
+      "source": "Quantum Computing Report",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Quobly and Inria Partner to Advance Scalable, Sovereign Quantum Systems in France",
+      "link": "https://quantumcomputingreport.com/quobly-and-inria-partner-to-advance-scalable-sovereign-quantum-systems-in-france/",
+      "description": "",
+      "date": "2025-07-17T19:08:48.000Z",
+      "source": "Quantum Computing Report",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "QpiAI Raises $32M Series A to Accelerate Full-Stack Quantum Computing Development",
+      "link": "https://quantumcomputingreport.com/qpiai-raises-32m-series-a-to-accelerate-full-stack-quantum-computing-development/",
+      "description": "",
+      "date": "2025-07-17T15:27:05.000Z",
+      "source": "Quantum Computing Report",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Haiqu and Quanscient Collaborate on Quantum Fluid Mechanics Simulation on Amazon Braket",
+      "link": "https://quantumcomputingreport.com/haiqu-and-quanscient-collaborate-on-quantum-fluid-mechanics-simulation-on-amazon-braket/",
+      "description": "",
+      "date": "2025-07-19T08:46:56.497Z",
+      "source": "Quantum Computing Report",
+      "language": "specialized",
+      "category": "general"
+    },
+    {
+      "title": "Science News | Latest Updates on Scientific Discoveries | The Hindu",
+      "link": "https://www.thehindu.com/sci-tech/science/",
+      "description": "",
+      "date": null,
+      "source": "The Hindu Science",
+      "language": "indian",
+      "category": "general"
+    },
+    {
+      "title": "サムスン最新折りたたみスマホを入手も、すぐ「コンクリ地面」に落としてしまった話",
+      "link": "https://japan.cnet.com/article/35235713/",
+      "description": "不意の落下テストもクリア？Galaxy Z Flip7が驚きの耐久力を発揮。実体験に基づくレポートで、折りたたみスマホの進化を感じた。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235713/'&gt;&lt;img src='https://japan.cnet.com/storage/2025/07/1",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "ソフトバンク、事務手数料値上げ--ネット手続きは0円→3850円に",
+      "link": "https://japan.cnet.com/article/35235711/",
+      "description": "ソフトバンクが物価高を背景に携帯電話サービスの事務手数料を値上げする。8月20日より店頭での手続きは現在の3850円から4950円に、ウェブでの手続きは無料から3850円に引き上げられる。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235711/'&gt;&lt;img src='https://japan",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "任天堂スイッチ2、スマホのような遠隔ロックや位置の追跡は「できない」--紛失を注意喚起",
+      "link": "https://japan.cnet.com/article/35235708/",
+      "description": "任天堂サポートの公式X（旧Twitter）は7月18日、Nintendo Switch 2の紛失や盗難に注意を呼びかけている。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235708/'&gt;&lt;img src='https://japan.cnet.com/storage/2025/07/18/51",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "アップル、著名YouTuberを提訴--社員のiPhoneに不正アクセスし情報入手",
+      "link": "https://japan.cnet.com/article/35235706/",
+      "description": "アップルは著名YouTuberらを提訴した。同社の企業秘密を不正に取得し、YouTube動画で公開して利益を得たと指摘している。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235706/'&gt;&lt;img src='https://japan.cnet.com/storage/2022/04/18/a",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "ソラコム、生成AIとIoT通信の融合で新境地へ──MCP対応やマルチキャリア管理など新機能を発表",
+      "link": "https://japan.cnet.com/article/35235531/",
+      "description": "ソラコムは生成AIとの連携を本格化するIoTプラットフォームの機能拡張を発表した。MCP規格対応により生成AIからIoTデバイスを直接制御に対応、自然言語でのデータ分析機能「SORACOM Query」正式提供する。複数キャリアeSIM管理機能も導入し、現場の自動化と通信の自由度を大幅に向上させる。&lt;br clear='left'&gt;&lt;a href='https://japan.c",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "「アサシンクリード」実写ドラマ、Netflixが制作決定--「シリーズの伝統を尊重」",
+      "link": "https://japan.cnet.com/article/35235700/",
+      "description": "ゲームを原作とするNetflixのドラマに「アサシンクリード」が加わることになった。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235700/'&gt;&lt;img src='https://japan.cnet.com/storage/2025/07/18/f18db4c1f5f1b168dd2ee61",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "2万台超の自動運転タクシーを世界で展開へ、Uber×Lucid×Nuroが提携",
+      "link": "https://japan.cnet.com/article/35235694/",
+      "description": "空港からUberの配車を依頼すると、自動運転タクシーがやって来る――。そんな状況を想像してほしい。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235694/'&gt;&lt;img src='https://japan.cnet.com/storage/2025/07/18/bb1469cf59e4672c",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "世界最薄うたう三つ折りスマホ「PHANTOM Ultimate G Fold Concept」、中国TECNOから",
+      "link": "https://japan.cnet.com/article/35235687/",
+      "description": "スマートフォンメーカーの多くが折りたたみ式モデルに取り組んでおり、中国のTECNOもこのほど、最新の三つ折りモデルを発表した。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235687/'&gt;&lt;img src='https://japan.cnet.com/storage/2025/07/18/53",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "au、スターリンク経由のSMS送受信を120秒→30秒に短縮　どう実現？",
+      "link": "https://japan.cnet.com/article/35235685/",
+      "description": "KDDIは7月18日、衛星とスマートフォンの直接通信サービス「au Starlink Direct」において、SMS送受信時間を従来の120秒以内から30秒以内へ大幅に短縮したと発表した。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235685/'&gt;&lt;img src='https://japan",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "電車運賃を「PayPay」で徴収--JR東海、飯田線川路～宮木駅間で",
+      "link": "https://japan.cnet.com/article/35235676/",
+      "description": "東海旅客鉄道（JR東海）は7月17日、電車の運賃徴収に「PayPay」を活用する実証実験を開始すると発表した。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235676/'&gt;&lt;img src='https://japan.cnet.com/storage/2025/07/18/3c2066c952",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "ChatGPTエージェント登場--「本物のAGIを感じる瞬間」とアルトマン氏　危険性も説明",
+      "link": "https://japan.cnet.com/article/35235673/",
+      "description": "米OpenAIは日本時間7月18日未明、AIエージェント「ChatGPTエージェント」を発表した。独自の仮想コンピューターを活用し、AIがユーザーに代わって具体的なタスクを実行できるようにする。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235673/'&gt;&lt;img src='https://ja",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "「真正拳銃」が玩具として流通、警察庁が回収呼びかけ　違法性のポイントは",
+      "link": "https://japan.cnet.com/article/35235669/",
+      "description": "警察庁は7月17日、新たに国内で流通している海外製の玩具拳銃が、真正拳銃と同様の発射機構を有していることが確認されたと発表した。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235669/'&gt;&lt;img src='https://japan.cnet.com/storage/2025/07/18/d",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "ソニー「Xperia 1 VII」文鎮化、無償交換の判定サイトにも不具合--再度の確認を呼びかけ",
+      "link": "https://japan.cnet.com/article/35235666/",
+      "description": "ソニーは7月16日に発表した「Xperia 1 VII」一部モデルの無償交換について、交換対象か否かをIMEIで判定するサイトのプログラムに不具合があったと明かした。7月16日15〜20時の間に確認したユーザーに対して、再度の確認を呼びかけている。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235666/'",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "「またがる扇風機」登場--身体の前と後ろが両方涼しい　サンコーから",
+      "link": "https://japan.cnet.com/article/35235646/",
+      "description": "サンコーは7月17日、またがる扇風機「またせん」を発売した。直販価格は1万6800円で、同社オンラインストアや直営店、ECサイトなどで購入できる。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235646/'&gt;&lt;img src='https://japan.cnet.com/storage/202",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "JR東日本、スマホのQRコードで東京〜東北間を移動可能に--Suicaや紙の切符不要",
+      "link": "https://japan.cnet.com/article/35235645/",
+      "description": "JR東日本がQRコード乗車「えきねっとQチケ」の対象区間を拡大。スマホのQRコードだけで東京〜東北間を移動可能に&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235645/'&gt;&lt;img src='https://japan.cnet.com/storage/2025/07/17/8ab65ef05",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "「AI美少女」で話題のGrok新機能はアップルの規約違反？米メディアが指摘",
+      "link": "https://japan.cnet.com/article/35235642/",
+      "description": "xAIが提供するAIアシスタントアプリ「Grok」の新機能「コンパニオンモード」について、「App Store」のガイドラインに抵触するのではないかと米メディア9to5Macが指摘している。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235642/'&gt;&lt;img src='https://japa",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "楽天、18日（金）午前を特別休に--「参院選が三連休のど真ん中のため」と三木谷氏",
+      "link": "https://japan.cnet.com/article/35235636/",
+      "description": "楽天グループで代表取締役会長兼社長を務める三木谷浩史氏は7月17日、X（旧Twitter）を更新。楽天グループでは7月18日の午前中を特別休にすると投稿した。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235636/'&gt;&lt;img src='https://japan.cnet.com/stora",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "スマートリング「Oura Ring 4」日本上陸--5万2800円から",
+      "link": "https://japan.cnet.com/article/35235634/",
+      "description": "Oura Ring 4が国内販売開始。18の高精度センサー搭載、ストレスや睡眠、体温を自動トラッキング。Amazon等で購入可能&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235634/'&gt;&lt;img src='https://japan.cnet.com/storage/2025/07/17/2",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "アップルの「AirTag」がAmazonで18%オフ--期間限定",
+      "link": "https://japan.cnet.com/article/35235632/",
+      "description": "アップルの忘れ物防止タグ「AirTag」がAmazonで18％オフのセール中だ。4個入りは通常1万6980円のところ、およそ3000円引きの1万3846円。1個は通常4980円のところ、4059円となっている。&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235632/'&gt;&lt;img src='ht",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "ミノキシジル入りのグミ、米企業が開発--りんご味で続けやすさを訴求",
+      "link": "https://japan.cnet.com/article/35235622/",
+      "description": "薄毛に本気で向き合うための処方薬レベルの成分を含みながら、驚くほど美味しいグミが登場。開発したのは、女性向けの医療サービスを提供するHersだ&lt;br clear='left'&gt;&lt;a href='https://japan.cnet.com/article/35235622/'&gt;&lt;img src='https://japan.cnet.com/storage/2025/",
+      "date": "2025-07-19T08:47:03.601Z",
+      "source": "CNET Japan",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "MIT Technology Review",
+      "link": "https://www.technologyreview.com",
+      "description": "",
+      "date": "2025-07-18T12:10:00.000Z",
+      "source": "MIT Technology Review",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "A major AI training data set contains millions of examples of personal data",
+      "link": "https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/",
+      "description": "",
+      "date": "2025-07-19T08:47:04.729Z",
+      "source": "MIT Technology Review",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "The Download: how to run an LLM, and a history of &#8220;three-parent babies&#8221;",
+      "link": "https://www.technologyreview.com/2025/07/18/1120453/the-download-how-to-run-an-llm-and-a-history-of-three-parent-babies/",
+      "description": "",
+      "date": "2025-07-19T08:47:04.729Z",
+      "source": "MIT Technology Review",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Hello world!",
+      "link": "https://sci-news.co.jp/1/",
+      "description": "",
+      "date": "2025-07-19T08:47:05.943Z",
+      "source": "科学新聞",
+      "language": "japanese",
+      "category": "general"
+    },
+    {
+      "title": "Apple Sues the YouTuber Who Leaked iOS 26",
+      "link": "https://www.wired.com/story/apple-sues-the-youtuber-who-leaked-ios-26/",
+      "description": "In a lawsuit filed against prominent leaker Jon Prosser, Apple alleges a conspiracy to break into a development device and steal its trade secrets. Prosser insists Apple has it all wrong.",
+      "date": "2025-07-18T15:28:07.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "How China’s Patriotic ‘Honkers’ Became the Nation’s Elite Cyberspies",
+      "link": "https://www.wired.com/story/china-honkers-elite-cyber-spies/",
+      "description": "A new report traces the history of the early wave of Chinese hackers who became the backbone of the state's espionage apparatus.",
+      "date": "2025-07-18T14:00:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Lettuce Grow Indoor Farmstand Review: Grow Your Own",
+      "link": "https://www.wired.com/review/lettuce-grow-indoor-farmstand/",
+      "description": "This flashy indoor hydroponic garden is a great way to grow your own greens. Just watch out for bugs.",
+      "date": "2025-07-18T13:00:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Roborock Saros Z70 Review: OmniGrip Doesn’t Quite Work",
+      "link": "https://www.wired.com/review/roborock-saros-z70/",
+      "description": "I tested the robot vacuum with the retractable arm, which got a lot of attention at CES. It still has a long way to go.",
+      "date": "2025-07-18T12:00:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "This Turbo Escooter Wants to Set a Guinness World Record",
+      "link": "https://www.wired.com/story/bo-turbo-e-scooter-guinness-world-record/",
+      "description": "With Formula One expertise, Bo plans to break 100 miles per hour on its nearly $30,000 Turbo scooter.",
+      "date": "2025-07-18T11:30:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Italian YouTuber Faces Jail Time for Showing Android Handhelds With Emulated Games",
+      "link": "https://www.wired.com/story/italian-youtuber-faces-jail-time-for-showing-android-gaming-handhelds/",
+      "description": "The games on the devices shown by the content creator may not be entirely legal. That was enough for Italian law enforcement to ding him for “promotion of pirated copyrighted materials.”",
+      "date": "2025-07-18T11:00:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "‘Eddington’ Director Ari Aster Couldn’t Stand ‘Living in the Internet.’ So He Made a Movie About It",
+      "link": "https://www.wired.com/story/eddington-director-ari-aster-couldnt-stand-living-in-the-internet-so-he-made-a-movie-about-it/",
+      "description": "Ari Aster tells WIRED he wrote Eddington during the height of the pandemic and BLM protests. The western depicts the explosive consequences of his characters’ conspiracy-fueled social media diets.",
+      "date": "2025-07-18T11:00:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Einstein Showed That Time Is Relative. But … Why Is It?",
+      "link": "https://www.wired.com/story/why-time-is-relative/",
+      "description": "The mind-bending concept of time dilation results from a seemingly harmless assumption—that the speed of light is the same for all observers.",
+      "date": "2025-07-18T10:32:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "7 Best Coffee Concentrates for Instant Caffeine (2025)",
+      "link": "https://www.wired.com/gallery/best-coffee-concentrates/",
+      "description": "Whether you’re into cold brew, a frothy confection, or classic hot coffee, we’ve got a concentrated pick for every sipping style.",
+      "date": "2025-07-18T08:00:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Lelo Ora 3 Review: A Tongue Stimulator",
+      "link": "https://www.wired.com/review/lelo-ora-3/",
+      "description": "Lelo’s Ora 3 is an oral sex stimulator that doesn’t rely on suction air technology.",
+      "date": "2025-07-17T21:44:43.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "ICE Is Getting Unprecedented Access to Medicaid Data",
+      "link": "https://www.wired.com/story/ice-access-medicaid-data/",
+      "description": "A new agreement viewed by WIRED gives ICE direct access to a federal database containing sensitive medical data on tens of millions of Americans, with the goal of locating immigrants.",
+      "date": "2025-07-17T21:04:10.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Some Cities in China Are Advertising Exclusive Subsidies for Huawei-Powered Cars",
+      "link": "https://www.wired.com/story/huawei-car-china-local-government-subsidies/",
+      "description": "WIRED identified 10 local governments in China that are offering discounts to consumers who choose cars running Huawei software. It’s not always clear who is footing the bill.",
+      "date": "2025-07-17T21:01:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "The Best Meal Replacement Shakes for Total Life Optimization (2025)",
+      "link": "https://www.wired.com/gallery/best-liquid-meal-replacements/",
+      "description": "Solve the problem of cooking and chewing food with these full-meal replacement drinks.",
+      "date": "2025-07-17T20:31:03.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Congress Passes GENIUS Act in Major Win for US Crypto Industry",
+      "link": "https://www.wired.com/story/genius-act-congress-crypto-law-passes/",
+      "description": "Experts say the legislation could unleash a tidal wave of new stablecoins—and fresh complaints about President Trump's crypto entanglements.",
+      "date": "2025-07-17T19:49:12.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "This AI Warps Live Video in Real Time",
+      "link": "https://www.wired.com/story/decart-artificial-intelligence-model-live-stream/",
+      "description": "A startup called Decart has developed an AI model that can transform live footage. The results are mind-bending—and poised to take over streaming.",
+      "date": "2025-07-17T19:37:49.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Roblox’s New Age Verification Feature Uses AI to Scan Teens’ Video Selfies",
+      "link": "https://www.wired.com/story/robloxs-new-age-verification-feature-uses-ai-to-scan-teens-video-selfies/",
+      "description": "Roblox will scan video selfies of teens to assess their ages as part of a new Trusted Connections feature that gives users access to unfiltered chatting with people they know.",
+      "date": "2025-07-17T19:00:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "The 66 Best Movies on Disney+ Right Now (July 2025)",
+      "link": "https://www.wired.com/story/best-movies-disney-plus/",
+      "description": "Jaws @ 50, The Last Showgirl, and Spider-Man: Across the Spider-Verse are just a few of the movies you should be watching on Disney+ this month.",
+      "date": "2025-07-17T17:13:02.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "This Killer Dell 14 Plus Deal Changed My Opinion of the Laptop",
+      "link": "https://www.wired.com/story/dell-14-plus-deal-july-2025/",
+      "description": "I originally wrote off the Dell 14 Plus as overpriced. But at a mere $700 on sale? It’s the best cheap laptop you can buy.",
+      "date": "2025-07-17T17:00:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "OpenAI’s New ChatGPT Agent Tries to Do It All",
+      "link": "https://www.wired.com/story/openai-chatgpt-agent-launch/",
+      "description": "It’s a PowerPoint generator! It’s a date-night planner! It’s … another agent from OpenAI.",
+      "date": "2025-07-17T14:03:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "3 Best Hall Effect Keyboards for Gamers and Serious Typists (2025)",
+      "link": "https://www.wired.com/gallery/best-hall-effect-keyboards/",
+      "description": "Ascend from your mechanical keyboard to magnetically powered Hall effect switches.",
+      "date": "2025-07-17T12:05:00.000Z",
+      "source": "Wired",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "TechCrunch",
+      "link": "https://techcrunch.com/",
+      "description": "",
+      "date": "2025-07-18T22:33:47.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Benchmark in talks to lead Series A for Greptile, valuing AI-code reviewer at $180M, sources say",
+      "link": "https://techcrunch.com/2025/07/18/benchmark-in-talks-to-lead-series-a-for-greptile-valuing-ai-code-reviewer-at-180m-sources-say/",
+      "description": "",
+      "date": "2025-07-18T21:04:30.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Why a Y Combinator startup tackling AI agents for Windows gave up and pivoted",
+      "link": "https://techcrunch.com/2025/07/18/why-a-y-combinator-startup-tackling-ai-agents-for-windows-gave-up-and-pivoted/",
+      "description": "",
+      "date": "2025-07-18T19:56:12.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "ServiceNow&#8217;s acquisition of Moveworks is reportedly being reviewed over antitrust concerns",
+      "link": "https://techcrunch.com/2025/07/18/servicenows-acquisition-of-moveworks-is-reportedly-being-reviewed-over-antitrust-concerns/",
+      "description": "",
+      "date": "2025-07-18T19:43:18.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Cursor snaps up enterprise startup Koala in challenge to GitHub Copilot",
+      "link": "https://techcrunch.com/2025/07/18/cursor-snaps-up-enterprise-startup-koala-in-challenge-to-github-copilot/",
+      "description": "",
+      "date": "2025-07-18T18:45:07.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "link": "https://techcrunch.com/2025/07/18/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "description": "",
+      "date": "2025-07-18T18:30:00.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "A surveillance vendor was caught exploiting a new SS7 attack to track people&#8217;s phone locations",
+      "link": "https://techcrunch.com/2025/07/18/a-surveillance-vendor-was-caught-exploiting-a-new-ss7-attack-to-track-peoples-phone-locations/",
+      "description": "",
+      "date": "2025-07-18T16:29:06.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "CaaStle founder charged with fraud, turns herself in",
+      "link": "https://techcrunch.com/2025/07/18/caastle-founder-charged-with-fraud-turns-herself-in/",
+      "description": "",
+      "date": "2025-07-18T16:23:54.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "SpaceX worker injury rates at Starbase outpace industry rivals",
+      "link": "https://techcrunch.com/2025/07/18/spacex-worker-injury-rates-at-starbase-outpace-industry-rivals/",
+      "description": "",
+      "date": "2025-07-18T16:00:00.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "DuckDuckGo now lets you hide AI-generated images in search results",
+      "link": "https://techcrunch.com/2025/07/18/duckduckgo-now-lets-you-hide-ai-generated-images-in-search-results/",
+      "description": "",
+      "date": "2025-07-18T13:52:44.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "With her app Smash, Kesha can be whoever she wants — even a tech CEO",
+      "link": "https://techcrunch.com/2025/07/18/with-her-app-smash-kesha-can-be-whoever-she-wants-even-a-tech-ceo/",
+      "description": "",
+      "date": "2025-07-18T12:21:46.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Meta refuses to sign EU&#8217;s AI code of practice",
+      "link": "https://techcrunch.com/2025/07/18/meta-refuses-to-sign-eus-ai-code-of-practice/",
+      "description": "",
+      "date": "2025-07-18T10:03:00.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Netflix starts using GenAI in its shows and films",
+      "link": "https://techcrunch.com/2025/07/18/netflix-starts-using-genai-in-its-shows-and-films/",
+      "description": "",
+      "date": "2025-07-18T04:29:34.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+      "link": "https://techcrunch.com/2025/07/18/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "description": "",
+      "date": "2025-07-17T22:44:05.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Perplexity sees India as a shortcut in its race against OpenAI",
+      "link": "https://techcrunch.com/2025/07/17/perplexity-sees-india-as-a-shortcut-in-its-race-against-openai/",
+      "description": "",
+      "date": "2025-07-17T21:04:34.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "&#8216;Utopian&#8217; city California Forever announces huge tech manufacturing park",
+      "link": "https://techcrunch.com/2025/07/17/utopian-city-california-forever-announces-huge-tech-manufacturing-park/",
+      "description": "",
+      "date": "2025-07-17T19:03:19.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Anthropic tightens usage limits for Claude Code — without telling users",
+      "link": "https://techcrunch.com/2025/07/17/anthropic-tightens-usage-limits-for-claude-code-without-telling-users/",
+      "description": "",
+      "date": "2025-07-17T18:16:15.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Microsoft is buying tons of carbon removal from Xprize startup Vaulted Deep",
+      "link": "https://techcrunch.com/2025/07/17/microsoft-is-buying-tons-of-carbon-removal-from-xprize-startup-vaulted-deep/",
+      "description": "",
+      "date": "2025-07-17T17:59:00.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "Hadrian raises $260M to build out automated factories for space and defense parts",
+      "link": "https://techcrunch.com/2025/07/17/hadrian-raises-260m-to-build-out-automated-factories-for-space-and-defense-parts/",
+      "description": "",
+      "date": "2025-07-17T17:00:03.000Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "After raising over $3M, popular VC-backed beauty brand Ami Colé is shuttering",
+      "link": "https://techcrunch.com/2025/07/17/after-raising-over-3m-popular-vc-backed-beauty-brand-ami-cole-is-shuttering/",
+      "description": "",
+      "date": "2025-07-19T08:47:21.351Z",
+      "source": "TechCrunch",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "[D] Self-Promotion Thread",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:47:23.274Z",
+      "source": "Machine Learning Reddit",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:47:23.274Z",
+      "source": "Machine Learning Reddit",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "[P] Understanding Muon: A Revolutionary Neural Network Optimizer",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:47:23.274Z",
+      "source": "Machine Learning Reddit",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "[D] Advice on 10-min Ph.D. Interview Presentation (Bioinformatics)",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:47:23.274Z",
+      "source": "Machine Learning Reddit",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "[R] Paper recommendations?",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:47:23.274Z",
+      "source": "Machine Learning Reddit",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "[D] Any promising non-Deep Learning based AI research project?",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:47:23.274Z",
+      "source": "Machine Learning Reddit",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "[R] A Minimum Description Length Approach to Regularization in Neural Networks",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:47:23.274Z",
+      "source": "Machine Learning Reddit",
+      "language": "english",
+      "category": "general"
+    },
+    {
+      "title": "[D] Liquid neural networks on time series",
+      "link": "",
+      "description": "",
+      "date": "2025-07-19T08:47:23.274Z",
+      "source": "Machine Learning Reddit",
+      "language": "english",
+      "category": "general"
+    }
+  ]
+}
