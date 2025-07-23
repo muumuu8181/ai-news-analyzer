@@ -1,0 +1,2284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Firebase対応 汎用Webアプリテンプレート - Google認証・リアルタイム同期・デバッグログ完備">
+    <title>シンプル電卓アプリ - Firebase対応</title>
+    <style>
+        :root {
+            --primary-color: #2196F3;
+            --secondary-color: #FF9800;
+            --background-color: #f5f5f5;
+            --surface-color: #ffffff;
+            --text-color: #333333;
+            --border-color: #e0e0e0;
+            --shadow: 0 2px 4px rgba(0,0,0,0.1);
+            --calc-bg: #1a1a1a;
+            --calc-display: #000;
+            --calc-button: #333;
+            --calc-button-hover: #555;
+            --calc-number: #666;
+            --calc-operator: #ff9500;
+            --calc-equals: #ff9500;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background-color: #121212;
+                --surface-color: #1e1e1e;
+                --text-color: #e0e0e0;
+                --border-color: #333333;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--surface-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+        }
+
+        .account-selector {
+            margin-bottom: 15px;
+        }
+
+        .account-selector label {
+            font-weight: 500;
+            margin-right: 10px;
+        }
+
+        .account-selector select {
+            padding: 8px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background-color: var(--surface-color);
+            color: var(--text-color);
+        }
+
+        /* Date Navigation */
+        .date-nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .date-nav button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s;
+        }
+
+        .date-nav button:hover {
+            background-color: #1976D2;
+        }
+
+        .current-date {
+            font-size: 18px;
+            font-weight: 500;
+            min-width: 200px;
+            text-align: center;
+        }
+
+        /* Calculator Main Container */
+        .calculator-container {
+            background-color: var(--calc-bg);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Calculator Display */
+        .calculator-display {
+            background-color: var(--calc-display);
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: right;
+            font-family: 'Courier New', monospace;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .display-expression {
+            font-size: 16px;
+            color: #888;
+            min-height: 20px;
+            word-break: break-all;
+        }
+
+        .display-result {
+            font-size: 36px;
+            font-weight: bold;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        /* Calculator Button Grid */
+        .calculator-buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .calc-button {
+            background-color: var(--calc-button);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+        }
+
+        .calc-button:hover {
+            background-color: var(--calc-button-hover);
+            transform: scale(1.05);
+        }
+
+        .calc-button:active {
+            transform: scale(0.95);
+        }
+
+        /* Button Types */
+        .calc-button.number {
+            background-color: var(--calc-number);
+        }
+
+        .calc-button.operator {
+            background-color: var(--calc-operator);
+        }
+
+        .calc-button.equals {
+            background-color: var(--calc-equals);
+        }
+
+        .calc-button.clear {
+            background-color: #666;
+        }
+
+        .calc-button.zero {
+            border-radius: 35px;
+            grid-column: span 2;
+            width: auto;
+        }
+
+        /* History Section */
+        .history-container {
+            background-color: var(--surface-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .history-header {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        .history-item {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-color);
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        .history-item:last-child {
+            border-bottom: none;
+        }
+
+        .history-expression {
+            color: #666;
+        }
+
+        .history-result {
+            font-weight: bold;
+            float: right;
+        }
+
+        /* Main Grid - Hidden for calculator */
+        .time-grid {
+            display: none;
+        }
+
+        .time-period {
+            background-color: var(--surface-color);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+            min-height: 200px;
+        }
+
+        .time-period h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .records-list {
+            min-height: 120px;
+        }
+
+        .record {
+            background-color: var(--background-color);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 10px;
+            cursor: move;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .record:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .record.dragging {
+            opacity: 0.5;
+            transform: rotate(5deg);
+        }
+
+        .time-period.drag-over {
+            background-color: #e3f2fd;
+            border-color: var(--primary-color);
+        }
+
+        .record-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .record-time {
+            color: var(--primary-color);
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .record-type {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+
+        .record-content {
+            font-size: 14px;
+            color: var(--text-color);
+        }
+
+        .record-notes {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        /* FAB */
+        .fab-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .fab-main {
+            width: 56px;
+            height: 56px;
+            background-color: var(--primary-color);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .fab-main:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+        }
+
+        .fab-container.expanded .fab-main {
+            transform: rotate(45deg);
+            background-color: #f44336;
+        }
+
+        .fab-options {
+            position: absolute;
+            bottom: 70px;
+            right: 0;
+            display: none;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .fab-container.expanded .fab-options {
+            display: flex;
+        }
+
+        .fab-option {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+
+        .fab-option:hover {
+            transform: scale(1.1);
+        }
+
+        .fab-option[data-type="task"] { background-color: #4CAF50; }
+        .fab-option[data-type="note"] { background-color: #FF9800; }
+        .fab-option[data-type="meeting"] { background-color: #9C27B0; }
+        .fab-option[data-type="goal"] { background-color: #2196F3; }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 2000;
+        }
+
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: var(--surface-color);
+            border-radius: 8px;
+            padding: 30px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            margin-bottom: 20px;
+        }
+
+        .modal-header h2 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background-color: var(--surface-color);
+            color: var(--text-color);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #1976D2;
+        }
+
+        .btn-secondary {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background-color: #ccc;
+        }
+
+        /* Debug Log Styles */
+        .debug-log-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            border-top: 2px solid #444;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            z-index: 9999;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .debug-log-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 15px;
+            background-color: #333;
+            border-bottom: 1px solid #555;
+            font-weight: bold;
+        }
+
+        .debug-log-controls {
+            display: flex;
+            gap: 5px;
+        }
+
+        .debug-btn {
+            padding: 4px 8px;
+            border: none;
+            border-radius: 3px;
+            background-color: #555;
+            color: white;
+            font-size: 11px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .debug-btn:hover {
+            background-color: #666;
+        }
+
+        .debug-log-area {
+            height: 150px;
+            overflow-y: auto;
+            padding: 10px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .debug-log-entry {
+            margin-bottom: 5px;
+            padding: 2px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        .debug-log-timestamp {
+            color: #888;
+            font-size: 10px;
+        }
+
+        .debug-log-message {
+            color: #fff;
+        }
+
+        .debug-log-data {
+            color: #4CAF50;
+            font-size: 11px;
+            margin-left: 10px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .time-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .date-nav {
+                gap: 10px;
+            }
+
+            .current-date {
+                font-size: 16px;
+                min-width: 150px;
+            }
+
+            .modal-content {
+                padding: 20px;
+            }
+
+            .fab-container {
+                bottom: 210px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="account-selector" id="accountSelector">
+                <button id="googleSignInBtn" class="debug-btn" style="background-color: #4285f4; color: white;">Googleでログイン</button>
+            </div>
+            <nav class="date-nav" role="navigation" aria-label="日付切り替え">
+                <button id="prevDay" aria-label="前日">‹</button>
+                <time id="currentDate" class="current-date" datetime="">2024年7月18日（木）</time>
+                <button id="nextDay" aria-label="翌日">›</button>
+            </nav>
+        </header>
+
+        <!-- Calculator Main -->
+        <div class="calculator-container">
+            <!-- Display -->
+            <div class="calculator-display">
+                <div class="display-expression" id="displayExpression"></div>
+                <div class="display-result" id="displayResult">0</div>
+            </div>
+
+            <!-- Button Grid -->
+            <div class="calculator-buttons">
+                <!-- Row 1 -->
+                <button class="calc-button clear" onclick="clearAll()">AC</button>
+                <button class="calc-button clear" onclick="clearEntry()">C</button>
+                <button class="calc-button operator" onclick="inputOperator('/')" data-value="/">÷</button>
+                <button class="calc-button operator" onclick="inputOperator('*')" data-value="*">×</button>
+
+                <!-- Row 2 -->
+                <button class="calc-button number" onclick="inputNumber('7')" data-value="7">7</button>
+                <button class="calc-button number" onclick="inputNumber('8')" data-value="8">8</button>
+                <button class="calc-button number" onclick="inputNumber('9')" data-value="9">9</button>
+                <button class="calc-button operator" onclick="inputOperator('-')" data-value="-">-</button>
+
+                <!-- Row 3 -->
+                <button class="calc-button number" onclick="inputNumber('4')" data-value="4">4</button>
+                <button class="calc-button number" onclick="inputNumber('5')" data-value="5">5</button>
+                <button class="calc-button number" onclick="inputNumber('6')" data-value="6">6</button>
+                <button class="calc-button operator" onclick="inputOperator('+')" data-value="+">+</button>
+
+                <!-- Row 4 -->
+                <button class="calc-button number" onclick="inputNumber('1')" data-value="1">1</button>
+                <button class="calc-button number" onclick="inputNumber('2')" data-value="2">2</button>
+                <button class="calc-button number" onclick="inputNumber('3')" data-value="3">3</button>
+                <button class="calc-button equals" onclick="calculate()" rowspan="2">=</button>
+
+                <!-- Row 5 -->
+                <button class="calc-button number zero" onclick="inputNumber('0')" data-value="0">0</button>
+                <button class="calc-button number" onclick="inputDecimal()" data-value=".">.</button>
+            </div>
+        </div>
+
+        <!-- History -->
+        <div class="history-container">
+            <div class="history-header">📚 計算履歴</div>
+            <div id="historyList">
+                <!-- History items will be populated here -->
+            </div>
+        </div>
+
+        <main class="time-grid" id="timeGrid">
+            <section class="time-period" data-period="morning">
+                <h3>🌅 午前 (6:00-12:00)</h3>
+                <div class="records-list" id="morning-records"></div>
+            </section>
+
+            <section class="time-period" data-period="afternoon">
+                <h3>☀️ 午後 (12:00-18:00)</h3>
+                <div class="records-list" id="afternoon-records"></div>
+            </section>
+
+            <section class="time-period" data-period="evening">
+                <h3>🌙 夜 (18:00-24:00)</h3>
+                <div class="records-list" id="evening-records"></div>
+            </section>
+
+            <section class="time-period" data-period="night">
+                <h3>🌌 深夜 (0:00-6:00)</h3>
+                <div class="records-list" id="night-records"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- FAB -->
+    <div class="fab-container" id="fabContainer">
+        <button class="fab-main" id="fabMain" aria-label="メニューを開く">+</button>
+        <div class="fab-options">
+            <button class="fab-option" data-type="task" title="タスク追加">📝</button>
+            <button class="fab-option" data-type="note" title="ノート追加">📔</button>
+            <button class="fab-option" data-type="meeting" title="会議記録">👥</button>
+            <button class="fab-option" data-type="goal" title="目標設定">🎯</button>
+        </div>
+    </div>
+
+    <!-- デバッグログエリア -->
+    <div id="debugLogContainer" class="debug-log-container">
+        <div class="debug-log-header">
+            <span>デバッグログ</span>
+            <span id="versionInfo" style="color: #0066cc; font-size: 14px; font-weight: bold; margin-left: 15px; padding: 2px 6px; background: #e6f3ff; border-radius: 3px;">v2025.07.20-template</span>
+            <div class="debug-log-controls">
+                <button id="clearLogBtn" class="debug-btn">クリア</button>
+                <button id="copyLogBtn" class="debug-btn">コピー</button>
+                <button id="saveLogToFileBtn" class="debug-btn" style="background-color: #28a745;">ファイル保存</button>
+                <button id="resetDataBtn" class="debug-btn">データリセット</button>
+                <button id="firebaseToggleBtn" class="debug-btn">Firebase: ON</button>
+                <!-- テストボタン追加 -->
+                <button onclick="sayHello()" class="debug-btn" style="background-color: #ff9800;">👋 Hello</button>
+                <button onclick="sayGoodMorning()" class="debug-btn" style="background-color: #2196F3;">🌅 Good Morning</button>
+                <button onclick="sayGoodAfternoon()" class="debug-btn" style="background-color: #4CAF50;">☀️ Good Afternoon</button>
+            </div>
+        </div>
+        <div id="debugLogArea" class="debug-log-area"></div>
+        <textarea id="errorDetailsArea" style="width: 100%; height: 100px; background: #222; color: #fff; border: 1px solid #555; font-family: 'Courier New', monospace; font-size: 11px; padding: 5px; margin-top: 5px; display: none;" readonly placeholder="エラー詳細がここに表示されます"></textarea>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="recordModal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-labelledby="modalTitle">
+            <div class="modal-header">
+                <h2 id="modalTitle">新しい記録を追加</h2>
+                <p id="modalSubtitle">項目を入力してください</p>
+            </div>
+
+            <form id="recordForm">
+                <div class="form-group">
+                    <label for="recordTime">時間</label>
+                    <input type="time" id="recordTime" name="time" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="recordContent">内容</label>
+                    <input type="text" id="recordContent" name="content" placeholder="内容を入力..." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="recordNotes">メモ（任意）</label>
+                    <textarea id="recordNotes" name="notes" placeholder="詳細なメモがあれば..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="recordPriority">優先度</label>
+                    <select id="recordPriority" name="priority">
+                        <option value="low">低</option>
+                        <option value="medium" selected>中</option>
+                        <option value="high">高</option>
+                    </select>
+                </div>
+
+                <div class="modal-buttons">
+                    <button type="button" class="btn btn-secondary" id="cancelBtn">キャンセル</button>
+                    <button type="submit" class="btn btn-primary">保存</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+
+    <script>
+        // ビルドバージョン（更新時刻）
+        const BUILD_VERSION = '2025.07.23-calculator';
+        
+        // デバッグログのLocalStorage保存設定（開発時ON、公開時OFF）
+        let SAVE_LOG_TO_LOCALSTORAGE = true; // 公開時はfalseに変更
+        
+        // Firebase設定（実際に動作確認済みの設定）
+        const firebaseConfig = {
+            apiKey: "AIzaSyA5PXKChizYDCXF_GJ4KL6Ylq9K5hCPXWE",
+            authDomain: "shares-b1b97.firebaseapp.com",
+            databaseURL: "https://shares-b1b97-default-rtdb.firebaseio.com",
+            projectId: "shares-b1b97",
+            storageBucket: "shares-b1b97.firebasestorage.app",
+            messagingSenderId: "38311063248",
+            appId: "1:38311063248:web:0d2d5726d12b305b24b8d5"
+        };
+
+        // Firebase初期化
+        firebase.initializeApp(firebaseConfig);
+        const database = firebase.database();
+        const auth = firebase.auth();
+        const dataRef = database.ref('calculator-data');
+        // Firebaseは常に有効
+        let useFirebase = true;
+
+        // UUIDを生成する関数
+        function generateUUID() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
+        // アプリケーションのメインクラス
+        class WebApp {
+            constructor() {
+                this.currentDate = new Date();
+                this.currentRecordType = 'task';
+                this.currentAccount = 'guest';
+                this.currentUser = null;
+                this.currentAccountRef = null;
+                this.isInDemoMode = false;
+                this.originalAccount = null;
+                this.draggedElement = null;
+                this.draggedData = null;
+                this.debugLog = [];
+                
+                // Calculator state
+                this.currentDisplay = '0';
+                this.currentExpression = '';
+                this.operator = null;
+                this.previousValue = null;
+                this.waitingForOperand = false;
+                this.history = [];
+                
+                this.data = this.loadData();
+                this.setupAuth();
+                if (!useFirebase) {
+                    this.initSampleData();
+                }
+                this.init();
+                this.setupDebugLog();
+            }
+
+            init() {
+                this.log('アプリケーション初期化開始', { useFirebase, version: BUILD_VERSION });
+                
+                const versionEl = document.getElementById('versionInfo');
+                if (versionEl) {
+                    versionEl.textContent = `v${BUILD_VERSION}`;
+                }
+                
+                this.setupEventListeners();
+                this.updateDateDisplay();
+                this.setupDragAndDrop();
+                this.renderData();
+                this.updateAccountUI();
+                this.updateCalculatorDisplay();
+                this.renderCalculatorHistory();
+                this.setupKeyboardEvents();
+                this.log('電卓アプリケーション初期化完了');
+            }
+
+            log(message, data = null) {
+                const timestamp = new Date().toLocaleTimeString('ja-JP');
+                const logEntry = {
+                    timestamp: timestamp,
+                    message: message,
+                    data: data
+                };
+                
+                this.debugLog.push(logEntry);
+                console.log(`[${timestamp}] [WebApp] ${message}`, data || '');
+                
+                this.updateDebugLogDisplay();
+            }
+
+            setupEventListeners() {
+                // 日付切り替え
+                document.getElementById('prevDay').addEventListener('click', () => this.changeDate(-1));
+                document.getElementById('nextDay').addEventListener('click', () => this.changeDate(1));
+
+                // FAB
+                document.getElementById('fabMain').addEventListener('click', () => this.toggleFAB());
+                
+                // FABオプション
+                document.querySelectorAll('.fab-option').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentRecordType = e.target.dataset.type;
+                        this.showModal();
+                        this.closeFAB();
+                    });
+                });
+
+                // モーダル
+                document.getElementById('cancelBtn').addEventListener('click', () => this.hideModal());
+                document.getElementById('recordForm').addEventListener('submit', (e) => this.handleFormSubmit(e));
+
+                // モーダル外クリック
+                document.getElementById('recordModal').addEventListener('click', (e) => {
+                    if (e.target.id === 'recordModal') {
+                        this.hideModal();
+                    }
+                });
+            }
+
+            setupDebugLog() {
+                this.log('デバッグログシステムを初期化');
+                
+                document.getElementById('clearLogBtn').addEventListener('click', () => {
+                    this.clearDebugLog();
+                });
+                
+                document.getElementById('copyLogBtn').addEventListener('click', () => {
+                    this.copyDebugLog();
+                });
+                
+                document.getElementById('resetDataBtn').addEventListener('click', () => {
+                    this.resetAllData();
+                });
+                
+                document.getElementById('firebaseToggleBtn').addEventListener('click', () => {
+                    this.toggleFirebase();
+                });
+                
+                document.getElementById('saveLogToFileBtn').addEventListener('click', () => {
+                    this.saveLogToFile();
+                });
+            }
+
+            // Google認証システムのセットアップ
+            setupAuth() {
+                this.log('Google認証システムを初期化');
+
+                auth.onAuthStateChanged((user) => {
+                    const previousAccount = this.currentAccount;
+                    this.currentUser = user;
+                    if (user) {
+                        this.log('✅ ユーザーログイン成功', { 
+                            uid: user.uid, 
+                            email: user.email,
+                            displayName: user.displayName,
+                            photoURL: user.photoURL,
+                            emailVerified: user.emailVerified,
+                            creationTime: user.metadata.creationTime,
+                            lastSignInTime: user.metadata.lastSignInTime
+                        });
+                        this.currentAccount = user.uid;
+                        this.updateAccountUI(user);
+                    } else {
+                        this.log('❌ ユーザーログアウト（またはログイン前）', {
+                            previousAccount: previousAccount
+                        });
+                        this.currentAccount = 'guest';
+                        this.updateAccountUI(null);
+                    }
+                    
+                    if (previousAccount !== this.currentAccount) {
+                        this.log('🔄 アカウント切り替え', {
+                            from: previousAccount,
+                            to: this.currentAccount,
+                            userType: user ? 'authenticated' : 'guest'
+                        });
+                    }
+                    
+                    this.data = this.loadData();
+                    this.renderData();
+                });
+
+                const signInBtn = document.getElementById('googleSignInBtn');
+                if (signInBtn) {
+                    signInBtn.addEventListener('click', () => {
+                        this.signInWithGoogle();
+                    });
+                }
+            }
+
+            // Googleでサインイン
+            signInWithGoogle() {
+                const provider = new firebase.auth.GoogleAuthProvider();
+                provider.setCustomParameters({
+                    prompt: 'select_account'
+                });
+
+                this.log('Google認証を開始します', {
+                    protocol: window.location.protocol,
+                    isContentProtocol: window.location.protocol === 'content:'
+                });
+
+                // content:プロトコルの場合は特別な処理
+                if (window.location.protocol === 'content:') {
+                    this.log('content:プロトコル検出 - 代替認証方法を提供');
+                    
+                    // オプション1: HTTPサーバーで開く
+                    const httpUrl = 'http://localhost:8000/my-webapp-template.html';
+                    const httpsUrl = 'https://your-domain.com/my-webapp-template.html';
+                    
+                    const message = `
+Google認証を使用するには、HTTPサーバーが必要です。
+
+【方法1: ローカルHTTPサーバー】
+1. 別のターミナルで以下を実行:
+   python -m http.server 8000
+   
+2. ブラウザで開く:
+   ${httpUrl}
+
+【方法2: 一時的な解決策】
+「Firebase: OFF」ボタンでローカルモードを使用
+
+【方法3: 恒久的な解決策】
+GitHubやFirebase Hostingにアップロード
+
+今すぐローカルサーバーを起動しますか？`;
+                    
+                    if (confirm(message)) {
+                        // ローカルサーバー起動のヒントを表示
+                        this.showErrorDetails(`# ローカルHTTPサーバーの起動方法
+
+1. 新しいTermuxセッションを開く
+2. 以下のコマンドを実行:
+
+cd ${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'))}
+python -m http.server 8000
+
+3. ブラウザで開く:
+${httpUrl}
+
+4. Google認証が動作します！`);
+                    }
+                    return;
+                }
+
+                auth.signInWithPopup(provider)
+                    .then((result) => {
+                        const user = result.user;
+                        this.log('✅ Google認証が成功しました', {
+                            uid: user.uid,
+                            email: user.email,
+                            displayName: user.displayName
+                        });
+                    })
+                    .catch((error) => {
+                        this.log('❌ Google認証でエラーが発生しました', { 
+                            code: error.code, 
+                            message: error.message 
+                        });
+                        
+                        if (error.code === 'auth/configuration-not-found') {
+                            const alertMessage = 'Google認証が設定されていません。\n\nFirebase Console でGoogle認証を有効化してください:\n1. Authentication → Sign-in method\n2. Google プロバイダーを有効化\n3. 承認済みドメインを設定';
+                            
+                            this.log('🔧 Firebase Console でGoogle認証を有効化してください:', {
+                                step1: 'Firebase Console → Authentication → Sign-in method',
+                                step2: 'Google プロバイダーを有効化',
+                                step3: '承認済みドメインを追加',
+                                alertShown: true,
+                                alertMessage: alertMessage
+                            });
+                            
+                            alert(alertMessage);
+                            
+                            this.log('📢 アラート表示完了', { 
+                                type: 'Google認証設定エラー',
+                                userNotified: true 
+                            });
+                        }
+                        
+                        console.error('Google認証エラー:', error);
+                    });
+            }
+
+            // サインアウト
+            signOut() {
+                this.log('ログアウトします');
+                
+                this.isInDemoMode = false;
+                this.originalAccount = null;
+                
+                auth.signOut()
+                    .then(() => {
+                        this.log('ログアウトが完了しました');
+                    })
+                    .catch((error) => {
+                        this.log('ログアウトでエラーが発生しました', error);
+                    });
+            }
+
+            // 簡単切り替え: ログインアカウント ↔ デモアカウント
+            quickToggleDemo() {
+                if (this.isInDemoMode) {
+                    this.log('🔄 デモモードから復帰');
+                    this.currentAccount = this.originalAccount;
+                    this.isInDemoMode = false;
+                } else {
+                    this.log('🎭 デモモードに切り替え');
+                    this.originalAccount = this.currentAccount;
+                    this.currentAccount = 'demo';
+                    this.isInDemoMode = true;
+                }
+
+                this.data = this.loadData();
+                
+                if (this.isInDemoMode) {
+                    const dateString = this.getDateString(this.currentDate);
+                    if (!this.data[dateString]) {
+                        this.initSampleData();
+                    }
+                }
+                
+                this.renderData();
+                this.updateAccountUI(this.currentUser);
+                
+                this.log('✅ アカウント切り替え完了', { 
+                    currentAccount: this.currentAccount,
+                    isDemo: this.isInDemoMode,
+                    user: this.currentUser ? this.currentUser.email : 'guest'
+                });
+            }
+
+            // ゲストモードで使用
+            useGuestMode() {
+                this.log('🎯 ゲストモードで使用開始');
+                
+                if (this.currentAccountRef) {
+                    this.currentAccountRef.off();
+                    this.currentAccountRef = null;
+                    this.log('Firebaseリスナーをクリア（ゲストモード）');
+                }
+                
+                this.isInDemoMode = false;
+                this.originalAccount = null;
+                
+                this.currentAccount = 'guest';
+                this.currentUser = null;
+                
+                this.data = this.loadData();
+                
+                const dateString = this.getDateString(this.currentDate);
+                this.log('ゲストモード用サンプルデータを作成', { dateString });
+                this.initSampleData();
+                
+                this.renderData();
+                this.updateAccountUI(null);
+            }
+
+            // アカウントUI更新
+            updateAccountUI(user) {
+                const accountSelector = document.getElementById('accountSelector');
+                
+                if (user) {
+                    const isDemo = this.isInDemoMode;
+                    const currentModeText = isDemo ? '🎭 デモ表示中' : '✅ ログイン中';
+                    const currentModeColor = isDemo ? '#856404' : '#4285f4';
+                    const currentModeBg = isDemo ? '#fff3cd' : '#e8f4fd';
+                    const toggleButtonText = isDemo ? '👤 ログインデータに戻る' : '🎭 デモを見る';
+                    const toggleButtonColor = isDemo ? '#007bff' : '#28a745';
+                    
+                    accountSelector.innerHTML = `
+                        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                            ${user.photoURL ? `<img src="${user.photoURL}" alt="Profile" style="width: 32px; height: 32px; border-radius: 50%; border: 2px solid ${currentModeColor};">` : ''}
+                            <div style="display: flex; flex-direction: column;">
+                                <span style="color: ${currentModeColor}; font-weight: bold; background: ${currentModeBg}; padding: 4px 8px; border-radius: 4px;">
+                                    ${currentModeText}: ${user.displayName || user.email}
+                                </span>
+                                <span style="color: #666; font-size: 11px;">
+                                    🆔 ${user.uid.substring(0, 12)}... | 
+                                    📧 ${user.emailVerified ? '認証済み' : '未認証'} |
+                                    💾 ${isDemo ? 'LocalStorage' : 'Firebase同期中'}
+                                </span>
+                            </div>
+                            <button onclick="webApp.quickToggleDemo()" class="debug-btn" style="background-color: ${toggleButtonColor};">
+                                ${toggleButtonText}
+                            </button>
+                            <button onclick="webApp.signOut()" class="debug-btn" style="background-color: #dc3545;">ログアウト</button>
+                            <button onclick="webApp.signInWithGoogle()" class="debug-btn" style="background-color: #4285f4;">アカウント切替</button>
+                        </div>
+                    `;
+                } else {
+                    accountSelector.innerHTML = `
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <span style="color: #888; font-weight: bold; background: #f5f5f5; padding: 4px 8px; border-radius: 4px;">
+                                ${this.currentAccount === 'guest' ? '👤 ゲストモード' : '未ログイン'}
+                            </span>
+                            <button onclick="webApp.signInWithGoogle()" class="debug-btn" style="background-color: #4285f4; color: white;">Googleでログイン</button>
+                            <button onclick="webApp.useGuestMode()" class="debug-btn" style="background-color: #28a745; color: white;">ゲストとして使用</button>
+                        </div>
+                    `;
+                }
+            }
+
+            updateDebugLogDisplay() {
+                const logArea = document.getElementById('debugLogArea');
+                const logHTML = this.debugLog.map(entry => {
+                    const dataStr = entry.data ? JSON.stringify(entry.data, null, 2) : '';
+                    return `<div class="debug-log-entry">
+                        <span class="debug-log-timestamp">[${entry.timestamp}]</span>
+                        <span class="debug-log-message">${entry.message}</span>
+                        ${dataStr ? `<div class="debug-log-data">${dataStr}</div>` : ''}
+                    </div>`;
+                }).join('');
+                
+                logArea.innerHTML = logHTML;
+                logArea.scrollTop = logArea.scrollHeight;
+            }
+
+            clearDebugLog() {
+                this.debugLog = [];
+                this.updateDebugLogDisplay();
+                this.log('デバッグログをクリアしました');
+            }
+
+            copyDebugLog() {
+                const logText = this.debugLog.map(entry => {
+                    const dataStr = entry.data ? ' | ' + JSON.stringify(entry.data) : '';
+                    return `[${entry.timestamp}] ${entry.message}${dataStr}`;
+                }).join('\n');
+                
+                // LocalStorageへの保存（開発時のみ）
+                if (SAVE_LOG_TO_LOCALSTORAGE) {
+                    try {
+                        const timestamp = new Date().toISOString();
+                        const logKey = `debug_log_${timestamp}`;
+                        const logData = {
+                            timestamp: timestamp,
+                            version: BUILD_VERSION,
+                            protocol: window.location.protocol,
+                            userAgent: navigator.userAgent,
+                            logs: this.debugLog
+                        };
+                        
+                        // 最新のログを保存
+                        localStorage.setItem('latest_debug_log', JSON.stringify(logData));
+                        
+                        // タイムスタンプ付きでも保存（履歴用）
+                        localStorage.setItem(logKey, JSON.stringify(logData));
+                        
+                        this.log('📾 デバッグログをLocalStorageに保存しました', { 
+                            key: logKey,
+                            size: logText.length 
+                        });
+                        
+                        // 古いログを削除（10件以上ある場合）
+                        this.cleanupOldLogs();
+                    } catch (error) {
+                        console.error('LocalStorage保存エラー:', error);
+                    }
+                }
+                
+                // content:プロトコルでは直接テキストエリアに表示
+                if (window.location.protocol === 'content:' || window.location.protocol === 'file:') {
+                    this.showErrorDetails('📋 デバッグログ\n\n' + logText);
+                    this.log('デバッグログをテキストエリアに表示しました（content:プロトコル）');
+                    return;
+                }
+                
+                // 通常環境でのクリップボードAPI
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(logText).then(() => {
+                        this.log('デバッグログをクリップボードにコピーしました');
+                        alert('ログをクリップボードにコピーしました' + 
+                               (SAVE_LOG_TO_LOCALSTORAGE ? '\n（LocalStorageにも保存済み）' : ''));
+                    }).catch(err => {
+                        console.error('コピーに失敗:', err);
+                        this.showLogInAlert(logText);
+                    });
+                } else {
+                    // フォールバック: アラートで表示
+                    this.showLogInAlert(logText);
+                }
+            }
+            
+            cleanupOldLogs() {
+                try {
+                    const keys = Object.keys(localStorage).filter(key => key.startsWith('debug_log_'));
+                    if (keys.length > 10) {
+                        // 古い順にソート
+                        keys.sort();
+                        // 最初の5件を削除
+                        for (let i = 0; i < 5; i++) {
+                            localStorage.removeItem(keys[i]);
+                        }
+                        this.log('古いデバッグログを削除しました', { count: 5 });
+                    }
+                } catch (error) {
+                    console.error('ログクリーンアップエラー:', error);
+                }
+            }
+
+            showLogInAlert(logText) {
+                const shortLog = logText.length > 2000 ? logText.substring(0, 2000) + '\n...(省略)' : logText;
+                alert('ログ内容:\n\n' + shortLog);
+                this.log('ログをアラートで表示しました（クリップボード機能が利用できません）');
+            }
+
+            testCopyFunction() {
+                const testText = 'テストコピー文字列: 現在時刻=' + new Date().toLocaleTimeString() + ' / ブラウザ=' + navigator.userAgent.split(' ')[0];
+                
+                this.log('テストコピー機能を実行', { 
+                    testText: testText,
+                    hasClipboard: !!navigator.clipboard,
+                    hasWriteText: !!(navigator.clipboard && navigator.clipboard.writeText),
+                    isSecureContext: window.isSecureContext,
+                    protocol: window.location.protocol,
+                    userAgent: navigator.userAgent
+                });
+                
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(testText).then(() => {
+                        alert('✅ コピー成功！\n\n以下の文字列をクリップボードにコピーしました:\n' + testText);
+                        this.log('✅ テストコピー成功');
+                    }).catch(err => {
+                        const errorDetails = `❌ コピー失敗
+
+エラー詳細:
+- エラー名: ${err.name}
+- エラーメッセージ: ${err.message}
+- セキュアコンテキスト: ${window.isSecureContext}
+- プロトコル: ${window.location.protocol}
+- ホスト: ${window.location.host}
+- ユーザーエージェント: ${navigator.userAgent}
+
+テスト文字列:
+${testText}`;
+                        
+                        this.showErrorDetails(errorDetails);
+                        this.log('❌ テストコピー失敗', { 
+                            errorName: err.name,
+                            errorMessage: err.message,
+                            isSecureContext: window.isSecureContext,
+                            protocol: window.location.protocol
+                        });
+                    });
+                } else {
+                    const details = `❌ クリップボードAPI非対応
+
+環境情報:
+- navigator.clipboard: ${!!navigator.clipboard}
+- writeText関数: ${!!(navigator.clipboard && navigator.clipboard.writeText)}
+- セキュアコンテキスト: ${window.isSecureContext}
+- プロトコル: ${window.location.protocol}
+- ユーザーエージェント: ${navigator.userAgent}
+
+テスト文字列:
+${testText}`;
+                    
+                    this.showErrorDetails(details);
+                    this.log('❌ クリップボードAPI非対応', {
+                        hasClipboard: !!navigator.clipboard,
+                        hasWriteText: !!(navigator.clipboard && navigator.clipboard.writeText),
+                        isSecureContext: window.isSecureContext,
+                        protocol: window.location.protocol
+                    });
+                }
+            }
+
+            checkLocalStorageLogs() {
+                try {
+                    this.log('📦 LocalStorage内のログを確認します');
+                    
+                    // latest_debug_logを確認
+                    const latestLog = localStorage.getItem('latest_debug_log');
+                    let report = '📊 LocalStorage ログ保存状況\n\n';
+                    
+                    if (latestLog) {
+                        const logData = JSON.parse(latestLog);
+                        report += '【最新のログ】\n';
+                        report += `保存時刻: ${logData.timestamp}\n`;
+                        report += `バージョン: ${logData.version}\n`;
+                        report += `プロトコル: ${logData.protocol}\n`;
+                        report += `ログ件数: ${logData.logs ? logData.logs.length : 0}件\n\n`;
+                        
+                        if (logData.logs && logData.logs.length > 0) {
+                            report += '【最初の3件のログ】\n';
+                            logData.logs.slice(0, 3).forEach((log, i) => {
+                                report += `${i+1}. [${log.timestamp}] ${log.message}\n`;
+                            });
+                            report += '\n';
+                        }
+                    } else {
+                        report += '❌ 最新のログが保存されていません\n\n';
+                    }
+                    
+                    // すべてのdebug_log_を確認
+                    const debugLogKeys = Object.keys(localStorage).filter(key => key.startsWith('debug_log_'));
+                    report += `【保存されているログ履歴】\n`;
+                    report += `総数: ${debugLogKeys.length}件\n\n`;
+                    
+                    if (debugLogKeys.length > 0) {
+                        report += '【履歴一覧】\n';
+                        debugLogKeys.sort().reverse().slice(0, 5).forEach((key, i) => {
+                            report += `${i+1}. ${key}\n`;
+                        });
+                    }
+                    
+                    // LocalStorageの使用状況
+                    const storageSize = new Blob([JSON.stringify(localStorage)]).size;
+                    report += `\n【ストレージ使用状況】\n`;
+                    report += `概算サイズ: ${(storageSize / 1024).toFixed(2)} KB\n`;
+                    report += `LocalStorage保存設定: ${SAVE_LOG_TO_LOCALSTORAGE ? 'ON' : 'OFF'}\n`;
+                    
+                    this.showErrorDetails(report);
+                    this.log('LocalStorage確認完了', { 
+                        hasLatestLog: !!latestLog,
+                        historyCount: debugLogKeys.length,
+                        storageSize: storageSize
+                    });
+                    
+                } catch (error) {
+                    this.log('LocalStorage確認エラー', { error: error.message });
+                    this.showErrorDetails('❌ LocalStorage確認中にエラーが発生しました\n\n' + error.message);
+                }
+            }
+
+            saveLogToFile() {
+                try {
+                    this.log('📁 ログをファイルとして保存します');
+                    
+                    // ログデータを準備
+                    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+                    const filename = `webapp_log_${timestamp}.txt`;
+                    
+                    // ログの内容を整形
+                    let fileContent = `=== Webアプリ デバッグログ ===\n`;
+                    fileContent += `保存日時: ${new Date().toLocaleString('ja-JP')}\n`;
+                    fileContent += `バージョン: ${BUILD_VERSION}\n`;
+                    fileContent += `プロトコル: ${window.location.protocol}\n`;
+                    fileContent += `URL: ${window.location.href}\n`;
+                    fileContent += `ユーザーエージェント: ${navigator.userAgent}\n`;
+                    fileContent += `\n=== ログ内容 ===\n\n`;
+                    
+                    // 現在のログを追加
+                    this.debugLog.forEach((entry, index) => {
+                        fileContent += `[${index + 1}] ${entry.timestamp} - ${entry.message}\n`;
+                        if (entry.data) {
+                            fileContent += `    データ: ${JSON.stringify(entry.data, null, 2)}\n`;
+                        }
+                        fileContent += '\n';
+                    });
+                    
+                    // LocalStorageの情報も追加
+                    fileContent += '\n=== LocalStorage 情報 ===\n';
+                    const latestLog = localStorage.getItem('latest_debug_log');
+                    if (latestLog) {
+                        const logData = JSON.parse(latestLog);
+                        fileContent += `最新ログ保存時刻: ${logData.timestamp}\n`;
+                        fileContent += `保存ログ件数: ${logData.logs ? logData.logs.length : 0}件\n`;
+                    }
+                    
+                    const debugLogKeys = Object.keys(localStorage).filter(key => key.startsWith('debug_log_'));
+                    fileContent += `履歴ログ数: ${debugLogKeys.length}件\n`;
+                    
+                    // ファイルとしてダウンロード
+                    const blob = new Blob([fileContent], { type: 'text/plain;charset=utf-8' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = filename;
+                    a.click();
+                    URL.revokeObjectURL(url);
+                    
+                    this.log('✅ ログファイルをダウンロードしました', { 
+                        filename: filename,
+                        size: blob.size
+                    });
+                    
+                    // ダウンロード場所の案内
+                    alert(`ログファイルをダウンロードしました！\n\nファイル名: ${filename}\n\n通常は以下の場所に保存されます:\n/storage/emulated/0/Download/\n\nまたは、Termuxから:\n~/storage/downloads/`);
+                    
+                } catch (error) {
+                    this.log('❌ ファイル保存エラー', { error: error.message });
+                    alert('ファイル保存中にエラーが発生しました: ' + error.message);
+                }
+            }
+
+            showErrorDetails(errorText) {
+                const errorArea = document.getElementById('errorDetailsArea');
+                errorArea.value = errorText;
+                errorArea.style.display = 'block';
+                errorArea.scrollTop = 0;
+                
+                // テキストエリア全体を選択してコピーしやすくする
+                setTimeout(() => {
+                    errorArea.focus();
+                    errorArea.select();
+                    
+                    // 選択後、自動的にコピーコマンドを実行
+                    try {
+                        const successful = document.execCommand('copy');
+                        if (successful) {
+                            this.log('✅ document.execCommandでコピー成功');
+                            // 成功通知を追加
+                            const originalValue = errorArea.value;
+                            errorArea.value = '✅ コピー成功！\n\n' + originalValue;
+                            setTimeout(() => {
+                                errorArea.value = originalValue;
+                            }, 1000);
+                        } else {
+                            this.log('❌ document.execCommandでコピー失敗');
+                        }
+                    } catch (err) {
+                        this.log('❌ document.execCommandエラー', { error: err.message });
+                    }
+                }, 100);
+            }
+
+            resetAllData() {
+                if (confirm('全てのデータをリセットしますか？この操作は元に戻せません。')) {
+                    localStorage.clear();
+                    this.data = {};
+                    this.initSampleData();
+                    this.log('データリセット完了');
+                    this.renderData();
+                    this.log('画面を再描画しました');
+                }
+            }
+
+            initSampleData() {
+                const dateString = this.getDateString(this.currentDate);
+                
+                this.log('initSampleData実行', { 
+                    dateString, 
+                    existingData: !!this.data[dateString] 
+                });
+                
+                if (!this.data[dateString]) {
+                    if (this.currentAccount === 'demo') {
+                        this.data[dateString] = {
+                            'morning': [{
+                                id: 'demo1',
+                                type: 'task',
+                                time: '09:00',
+                                content: 'デモタスク: 朝の会議準備',
+                                notes: 'プレゼン資料の確認',
+                                priority: 'high'
+                            }],
+                            'afternoon': [{
+                                id: 'demo2',
+                                type: 'meeting',
+                                time: '14:00',
+                                content: 'デモ会議: チーム定例会',
+                                notes: '進捗報告とスケジュール調整',
+                                priority: 'medium'
+                            }],
+                            'evening': [{
+                                id: 'demo3',
+                                type: 'goal',
+                                time: '19:00',
+                                content: 'デモ目標: 今日の振り返り',
+                                notes: '明日のTODO整理',
+                                priority: 'low'
+                            }],
+                            'night': []
+                        };
+                        this.log('デモアカウントにサンプルデータを作成しました');
+                    } else if (this.currentAccount === 'guest') {
+                        this.data[dateString] = {
+                            'morning': [{
+                                id: 'guest1',
+                                type: 'task',
+                                time: '08:00',
+                                content: 'ゲストタスク: アプリの使い方確認',
+                                notes: '基本機能をテスト',
+                                priority: 'medium'
+                            }],
+                            'afternoon': [{
+                                id: 'guest2',
+                                type: 'note',
+                                time: '13:00',
+                                content: 'ゲストメモ: 感想記録',
+                                notes: '使いやすさの評価',
+                                priority: 'low'
+                            }],
+                            'evening': [],
+                            'night': []
+                        };
+                        this.log('ゲストモードにサンプルデータを作成しました');
+                    } else {
+                        // 認証ユーザー用は空データで開始
+                        this.data[dateString] = {
+                            'morning': [],
+                            'afternoon': [],
+                            'evening': [],
+                            'night': []
+                        };
+                        this.log('認証ユーザー用に空データを作成しました');
+                    }
+                    this.saveData();
+                } else {
+                    this.log('既存データを使用', { 
+                        data: JSON.stringify(this.data[dateString]) 
+                    });
+                }
+            }
+
+            setupDragAndDrop() {
+                this.log('イベントデリゲーションでドラッグ&ドロップを設定開始');
+                
+                const timeGrid = document.getElementById('timeGrid');
+                this.log('time-gridコンテナを取得', { container: timeGrid ? 'time-grid' : 'null' });
+                
+                if (!timeGrid) {
+                    this.log('ERROR: time-gridコンテナが見つかりません');
+                    return;
+                }
+
+                // Drag start (イベントデリゲーション)
+                timeGrid.addEventListener('dragstart', (e) => {
+                    if (e.target.classList.contains('record')) {
+                        this.draggedElement = e.target;
+                        this.draggedData = {
+                            recordId: e.target.dataset.recordId,
+                            fromPeriod: e.target.closest('.time-period').dataset.period
+                        };
+                        e.target.classList.add('dragging');
+                        e.dataTransfer.effectAllowed = 'move';
+                        this.log('ドラッグ開始', this.draggedData);
+                    }
+                });
+
+                // Drag end
+                timeGrid.addEventListener('dragend', (e) => {
+                    if (e.target.classList.contains('record')) {
+                        e.target.classList.remove('dragging');
+                        this.draggedElement = null;
+                        this.draggedData = null;
+                        this.log('ドラッグ終了');
+                    }
+                });
+
+                // Drag over
+                timeGrid.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    const timePeriod = e.target.closest('.time-period');
+                    if (timePeriod) {
+                        timePeriod.classList.add('drag-over');
+                        e.dataTransfer.dropEffect = 'move';
+                    }
+                });
+
+                // Drag leave
+                timeGrid.addEventListener('dragleave', (e) => {
+                    const timePeriod = e.target.closest('.time-period');
+                    if (timePeriod) {
+                        timePeriod.classList.remove('drag-over');
+                    }
+                });
+
+                // Drop
+                timeGrid.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    const timePeriod = e.target.closest('.time-period');
+                    if (timePeriod && this.draggedData) {
+                        const toPeriod = timePeriod.dataset.period;
+                        timePeriod.classList.remove('drag-over');
+                        
+                        if (toPeriod !== this.draggedData.fromPeriod) {
+                            this.moveRecord(this.draggedData.recordId, this.draggedData.fromPeriod, toPeriod);
+                            this.log('レコード移動完了', {
+                                recordId: this.draggedData.recordId,
+                                from: this.draggedData.fromPeriod,
+                                to: toPeriod
+                            });
+                        }
+                    }
+                });
+
+                this.log('ドラッグ&ドロップイベントデリゲーション設定完了');
+            }
+
+            loadData() {
+                if (!useFirebase || this.currentAccount === 'guest') {
+                    try {
+                        const storageKey = `data_${this.currentAccount}`;
+                        const stored = localStorage.getItem(storageKey);
+                        const data = stored ? JSON.parse(stored) : {};
+                        
+                        this.log('LocalStorageからデータを読み込み', { 
+                            account: this.currentAccount, 
+                            key: storageKey, 
+                            dataSize: Object.keys(data).length,
+                            isGuest: this.currentAccount === 'guest'
+                        });
+                        
+                        return data;
+                    } catch (error) {
+                        console.error('データ読み込みエラー:', error);
+                        return {};
+                    }
+                } else {
+                    this.loadDataFromFirebase();
+                    return {};
+                }
+            }
+
+            loadDataFromFirebase() {
+                if (this.currentAccount === 'guest') {
+                    this.log('ゲストモードのためFirebaseをスキップ');
+                    return;
+                }
+                
+                this.log('Firebaseからデータを読み込み中...', { account: this.currentAccount });
+                
+                if (typeof dataRef === 'undefined') {
+                    this.log('ERROR: dataRefが定義されていません');
+                    return;
+                }
+                
+                if (this.currentAccountRef) {
+                    this.currentAccountRef.off();
+                    this.log('前のアカウントのFirebaseリスナーを削除');
+                }
+                
+                this.currentAccountRef = dataRef.child(this.currentAccount);
+                this.currentAccountRef.on('value', (snapshot) => {
+                    const data = snapshot.val() || {};
+                    this.log('Firebaseデータ受信', { 
+                        dataSize: Object.keys(data).length,
+                        data: JSON.stringify(data).substring(0, 200) + '...'
+                    });
+                    
+                    if (Object.keys(data).length === 0) {
+                        this.log('Firebase上にデータが存在しないため、サンプルデータを作成');
+                        this.initSampleData();
+                    } else {
+                        this.data = data;
+                        this.renderData();
+                    }
+                }, (error) => {
+                    this.log('Firebase読み込みエラー', error);
+                    console.error('Firebase読み込みエラー:', error);
+                    
+                    this.log('LocalStorageからフォールバック読み込み');
+                    const stored = localStorage.getItem(`data_${this.currentAccount}`);
+                    this.data = stored ? JSON.parse(stored) : {};
+                    this.renderData();
+                });
+            }
+
+            saveData() {
+                if (!useFirebase || this.currentAccount === 'guest') {
+                    try {
+                        const storageKey = `data_${this.currentAccount}`;
+                        localStorage.setItem(storageKey, JSON.stringify(this.data));
+                        this.log('LocalStorageにデータを保存', { 
+                            account: this.currentAccount, 
+                            key: storageKey,
+                            isGuest: this.currentAccount === 'guest',
+                            dataSize: Object.keys(this.data).length
+                        });
+                    } catch (error) {
+                        console.error('データ保存エラー:', error);
+                    }
+                } else {
+                    this.saveDataToFirebase();
+                }
+            }
+
+            saveDataToFirebase() {
+                this.log('Firebaseにデータを保存中...', { dataSize: Object.keys(this.data).length });
+                
+                const accountRef = dataRef.child(this.currentAccount);
+                accountRef.set(this.data).then(() => {
+                    this.log('Firebase保存成功');
+                }).catch((error) => {
+                    this.log('Firebase保存エラー', error);
+                    console.error('Firebase保存エラー:', error);
+                });
+            }
+
+            toggleFirebase() {
+                const btn = document.getElementById('firebaseToggleBtn');
+                
+                if (typeof firebase === 'undefined') {
+                    this.log('Firebase SDKが読み込まれていません');
+                    alert('Firebase設定が必要です。設定方法はREADMEを確認してください。');
+                    return;
+                }
+                
+                if (useFirebase) {
+                    useFirebase = false;
+                    btn.textContent = 'Firebase: OFF';
+                    btn.style.backgroundColor = '#dc3545';
+                    this.log('Firebaseを無効化、LocalStorageモードに切り替え');
+                    const stored = localStorage.getItem(`data_${this.currentAccount}`);
+                    this.data = stored ? JSON.parse(stored) : {};
+                    this.renderData();
+                } else {
+                    useFirebase = true;
+                    btn.textContent = 'Firebase: ON';
+                    btn.style.backgroundColor = '#28a745';
+                    this.log('Firebaseを有効化');
+                    this.loadDataFromFirebase();
+                }
+            }
+
+            getDateString(date) {
+                return date.toISOString().split('T')[0];
+            }
+
+            updateDateDisplay() {
+                const dateEl = document.getElementById('currentDate');
+                const dateString = this.currentDate.toLocaleDateString('ja-JP', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    weekday: 'short'
+                });
+                dateEl.textContent = dateString;
+                dateEl.setAttribute('datetime', this.getDateString(this.currentDate));
+            }
+
+            changeDate(delta) {
+                this.currentDate.setDate(this.currentDate.getDate() + delta);
+                this.updateDateDisplay();
+                this.renderData();
+                this.log(`日付変更: ${delta > 0 ? '翌日' : '前日'}`, { 
+                    newDate: this.getDateString(this.currentDate) 
+                });
+            }
+
+            toggleFAB() {
+                const fabContainer = document.getElementById('fabContainer');
+                fabContainer.classList.toggle('expanded');
+                this.log('FAB ' + (fabContainer.classList.contains('expanded') ? '展開' : '閉じる'));
+            }
+
+            closeFAB() {
+                const fabContainer = document.getElementById('fabContainer');
+                fabContainer.classList.remove('expanded');
+            }
+
+            showModal() {
+                const modal = document.getElementById('recordModal');
+                const title = document.getElementById('modalTitle');
+                const subtitle = document.getElementById('modalSubtitle');
+                
+                const typeNames = {
+                    task: 'タスク',
+                    note: 'ノート',
+                    meeting: '会議',
+                    goal: '目標'
+                };
+                
+                title.textContent = `新しい${typeNames[this.currentRecordType]}を追加`;
+                subtitle.textContent = `${typeNames[this.currentRecordType]}の詳細を入力してください`;
+                
+                // 現在時刻を設定
+                const now = new Date();
+                const timeString = now.toTimeString().slice(0, 5);
+                document.getElementById('recordTime').value = timeString;
+                
+                modal.classList.add('show');
+                modal.setAttribute('aria-hidden', 'false');
+                document.getElementById('recordContent').focus();
+                
+                this.log(`${typeNames[this.currentRecordType]}追加モーダルを表示`);
+            }
+
+            hideModal() {
+                const modal = document.getElementById('recordModal');
+                modal.classList.remove('show');
+                modal.setAttribute('aria-hidden', 'true');
+                document.getElementById('recordForm').reset();
+                this.log('モーダルを閉じました');
+            }
+
+            handleFormSubmit(e) {
+                e.preventDefault();
+                
+                const formData = new FormData(e.target);
+                const record = {
+                    id: generateUUID(),
+                    type: this.currentRecordType,
+                    time: formData.get('time'),
+                    content: formData.get('content'),
+                    notes: formData.get('notes'),
+                    priority: formData.get('priority')
+                };
+                
+                this.addRecord(record);
+                this.hideModal();
+            }
+
+            addRecord(record) {
+                const dateString = this.getDateString(this.currentDate);
+                
+                if (!this.data[dateString]) {
+                    this.data[dateString] = {
+                        morning: [],
+                        afternoon: [],
+                        evening: [],
+                        night: []
+                    };
+                }
+                
+                // 時間に基づいて適切な時間帯を決定
+                const hour = parseInt(record.time.split(':')[0]);
+                let period;
+                if (hour >= 6 && hour < 12) period = 'morning';
+                else if (hour >= 12 && hour < 18) period = 'afternoon';
+                else if (hour >= 18 && hour < 24) period = 'evening';
+                else period = 'night';
+                
+                this.data[dateString][period].push(record);
+                this.saveData();
+                this.renderData();
+                
+                this.log('新しい記録を追加', { 
+                    type: record.type, 
+                    period: period, 
+                    time: record.time,
+                    content: record.content.substring(0, 20) + '...'
+                });
+            }
+
+            moveRecord(recordId, fromPeriod, toPeriod) {
+                const dateString = this.getDateString(this.currentDate);
+                const dayData = this.data[dateString];
+                
+                if (!dayData) return;
+                
+                const recordIndex = dayData[fromPeriod].findIndex(r => r.id === recordId);
+                if (recordIndex === -1) return;
+                
+                const record = dayData[fromPeriod].splice(recordIndex, 1)[0];
+                dayData[toPeriod].push(record);
+                
+                this.saveData();
+                this.renderData();
+            }
+
+            renderData() {
+                const dateString = this.getDateString(this.currentDate);
+                const dayData = this.data[dateString] || {
+                    morning: [],
+                    afternoon: [],
+                    evening: [],
+                    night: []
+                };
+                
+                this.log('renderData実行', { 
+                    dateString, 
+                    dayData: JSON.stringify(dayData).substring(0, 100) + '...'
+                });
+                
+                const periods = ['morning', 'afternoon', 'evening', 'night'];
+                periods.forEach(period => {
+                    const container = document.getElementById(`${period}-records`);
+                    const records = dayData[period] || [];
+                    
+                    this.log(`時間帯${period}のレコード`, { 
+                        period, 
+                        recordCount: records.length,
+                        records: records.map(r => ({ id: r.id, type: r.type, time: r.time, content: r.content }))
+                    });
+                    
+                    container.innerHTML = records.map(record => this.createRecordHTML(record)).join('');
+                });
+            }
+
+            createRecordHTML(record) {
+                const typeIcons = {
+                    task: '📝',
+                    note: '📔',
+                    meeting: '👥',
+                    goal: '🎯'
+                };
+                
+                const priorityColors = {
+                    high: '#f44336',
+                    medium: '#ff9800',
+                    low: '#4caf50'
+                };
+                
+                return `
+                    <div class="record" draggable="true" data-record-id="${record.id}">
+                        <div class="record-header">
+                            <span class="record-time">${record.time}</span>
+                            <span class="record-type" style="background-color: ${priorityColors[record.priority] || '#2196F3'}">
+                                ${typeIcons[record.type] || '📄'} ${record.type}
+                            </span>
+                        </div>
+                        <div class="record-content">${record.content}</div>
+                        ${record.notes ? `<div class="record-notes">${record.notes}</div>` : ''}
+                    </div>
+                `;
+            }
+
+            // Calculator Methods
+            updateCalculatorDisplay() {
+                const expressionEl = document.getElementById('displayExpression');
+                const resultEl = document.getElementById('displayResult');
+                
+                if (expressionEl) expressionEl.textContent = this.currentExpression;
+                if (resultEl) resultEl.textContent = this.currentDisplay;
+            }
+
+            inputNumber(num) {
+                this.log(`数字入力: ${num}`, { 
+                    currentDisplay: this.currentDisplay,
+                    waitingForOperand: this.waitingForOperand 
+                });
+
+                if (this.waitingForOperand) {
+                    this.currentDisplay = num;
+                    this.waitingForOperand = false;
+                } else {
+                    this.currentDisplay = this.currentDisplay === '0' ? num : this.currentDisplay + num;
+                }
+
+                this.updateCalculatorDisplay();
+            }
+
+            inputDecimal() {
+                this.log('小数点入力');
+
+                if (this.waitingForOperand) {
+                    this.currentDisplay = "0.";
+                    this.waitingForOperand = false;
+                } else if (this.currentDisplay.indexOf('.') === -1) {
+                    this.currentDisplay += '.';
+                }
+
+                this.updateCalculatorDisplay();
+            }
+
+            inputOperator(nextOperator) {
+                const inputValue = parseFloat(this.currentDisplay);
+
+                this.log(`演算子入力: ${nextOperator}`, { 
+                    inputValue: inputValue,
+                    operator: this.operator,
+                    previousValue: this.previousValue 
+                });
+
+                if (this.previousValue === null) {
+                    this.previousValue = inputValue;
+                } else if (this.operator) {
+                    const currentValue = this.previousValue || 0;
+                    const result = this.performCalculation(this.operator, currentValue, inputValue);
+
+                    this.currentDisplay = String(result);
+                    this.previousValue = result;
+                }
+
+                this.waitingForOperand = true;
+                this.operator = nextOperator;
+                
+                this.currentExpression = `${this.previousValue} ${this.getOperatorSymbol(nextOperator)}`;
+                this.updateCalculatorDisplay();
+            }
+
+            calculate() {
+                const inputValue = parseFloat(this.currentDisplay);
+
+                this.log('計算実行', { 
+                    operator: this.operator,
+                    previousValue: this.previousValue,
+                    inputValue: inputValue 
+                });
+
+                if (this.previousValue !== null && this.operator) {
+                    const result = this.performCalculation(this.operator, this.previousValue, inputValue);
+                    const expression = `${this.previousValue} ${this.getOperatorSymbol(this.operator)} ${inputValue}`;
+                    
+                    this.addToCalculatorHistory(expression, result);
+                    
+                    this.currentDisplay = String(result);
+                    this.currentExpression = `${expression} =`;
+                    this.previousValue = null;
+                    this.operator = null;
+                    this.waitingForOperand = true;
+                    
+                    this.updateCalculatorDisplay();
+                    this.log('計算完了', { expression: expression, result: result });
+                }
+            }
+
+            performCalculation(operator, firstOperand, secondOperand) {
+                this.log('計算実行中', { operator, firstOperand, secondOperand });
+
+                switch (operator) {
+                    case '+':
+                        return firstOperand + secondOperand;
+                    case '-':
+                        return firstOperand - secondOperand;
+                    case '*':
+                        return firstOperand * secondOperand;
+                    case '/':
+                        if (secondOperand === 0) {
+                            this.log('❌ ゼロ除算エラー');
+                            alert('ゼロで割ることはできません');
+                            return firstOperand;
+                        }
+                        return firstOperand / secondOperand;
+                    default:
+                        return secondOperand;
+                }
+            }
+
+            getOperatorSymbol(operator) {
+                const symbols = {
+                    '+': '+',
+                    '-': '-',  
+                    '*': '×',
+                    '/': '÷'
+                };
+                return symbols[operator] || operator;
+            }
+
+            clearAll() {
+                this.log('全クリア (AC)');
+                this.currentDisplay = '0';
+                this.currentExpression = '';
+                this.operator = null;
+                this.previousValue = null;
+                this.waitingForOperand = false;
+                this.updateCalculatorDisplay();
+            }
+
+            clearEntry() {
+                this.log('エントリクリア (C)');
+                this.currentDisplay = '0';
+                this.updateCalculatorDisplay();
+            }
+
+            addToCalculatorHistory(expression, result) {
+                const historyItem = {
+                    expression: expression,
+                    result: String(result),
+                    timestamp: new Date().toISOString()
+                };
+
+                this.history.unshift(historyItem);
+                
+                if (this.history.length > 50) {
+                    this.history = this.history.slice(0, 50);
+                }
+
+                this.renderCalculatorHistory();
+                this.saveCalculatorData();
+                
+                this.log('履歴に追加', historyItem);
+            }
+
+            renderCalculatorHistory() {
+                const historyList = document.getElementById('historyList');
+                if (!historyList) return;
+
+                if (this.history.length === 0) {
+                    historyList.innerHTML = '<div style="color: #666; text-align: center; padding: 20px;">履歴がありません</div>';
+                    return;
+                }
+
+                const historyHTML = this.history.slice(-10).reverse().map(item => `
+                    <div class="history-item">
+                        <span class="history-expression">${item.expression}</span>
+                        <span class="history-result">${item.result}</span>
+                    </div>
+                `).join('');
+
+                historyList.innerHTML = historyHTML;
+            }
+
+            saveCalculatorData() {
+                const dataToSave = {
+                    history: this.history,
+                    timestamp: new Date().toISOString()
+                };
+
+                if (!useFirebase || this.currentAccount === 'guest') {
+                    try {
+                        const storageKey = `calculator_data_${this.currentAccount}`;
+                        localStorage.setItem(storageKey, JSON.stringify(dataToSave));
+                        this.log('電卓データをLocalStorageに保存', { 
+                            account: this.currentAccount, 
+                            historyCount: this.history.length
+                        });
+                    } catch (error) {
+                        console.error('データ保存エラー:', error);
+                    }
+                } else {
+                    this.saveCalculatorDataToFirebase(dataToSave);
+                }
+            }
+
+            saveCalculatorDataToFirebase(dataToSave) {
+                this.log('電卓データをFirebaseに保存中...', { historyCount: this.history.length });
+                
+                const accountRef = dataRef.child(this.currentAccount);
+                accountRef.set(dataToSave).then(() => {
+                    this.log('Firebase保存成功');
+                }).catch((error) => {
+                    this.log('Firebase保存エラー', error);
+                    console.error('Firebase保存エラー:', error);
+                });
+            }
+
+            setupKeyboardEvents() {
+                document.addEventListener('keydown', (event) => {
+                    const key = event.key;
+                    
+                    if (key >= '0' && key <= '9') {
+                        this.inputNumber(key);
+                    } else if (key === '.') {
+                        this.inputDecimal();
+                    } else if (['+', '-', '*', '/'].includes(key)) {
+                        this.inputOperator(key);
+                    } else if (key === 'Enter' || key === '=') {
+                        event.preventDefault();
+                        this.calculate();
+                    } else if (key === 'Escape') {
+                        this.clearAll();
+                    } else if (key === 'Backspace') {
+                        this.clearEntry();
+                    }
+                });
+                
+                this.log('キーボードイベントを設定しました');
+            }
+        }
+
+        // Calculator Functions
+        function inputNumber(num) {
+            webApp.inputNumber(num);
+        }
+
+        function inputOperator(op) {
+            webApp.inputOperator(op);
+        }
+
+        function inputDecimal() {
+            webApp.inputDecimal();
+        }
+
+        function calculate() {
+            webApp.calculate();
+        }
+
+        function clearAll() {
+            webApp.clearAll();
+        }
+
+        function clearEntry() {
+            webApp.clearEntry();
+        }
+
+        // テスト機能（元のテンプレート機能を保持）
+        function sayHello() {
+            const message = '👋 Hello! 電卓テストボタンが押されました';
+            webApp.log(message, {
+                buttonType: 'hello',
+                timestamp: new Date().toISOString(),
+                calculatorDisplay: webApp.currentDisplay,
+                userAgent: navigator.userAgent
+            });
+            alert(message);
+        }
+        
+        function sayGoodMorning() {
+            const message = '🌅 Good Morning! 電卓で計算してみてください';
+            webApp.log(message, {
+                buttonType: 'goodMorning',
+                timestamp: new Date().toISOString(),
+                currentTime: new Date().toLocaleTimeString('ja-JP'),
+                calculatorDisplay: webApp.currentDisplay,
+                userAgent: navigator.userAgent
+            });
+            // テスト計算実行
+            webApp.inputNumber('2');
+            webApp.inputOperator('+');
+            webApp.inputNumber('3');
+            webApp.calculate();
+            alert(message + ' (2+3のテスト計算を実行しました)');
+        }
+        
+        function sayGoodAfternoon() {
+            const message = '☀️ Good Afternoon! 電卓の履歴をテストします';
+            webApp.log(message, {
+                buttonType: 'goodAfternoon',
+                timestamp: new Date().toISOString(),
+                currentTime: new Date().toLocaleTimeString('ja-JP'),
+                hour: new Date().getHours(),
+                historyCount: webApp.history.length,
+                userAgent: navigator.userAgent
+            });
+            alert(message + ` (現在の履歴: ${webApp.history.length}件)`);
+        }
+
+        // アプリケーション開始
+        let webApp;
+        document.addEventListener('DOMContentLoaded', () => {
+            webApp = new WebApp();
+        });
+    </script>
+</body>
+</html>
