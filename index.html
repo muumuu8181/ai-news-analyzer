@@ -465,26 +465,46 @@
                 
                 addLog(`📤 Gemini CLIに${newsData.length}件のタイトルを送信...`);
                 
-                // Gemini CLI呼び出しの準備（ブラウザではMCPを直接使えないため、サーバー経由が必要）
-                // 現在はシミュレーションモードで動作
+                // 実際のGemini CLI呼び出し
                 let selectedArticleNumbers = [];
-                const simulateGeminiResponse = true; // 本番環境ではfalseに設定
                 
-                if (simulateGeminiResponse) {
-                    document.getElementById('progressText').textContent = '⏳ Gemini CLIが重要記事を選定中（シミュレーション）...';
-                    await new Promise(resolve => setTimeout(resolve, 3000));
-                    // シミュレーション: ランダムに30件選択
-                    const allNumbers = Array.from({length: newsData.length}, (_, i) => i + 1);
-                    selectedArticleNumbers = allNumbers.sort(() => Math.random() - 0.5).slice(0, 30);
-                } else {
-                    // 本番環境: サーバー経由でGemini CLIを呼び出す
-                    // const response = await fetch('/api/gemini-analyze', {
-                    //     method: 'POST',
-                    //     headers: { 'Content-Type': 'application/json' },
-                    //     body: JSON.stringify({ prompt: geminiPrompt })
-                    // });
-                    // const result = await response.json();
-                    // selectedArticleNumbers = result.selectedNumbers;
+                try {
+                    document.getElementById('progressText').textContent = '🤖 Gemini CLIを実行中...';
+                    
+                    // Node.jsサーバー経由でGemini CLIを呼び出す
+                    const response = await fetch('/api/gemini-analyze', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ prompt: geminiPrompt })
+                    });
+                    
+                    const data = await response.json();
+                    if (!data.success) {
+                        throw new Error(data.error);
+                    }
+                    
+                    const geminiResponse = data.result;
+                    addLog('✅ Gemini CLI応答受信: ' + geminiResponse.substring(0, 100) + '...');
+                    
+                    // Geminiの応答から記事番号を抽出
+                    const numberMatches = geminiResponse.match(/\d+/g);
+                    if (numberMatches && numberMatches.length > 0) {
+                        selectedArticleNumbers = numberMatches
+                            .map(num => parseInt(num))
+                            .filter(num => num >= 1 && num <= newsData.length)
+                            .slice(0, 30);
+                        
+                        addLog(`📊 ${selectedArticleNumbers.length}件の重要記事を抽出`);
+                    } else {
+                        throw new Error('記事番号の抽出に失敗');
+                    }
+                    
+                } catch (error) {
+                    addLog('❌ Gemini CLI呼び出しエラー: ' + error.message);
+                    addLog('🔄 フォールバック: キーワードマッチング分析を実行');
+                    
+                    // エラー時のフォールバック処理
+                    selectedArticleNumbers = await performKeywordAnalysis();
                 }
                 
                 // 選択された記事番号から結果を作成
@@ -518,56 +538,6 @@
                     });
                     
                     addLog(`✅ Gemini CLIが${analysisResults.length}件の重要記事を選定完了`);
-                } else if (newsData && newsData.length > 0 && newsData[0].title !== '記事データ読み込みエラー #1') {
-                    // 実際のニュースから重要そうなものを選別（AI、技術、経済関連）
-                    const importantKeywords = ['AI', 'OpenAI', 'Google', 'Microsoft', 'Tesla', 'Apple', 'Amazon', 'Meta', 'NVIDIA', 'ChatGPT', 'GPT', '人工知能', 'ロボット', '量子', '半導体', 'TSMC', 'ラピダス', '暗号通貨', 'Bitcoin', 'イーサリアム', 'ブロックチェーン', '5G', '6G', 'IoT', 'VR', 'AR', 'メタバース', 'Web3', 'DeFi', 'NFT', '機械学習', 'ディープラーニング', 'クラウド', 'AWS', 'Azure', 'サイバーセキュリティ', '量子コンピュータ', 'スマートシティ', '自動運転', 'EV', '電気自動車', '再生可能エネルギー', '太陽光', '風力', '原発', '核融合', 'カーボンニュートラル', 'SDGs', 'ESG', 'スタートアップ', 'IPO', 'VC', 'FinTech', 'RegTech', 'EdTech', 'HealthTech', 'PropTech', '生成AI', 'LLM', 'Transformer', 'GPU', 'CPU', 'チップ', 'プロセッサ', 'データセンター', 'エッジコンピューティング', 'コンテナ', 'Kubernetes', 'DevOps', 'MLOps', 'アジャイル', 'DX', 'デジタル変革', 'API', 'マイクロサービス', 'サーバーレス', 'NoSQL', 'GraphQL', 'REST', 'gRPC', 'WebRTC', 'WebAssembly', 'Rust', 'Go', 'Python', 'TypeScript', 'React', 'Vue', 'Angular', 'Node.js', 'Docker', 'GitHub', 'GitLab', 'CI/CD', 'テスト自動化', 'ローコード', 'ノーコード', 'RPA', 'workflow', 'automation', 'productivity', 'remote work', 'hybrid work', 'collaboration', 'Slack', 'Teams', 'Zoom', 'virtual reality', 'augmented reality', 'mixed reality', 'spatial computing', 'computer vision', 'natural language processing', 'speech recognition', 'sentiment analysis', 'recommendation system', 'search algorithm', 'ranking', 'personalization', 'optimization', 'performance', 'scalability', 'reliability', 'availability', 'latency', 'throughput', 'bandwidth', 'storage', 'database', 'analytics', 'business intelligence', 'data science', 'big data', 'data mining', 'data warehouse', 'data lake', 'ETL', 'real-time', 'streaming', 'event-driven', 'microservices', 'monolith', 'architecture', 'design patterns', 'software engineering', 'code quality', 'technical debt', 'refactoring', 'clean code', 'best practices', 'open source', 'license', 'compliance', 'governance', 'risk management', 'incident response', 'disaster recovery', 'backup', 'monitoring', 'observability', 'logging', 'metrics', 'tracing', 'alerting', 'SLA', 'SLO', 'SLI', 'uptime', 'downtime', 'outage', 'postmortem'];
-                    
-                    newsData.forEach((article, index) => {
-                        const title = article.title || '';
-                        const matchedKeywords = importantKeywords.filter(keyword => 
-                            title.toLowerCase().includes(keyword.toLowerCase())
-                        );
-                        
-                        if (matchedKeywords.length > 0) {
-                            // 重要度スコア計算（キーワード数とソースに基づく）
-                            let score = 60 + (matchedKeywords.length * 5);
-                            if (article.source && article.source.includes('ArXiv')) score += 10;
-                            if (article.source && article.source.includes('NHK')) score += 8;
-                            if (article.source && article.source.includes('Reuters')) score += 8;
-                            if (article.source && article.source.includes('BBC')) score += 7;
-                            
-                            // ランダム要素を追加して多様性を確保
-                            score += Math.floor(Math.random() * 20);
-                            score = Math.min(score, 100);
-                            
-                            // 詳細スコア生成
-                            const detailScores = {
-                                technology: Math.min(10, 6 + matchedKeywords.length),
-                                impact: Math.floor(score / 10),
-                                urgency: Math.floor(Math.random() * 5) + 5,
-                                relevance: Math.floor(Math.random() * 4) + 7,
-                                reliability: article.source && article.source.includes('ArXiv') ? 10 : 
-                                           article.source && article.source.includes('NHK') ? 9 : 
-                                           Math.floor(Math.random() * 3) + 7
-                            };
-                            
-                            analysisResults.push({
-                                title: title,
-                                score: score,
-                                reason: `技術・AI関連キーワード: ${matchedKeywords.slice(0, 3).join(', ')}`,
-                                index: index + 1,
-                                source: article.source || '不明',
-                                link: article.link,
-                                detailScores: detailScores,
-                                translation: null // 翻訳結果を格納
-                            });
-                        }
-                    });
-                    
-                    // スコア順にソートして上位30件
-                    analysisResults.sort((a, b) => b.score - a.score);
-                    analysisResults = analysisResults.slice(0, 30);
-                    
                 } else {
                     // フォールバック: 実際のニュースタイトルを使ったサンプル
                     analysisResults = [
@@ -874,8 +844,24 @@
                         translation = title.length > 200 ? title.substring(0, 200) + '...' : title;
                         translation += '。この記事は日本語で書かれており、技術業界の重要な動向について報告しています。';
                     } else {
-                        // 英語・他言語の場合は翻訳＋要約
-                        translation = await simulateTranslation(title);
+                        // 英語・他言語の場合は実際のLLM翻訳
+                        try {
+                            const response = await fetch('/api/translate', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ text: title })
+                            });
+                            
+                            const data = await response.json();
+                            if (data.success) {
+                                translation = data.result;
+                            } else {
+                                throw new Error(data.error);
+                            }
+                        } catch (error) {
+                            addLog(`❌ 翻訳エラー: ${error.message}`);
+                            translation = `翻訳エラー: ${title}`;
+                        }
                     }
                     
                     results[i].translation = translation;
@@ -908,6 +894,37 @@
             }).catch(err => {
                 addLog('❌ クリップボードへの保存に失敗: ' + err);
             });
+        }
+        
+        // キーワード分析（Gemini CLI失敗時のフォールバック）
+        async function performKeywordAnalysis() {
+            const importantKeywords = ['AI', 'OpenAI', 'Google', 'Microsoft', 'Tesla', 'Apple', 'Amazon', 'Meta', 'NVIDIA', 'ChatGPT', 'GPT', '人工知能', 'ロボット', '量子', '半導体', 'TSMC', 'ラピダス', '暗号通貨', 'Bitcoin', 'イーサリアム', 'ブロックチェーン', '5G', '6G', 'IoT', 'VR', 'AR', 'メタバース', 'Web3', 'DeFi', 'NFT', '機械学習', 'ディープラーニング', 'クラウド', 'AWS', 'Azure', 'サイバーセキュリティ', '量子コンピュータ', 'スマートシティ', '自動運転', 'EV', '電気自動車'];
+            
+            let scoredArticles = [];
+            
+            newsData.forEach((article, index) => {
+                const title = article.title || '';
+                const matchedKeywords = importantKeywords.filter(keyword => 
+                    title.toLowerCase().includes(keyword.toLowerCase())
+                );
+                
+                if (matchedKeywords.length > 0) {
+                    let score = 60 + (matchedKeywords.length * 5);
+                    if (article.source && article.source.includes('ArXiv')) score += 10;
+                    if (article.source && article.source.includes('NHK')) score += 8;
+                    score += Math.floor(Math.random() * 20);
+                    score = Math.min(score, 100);
+                    
+                    scoredArticles.push({
+                        index: index + 1,
+                        score: score
+                    });
+                }
+            });
+            
+            // スコア順にソートして上位30件
+            scoredArticles.sort((a, b) => b.score - a.score);
+            return scoredArticles.slice(0, 30).map(item => item.index);
         }
         
         // 翻訳シミュレーション（内容把握できる要約に拡充）

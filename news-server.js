@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 
-// Simple web server for viewing local HTML files
+// News analyzer server with Gemini CLI integration
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { exec } = require('child_process');
+const url = require('url');
 
 const PORT = 8080;
 const HOST = 'localhost';
@@ -11,8 +13,112 @@ const HOST = 'localhost';
 // Get list of HTML files
 const htmlFiles = fs.readdirSync('.').filter(file => file.endsWith('.html'));
 
-const server = http.createServer((req, res) => {
-  let filePath = '.' + req.url;
+// Gemini CLI analysis function
+async function analyzeWithGemini(prompt) {
+  return new Promise((resolve, reject) => {
+    const command = `echo '${prompt.replace(/'/g, "'\''").substring(0, 3000)}' | gemini-cli chat --model gemini-2.5-flash`;
+    
+    exec(command, { timeout: 30000 }, (error, stdout, stderr) => {
+      if (error) {
+        console.error('Gemini CLI Error:', error);
+        reject(error);
+        return;
+      }
+      
+      if (stderr) {
+        console.warn('Gemini CLI Warning:', stderr);
+      }
+      
+      resolve(stdout.trim());
+    });
+  });
+}
+
+// Translation function
+async function translateWithGemini(text) {
+  const prompt = `以下のニュースタイトルを自然な日本語に翻訳してください。翻訳結果のみを返してください：\n\n${text}`;
+  return analyzeWithGemini(prompt);
+}
+
+const server = http.createServer(async (req, res) => {
+  const parsedUrl = url.parse(req.url, true);
+  let filePath = '.' + parsedUrl.pathname;
+  
+  // API endpoints
+  // Enhanced Gemini CLI analysis with better error handling
+  if (parsedUrl.pathname === '/api/gemini-analyze' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => {
+      body += chunk.toString();
+    });
+    
+    req.on('end', async () => {
+      try {
+        const data = JSON.parse(body);
+        const prompt = data.prompt;
+        
+        console.log('🤖 Gemini CLI分析開始...');
+        console.log('📝 プロンプト長:', prompt.length);
+        
+        const result = await analyzeWithGemini(prompt);
+        console.log('✅ Gemini CLI分析完了');
+        console.log('📄 結果長:', result.length);
+        
+        res.writeHead(200, { 
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Methods': 'POST',
+          'Access-Control-Allow-Headers': 'Content-Type'
+        });
+        res.end(JSON.stringify({ success: true, result }));
+      } catch (error) {
+        console.error('❌ 分析エラー:', error);
+        res.writeHead(500, { 
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*'
+        });
+        res.end(JSON.stringify({ success: false, error: error.message }));
+      }
+    });
+    return;
+  }
+  
+  // Handle CORS preflight requests
+  if (req.method === 'OPTIONS') {
+    res.writeHead(200, {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type'
+    });
+    res.end();
+    return;
+  }
+  
+  if (parsedUrl.pathname === '/api/translate' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => {
+      body += chunk.toString();
+    });
+    
+    req.on('end', async () => {
+      try {
+        const data = JSON.parse(body);
+        const text = data.text;
+        
+        console.log('🌍 翻訳開始:', text.substring(0, 50) + '...');
+        const result = await translateWithGemini(text);
+        console.log('✅ 翻訳完了');
+        
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ success: true, result }));
+      } catch (error) {
+        console.error('❌ 翻訳エラー:', error);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ success: false, error: error.message }));
+      }
+    });
+    return;
+  }
   
   if (filePath === './') {
     // Create index page
